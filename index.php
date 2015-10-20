@@ -149,7 +149,7 @@
                 <!-- BLOG:end -->
                  
                    <!-- PRZEŁĄCZANIE: FILM / UZYTKOWNICY / ZDJECIA :begin-->
-                 	<div id="tabs">
+                 	<div id="tb">
                     	<div class="row magazine">
                         <div class="header-left">
   							<ul class="lista">
@@ -166,20 +166,24 @@
                         <div class="row">
                         	<div class="twelvecol media">
                     			<div id="uzytkownicy">
-                    			 	  <div class="clearfix mosaicflow">
-                                 	<div class="mosaicflow__item">
-                                   	<img width="500px" height="300px" src="img/kot-maly.png" alt="">
-                                    </div> 
-                                    <div class="mosaicflow__item">
-                                     	<img width="500" height="500" src="img/kot-maly.png" alt=""> 
-                                     </div> 
-                                  </div>
+                    			 	  
   								</div>
                                 
                              
                     			<div id="filmy">
-                     			filmy
-  								</div>
+									<table>
+                                    	<tr>
+                                        	<td style="width:40%"><img src="img/koci-magazyn-image.png"/></td>
+                                            <td style="width:20%"><img src="img/koci-magazyn-image.png"/></td>
+                                            <td style="width:20%"><img src="img/koci-magazyn-image.png"/></td>
+                                            <td style="width:20%"><img src="img/koci-magazyn-image.png"/></td>
+                         
+                                        </tr>
+                                    </table>
+  							   </div>
+                               
+                                
+                                
   				    			<div id="zdjecia" >
                                         
   								</div>	

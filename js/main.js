@@ -89,17 +89,10 @@ $(document).ready(function()
 	// tabs uzytkownicy, filmy, zdjecia
 	$(function() 
 	{
-    	$( "#tabs" ).tabs();
+    	$( "#tab" ).tabs();
  	});
 	
-	$(".ellista").click(function()
-	{
-			$(".ellista").css('background-color', 'white');
-	});
-	$(".ellista").click(function()
-	{
-			$(this).css('background-color', '#E6EBE6');
-	});
+	
 	
 	
 	// paginacja

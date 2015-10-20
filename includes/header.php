@@ -16,12 +16,9 @@
         
         <!-- PAGINATOR -->
         <script src="js/jquery.easyPaginate.js"></script>
-        
-        <!--TABS-->
-  		<script src="js/tabs.js"></script>
 
         <!--MOSAIC FLOW PHOTO-->
-        <!--<script src="js/jquery.mosaicflow.min.js"></script>-->
+        <script src="js/jquery.mosaicflow.min.js"></script>
         
         <!--JS MAIN-->
         <script src="js/main.js"></script>
