@@ -40,7 +40,7 @@
                     			<a hover="#" title="Purina One"><img src="img/purina-logo-footer.png" alt="Purina: Twój ulubieniec -nasza pasja"/></a>
                            </div>
                            <div class="sixcol last more-info" >
-                           		<a href="#" title="Wicej informacji"><div class="button-comment teal-button-text">Wicej informacji &nbsp; &nbsp; &#x279d;</div></a>
+                           		<a href="#" title="Wicej informacji" class="button button-teal">Więcej informacji &nbsp; &nbsp; &#x279d;</a>
                            </div>
                        </div>
                     </div>

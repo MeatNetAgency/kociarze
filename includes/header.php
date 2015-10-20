@@ -29,8 +29,7 @@
         <!-- GOOGLE FONTS: LATO -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         
-        <!--CSS FLEXSLIDER2-->
-        <link rel="Stylesheet" type="text/css" href="js/flexslider/flexslider.css" />
+        
         
         <!--CSS JQUERY UI-->
         <link rel="Stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css" />

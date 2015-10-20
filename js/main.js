@@ -42,18 +42,7 @@ $(document).ready(function()
 	});
 	
 	
-	
 	repositionSlider();
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	setTimeout("resize()", 100);
 	
 	
