@@ -1,4 +1,4 @@
-﻿    <div class="container" id="footer">
+    <div class="container" id="footer">
     	<div class="footer">
         	<div class="row">
             	<div class="threecol">

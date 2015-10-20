@@ -68,6 +68,36 @@ $(document).ready(function()
 	});
 	
 	
+		
+	// tabs uzytkownicy, filmy, zdjecia
+	$(function() 
+	{
+    	$( "#tabs" ).tabs();
+ 	});
+	
+	$(".ellista").click(function()
+	{
+			$(".ellista").css('background-color', 'white');
+	});
+	$(".ellista").click(function()
+	{
+			$(this).css('background-color', '#E6EBE6');
+	});
+	
+	
+	// paginacja
+    $('#easyPaginate').easyPaginate(
+	{
+		paginateElement: '.news',
+		elementsPerPage: 1,
+		effect: 'slide',
+       	slideOffset: '200',
+        prevButtonText:' &#8592;',
+		nextButtonText:' <span class="right-arrow">&#x279d;</span>',
+  	});
+	$(".prev").appendTo("#toback");
+	$(".next").appendTo("#toforward");
+	
 	
 	
 	

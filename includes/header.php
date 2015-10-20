@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -13,6 +13,12 @@
         
         <!--JS FLEXSLIDER2-->
         <script src="js/flexslider/jquery.flexslider-min.js"></script>
+        
+        <!-- PAGINATOR -->
+        <script src="js/jquery.easyPaginate.js"></script>
+        
+        <!--TABS-->
+  		<script src="js/tabs.js"></script>
 
         <!--MOSAIC FLOW PHOTO-->
         <!--<script src="js/jquery.mosaicflow.min.js"></script>-->

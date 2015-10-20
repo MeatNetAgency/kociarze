@@ -20,12 +20,39 @@ h4 									{font-size:1.2em;}
 
 a 										{text-decoration:none; color: #1d8995; cursor:pointer}
 
+.buy-now							{position:absolute; top:27%; right:0%; background-color:#1d8995;padding:1%; z-index:100; transition: 0.5s;}
+	.buy-now:hover			{background-color:#197575; transition: 0.5s;}
+	
+.teal-button-text				{color:white; text-align:center;}
+
+.log-div-helper				{height:44px;}
+.log									{z-index: 9999; position: fixed; top:0; width:100%; margin:0 auto; background-color:white; border-bottom: solid #999999 1px; height:44px; visibility:visible;}
+.admin								{margin: 2% 0%; float:right;}
+	.admin a img				{padding:0% 3%;}
+	.admin .administrator  {font-size:0.9em; font-weight:bold;}
+	.admin .administrator img  {margin-right:2%;}
+	
+
+.panel								{position:absolute; left:0; right:0; margin:auto; max-width:1280px; z-index:9990; font-size:0.7em; display: none;}
+	.panel .panel-roll			{background-color: white; transition:0.5s;}
+	.panel .panel-roll	:hover {background-color: #E6EBE6 ; cursor:pointer; transition:0.5s;}
+	.panel-options				{padding:2%; border:solid #999999 1px; border-top:0px;}
+	.panel-controller			{padding-left:9%; color: #1d8995; } 
+	.panel-message img	{width:100%;}
+	.panel-text-author		{margin-left:-2%!important;}
+	.panel-author				{padding-right:2%;}
+	.panel-article				{padding-left:2%; border-left: solid #E6EBE6 1px;}
+	.panel-text					{font-size:1.5em; width:50%; padding-top:1.5%; font-weight:300; color:#606060; line-height:130%; }
+	
+
+
 #header							{z-index:100!important;}
 
 nav 									{text-align: center; background-color: #373a3b; height:65px; z-index:2; padding:25px 0px 0px 0px;}
 nav ul li 							{display:inline; padding:0 15px 10px 15px; vertical-align:middle;}
 nav ul li a 							{text-decoration: none; color:white !important; font-weight:400;}
 nav ul li a:hover  				{color:#1d8995 !important;}
+
 
 #nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
 #nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:90px; display:none;}
@@ -43,13 +70,70 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 #row-spacer						{position:absolute; left:0px; height:90px; background-color: #373a3b; z-index:0}	
 
 
-
-
-
 #main-slider						{position:relative; width:100%; margin:0 auto; z-index:1;} 
 .flexslider							{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
 
+.header-left						{float:left;}
+.article-header					{padding-top:2%;}
+.arrows								{float:right;}
+	.arrows a 						{background-color: #E6EBE6; color:white; padding:25px;margin-left:1px; transition:0.5s;}
+	.arrows a:hover			{background-color: #1d8995; transition:0.5s; }
+		.right-arrow				{color: #424242!important;}
+		.right-arrow:hover	{color: white!important;}
+.photo 								{width:100%;}
+.news-content					{background-color:#E6EBE6; padding: 2%;}
+.news-row						{width:30.8%!important;}
+.news-title						{padding:2% 0%;}
+.news-data						{font-size:0.9em;}
+	.autor							{float:left; color:#999999}
+		.inside						{padding-left:5%}
+	.date							{text-align:right; color:#999999}
+	
+.news-text						{padding-top:5%; padding-bottom: 5%; line-height:150%; font-weight:300; color:#606060;}
+	.button-read				{width: 40%; position:relative; left:50%; margin-bottom:5%; text-align:center; padding:4% 1% 4% 3%; color:white; background-color:#424242; transition:0.5s;}
+	.button-read:hover 		{background-color:#1d8995; transition:0.5s;}
 
+.magazine						{padding-top:2%; margin-top:2%; min-height:40px;}
+.magazine-whole				{background-color:#E6EBE6}
+	.magazine-photo			{padding:0.8% 0.0% 0.8% 0.8%;}
+	.magazine-content		{padding:3% 0%; width:55%!important;}
+		.magazine-data		{padding: 2% 0%; font-size:0.9em;color:#999999}
+		.inside-magazine		{color:#999999; padding-left:10%;}
+		.magazine-text  		{padding-top:5%; padding-bottom: 5%; line-height:150%; font-weight:300; color:#606060; }
+		.button-comment 	{background-color: #1d8995; padding:6.5%; width:50%; transition:0.5s;}
+		.button-comment:hover 	{background-color: #197575; transition:0.5s;}
+		.blog .button-read	{padding:6.5%; width:40%; left:50%; position:relative;}
+
+.lista .ellista 					{float:left; list-style-type:none;}
+	.ellista							{padding: 3% 3% 2.7% 3%;}
+	
+.mosaicflow__column 		{ float:left; } 
+.mosaicflow__item img { display:block; width:100%; height:auto; }
+
+
+.media 								{background-color:#E6EBE6; padding:1%;}
+.forum								{background-color:#E6EBE6;}
+	.forum-content			{margin:2%; padding-left:2%; width:25%!important; border-left:solid #1d8995 1px;}
+	.forum-content:first-child	{border-left:solid #1d8995 0px;}
+	.date-f							{padding: 14% 0% 4%  0%; font-weight:300;}
+	.title-f							{font-size:1.2em; font-weight:bold;}
+	.thread							{padding-bottom:2%;}
+		.thread	.button-comment {width:70%; padding:7% 4%; position:relative; left:18%; }
+
+
+.footer								{position:absolute; left:0; width:100%!important; margin-top:5%; background-color: #424242; padding-top:2%;}
+.footer-content a 			{color:white;}
+.footer-content a:hover 	{color: #1d8995; transition:0.5s;}
+.footer-arrows-color		{color: #1d8995; transition:0.5s;}
+.footer-header					{padding-bottom:2%; color:white;}
+.footer-content				{color:white;}
+.footer-content ul li 		{list-style-type:none; padding-top:2%;}
+.footer-bottom				{margin-top:2%; margin-bottom:1%;}
+.footer-end						{color:white;}
+.footer-end a					{color:white;transition:0.5s;}
+.footer-end a:hover			{color:#1d8995; transition:0.5s;}
+.footer-graphics				{padding-top:5%;}
+.more-info						{position:relative; left:14%;}
 
 
 
