@@ -108,6 +108,19 @@ $(document).ready(function()
 	$(".prev").appendTo("#toback");
 	$(".next").appendTo("#toforward");
 	
+	//gallery
+	 $("td").mouseenter(function() 
+	 {
+		 $(".photo-back").css("visibility", "visible");
+		 $(".photo-info").css("visibility", "visible");
+	 });
+	 
+	  $("td").mouseleave(function() 
+	 {
+		 $(".photo-back").css("visibility", "hidden");
+		 $(".photo-info").css("visibility", "hidden");
+	 });
+	
 	
 	
 	
