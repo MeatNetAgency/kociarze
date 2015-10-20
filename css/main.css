@@ -1,0 +1,63 @@
+/*COLORS
+	main font: #373a3b
+	another font:#999999
+	menu backround: #373a3b
+	page background: #E6EBE6 
+	buttons login, buy-now: #1d8995
+	buttons login, buy-now HOVER: #197575
+	buttons read-more: #424242
+	buttons read-more HOVER: #1d8995
+	
+*/
+
+
+*										{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300;}
+
+h1 									{font-size:3em;}
+h2 									{font-size:1.5em;}
+h3 									{font-size:1.3em;}
+h4 									{font-size:1.2em;}
+
+a 										{text-decoration:none; color: #1d8995; cursor:pointer}
+
+#header							{z-index:100!important;}
+
+nav 									{text-align: center; background-color: #373a3b; height:65px; z-index:2; padding:25px 0px 0px 0px;}
+nav ul li 							{display:inline; padding:0 15px 10px 15px; vertical-align:middle;}
+nav ul li a 							{text-decoration: none; color:white !important; font-weight:400;}
+nav ul li a:hover  				{color:#1d8995 !important;}
+
+#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
+#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:90px; display:none;}
+
+#menu-spacer					{position: absolute; background-color: #373a3b; height:90px; z-index:1; }
+
+#search								{background-color: #373a3b; height:90px; text-align:center; color:white;}
+#search	 input[type=text]	{padding:10px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:30px; width:75%;}
+#purinaone-logo img			{margin-top:10px;}
+#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
+#login-link							{background-color: #1d8995; text-align:center; padding:15px;}
+	#login-link a					{color:white!important;}
+	#login-link img				{vertical-align:middle; margin-right:15px;}
+	
+#row-spacer						{position:absolute; left:0px; height:90px; background-color: #373a3b; z-index:0}	
+
+
+
+
+
+#main-slider						{position:relative; width:100%; margin:0 auto; z-index:1;} 
+.flexslider							{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
+
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width: 767px) {
+
+	#menu-spacer {display:none;}
+	#row-spacer  {display:none;}
+}
