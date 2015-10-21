@@ -172,20 +172,45 @@
                              
                     			<div id="filmy">
                                	<div class="photo-gallery">
-										 <div class="gallery-big-photo"><img src="img/koci-magazyn-image.png"/>
+										 <div class="gallery-big-photo">
+                                           <img src="img/koci-magazyn-image.png"/>
                                          	<div style="position:absolute; top:70%; width:100%; height:30%; background-color:teal; opacity:0.5;"></div>
                                            <div style="position:absolute; top:70%; width:100%; height:30%; z-index:100; ">
-                                           	<div style="padding:3%; color:white; font-size:2em;">
-                                            		<div style="float:left;">
-                                           		Kociczka
-                                                	</div>
-                                                    <div style="float:right">
-                                                    Adsam
-                                                    </div>
+                                           	<div style="padding:3% 2%!important;">
+                                            		
+                                           	
+                                            		<div class="sixcol">
+                                                    topic
+                                                    	<div>
+                                                        asdas
+                                                        </div>
+                                                        <div>
+                                                        asdas
+                                                        </div>
+                                                        
+                                                        
+                                                   </div>
+                                                   <div class="sixcol last" style="float:right;">
+                                                   	<img style="width:10%; float:right; padding-left:5%;" src="img/social-twitter.png"/>
+                                                   <img style="width:10%; float:right; padding-left:5%;" src="img/social-twitter.png"/>
+                                                   <img style="width:10%; float:right; padding-left:5%;" src="img/social-twitter.png"/>
+                                                   <img style="width:10%; float:right; padding-left:5%;" src="img/social-twitter.png"/>
+                                                   <div style="padding-top:10%; float:ti">
+                                                        asdas
+                                                        </div>
+                                                   </div>
+                                 
+                                           
+                                                    	
+                                                	
+                                                <div style="clear:both"></div>
                                             	</div>
-                                                
+                                            
                                            </div>
                                         </div>
+                                        
+                                        
+                                        
                                         <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
                                         <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
                                         <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>

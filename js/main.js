@@ -97,17 +97,41 @@ $(document).ready(function()
 	$(".prev").appendTo("#toback");
 	$(".next").appendTo("#toforward");
 	
-	//gallery
-	 $("td").mouseenter(function() 
+	
+	//tabs users/movies/photos
+	$(function() 
+	{
+   		$( "#tabs" ).tabs();
+  	});
+	
+	
+	// gallery big photo
+	 $(".gallery-big-photo").mouseenter(function() 
 	 {
-		 $(".photo-back").css("visibility", "visible");
-		 $(".photo-info").css("visibility", "visible");
+		 $(".photo-background").css("visibility", "visible");
+		 $(".photo-des-content").css("visibility", "visible");
 	 });
 	 
-	  $("td").mouseleave(function() 
+	  $(".gallery-big-photo").mouseleave(function() 
 	 {
-		 $(".photo-back").css("visibility", "hidden");
-		 $(".photo-info").css("visibility", "hidden");
+		 $(".photo-background").css("visibility", "hidden");
+		 $(".photo-des-content").css("visibility", "hidden");
+	 });
+	 
+	 
+	 
+	 // gallery small photo
+	  $(".gallery-small-photo").mouseenter(function() 
+	 {
+		
+		 $(this).find(".photo-background-s").css("visibility", "visible");
+		 $(this).find(".photo-des-content-s").css("visibility", "visible");
+	 });
+	 
+	  $(".gallery-small-photo").mouseleave(function() 
+	 {
+		 $(this).find(".photo-background-s").css("visibility", "hidden");
+		 $(this).find(".photo-des-content-s").css("visibility", "hidden");
 	 });
 	
 	

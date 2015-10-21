@@ -172,9 +172,95 @@
      </div>
      <!-- ARTICLE:end -->
      
+       <br><br>
      
      
-     
+     <!-- USERS/MOVIES/PHOTOS:begin -->
+     <div id ="tabs" class="container">
+    	<div class="row">
+        	<div class="fourcol">
+            	<ul>
+                	<li><a href="#filmy"><h2>Użytkownicy</h2></a></li>
+                    <li><a href="#uzytkownicy"><h2>Filmy</h2></a></li>
+                    <li><a href="#zdjecia"><h2>Zdjcia</h2></a></li>
+                </ul>
+            </div>
+            <div class="fourcol"></div>
+            <div class="fourcol last">
+            	<div class="arrow-nav">
+                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+        	<div class="twelvecol media">
+            	<div id="uzytkownicy"></div>
+                
+ 				<div id="filmy">
+                	<div class="photo-gallery">
+						<div class="gallery-big-photo">
+                       		<img src="img/koci-magazyn-image.png"/>
+                          	<div class="photo-background"></div>	<!-- BACKGROUND -->
+                           		<div class="photo-des-content">
+                            		<div class="photo-text-padding">
+                                   	<div class="sixcol photo-text-left">
+                                    		<div class="cats-name">
+                                            	Nazwa kota
+                                           </div>
+                                           <div class="photo-data">2015-03-13 12:23:23</div>
+                                           <div class="photo-votes">ilość głosów: <span class="votes-number">2</span></div>
+                                       </div>
+                                       <div class="sixcol last photo-text-right">
+                                       	<a href="#" title="Printerest"><img src="img/social-printerest.png" alt="Printerest"/></a>
+                                       	<a href="#" title="Goolge +"><img src="img/social-googleplus.png" alt="Goolge Plus"/></a>
+                                         	<a href="#" title="Facebook"><img src="img/social-facebook.png" alt="Facebook"/></a>
+                                          	<a href="#" title="Twitter"><img src="img/social-twitter.png" alt="Twitter"/></a>
+                                           <div style="clear:both"></div>
+                                           <div class="photo-user"><a href="#" title="user name">kotulek</a></div>
+                                           <div><a href="#" title="user name"><img src="img/ikona-person.png" alt="użytkownik kociarze.pl"/></a></div>
+                                    	</div>
+                                		<div style="clear:both"></div>
+                                  	</div>
+                              	</div>
+						</div>
+                        <div class="gallery-small-photo">
+                        	<img src="img/koci-magazyn-image.png"/>	<!-- BACKGROUND -->
+                            <div class="photo-background-s"></div>	
+                            <div class="photo-des-content-s ">
+                            	<div class="photo-text-padding-s">
+                                	<div class="cats-name-s">NAZWA KOTA</div>
+                                   <div class="photo-user-s"><a href="#" title="user name"><img src="img/ikona-person.png" alt="użytkownik kociarze.pl">kotulek</a></div>
+                                   <div class="photo-data-s">2015-03-13 12:23:23</div>
+                                   <div class="photo-data-s">Liczba głosów: 2</div>
+                                   <div class="social-s">
+                                    	<a href="#" title="Printerest"><img src="img/social-printerest.png" alt="Printerest"/></a>
+                                     	<a href="#" title="Goolge +"><img src="img/social-googleplus.png" alt="Goolge Plus"/></a>
+                            			<a href="#" title="Facebook"><img src="img/social-facebook.png" alt="Facebook"/></a>
+                             			<a href="#" title="Twitter"><img src="img/social-twitter.png" alt="Twitter"/></a>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+               			 <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+           				 <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+                       	 <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+                     	 <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+          				 <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+  
+                   		<div style="clear:both"></div>
+  					</div>
+                  </div>
+                               
+                                
+                                
+  				    			<div id="zdjecia" >
+                                        
+  								</div>	
+                        	</div>
+                    	</div>
+     </div>
+     <!-- USERS/MOVIES/PHOTOS:end -->
      
      
      

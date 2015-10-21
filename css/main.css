@@ -116,14 +116,41 @@ article .button-grey					{float:right;}
 
 
 
+/* TABS */
+#tabs ul li {display:inline; float:left; margin-left:10%;}
 
 
-
-
-
-
-
-
+/* GALLERY */
+.photo-gallery					{padding:1%;}
+	.photo-gallery img 		{width:100%; display:block;}
+	/* BIG PHOTO */
+	.gallery-big-photo		{float:left; width:40%; position:relative;}
+	.photo-background		{position:absolute; top:70%; width:100%; height:30%; background-color:teal; opacity:0.5; visibility:hidden;}
+	.photo-des-content		{position:absolute; top:70%; width:100%; height:30%; z-index:100; visibility:hidden;}
+	.photo-text-padding	{padding:3% 2%!important;}
+	.photo-text-left			{}
+	.cats-name					{color:white; font-size:1.1em; font-weight:bold; margin-bottom:10%;}
+	.photo-data					{color:white; font-weight:100; font-size:0.9em; opacity:0.8;}
+	.photo-votes				{color:white; font-size:0.9em; font-weight:300;}
+	.votes-number 			{color:white; font-size:0.9em; font-weight:bold;}
+	.photo-text-right			{float:right;}
+	.photo-text-right img {width:10%; float:right; margin-left:5%; margin-bottom:20%;}
+	.photo-text-right img:hover {opacity:0.5;}
+	.photo-user a			    {float:right; color:white; font-weight:bold; font-size:0.9em; margin-left:5%;}
+	
+	/* SMALL PHOTO */
+	.gallery-small-photo   {float:left; width:20%; position:relative;}
+	.photo-background-s {position:absolute; top:0%; width:100%; height:100%; background-color:teal; opacity:0.5; visibility:hidden;}
+	.photo-des-content-s {position:absolute; top:0%; width:100%; height:100%; z-index:100; visibility:hidden;}
+	.photo-text-padding-s {padding:3% 2%!important;}
+	.cats-name-s				{color:white; font-size:1.1em; font-weight:bold; margin:10% 0%; text-align:center;}
+	.photo-user-s				{text-align:center; margin-bottom:3%;}
+	.photo-user-s	a			{color:white; font-weight:bold; font-size:0.9em; }
+	.photo-user-s	a img	{width:10%; display:inline; vertical-align:middle; text-align:center; padding-right:5%; }
+	.photo-data-s				{text-align:center; color:white; font-weight:100; font-size:0.9em; opacity:0.8;}
+	.social-s						{text-align:center; margin-top:4%;}
+	.social-s img				{width:10%; margin-left:5%; display:inline;}
+	.social-s img:hover		{opacity:0.5}
 
 
 
@@ -215,10 +242,7 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 .lista .ellista 					{float:left; list-style-type:none;}
 	.ellista							{padding: 3% 3% 2.7% 3%;}
 	
-.photo-gallery					{padding:1%;}
-	.photo-gallery img 		{width:100%; display:block;}
-	.gallery-big-photo		{float:left; width:40%; position:relative;}
-	.gallery-small-photo   {float:left; width:20%;}
+
 
 
 
