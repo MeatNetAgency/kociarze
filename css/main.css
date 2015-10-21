@@ -23,10 +23,10 @@ h2 											{font-size:1.5em;}
 h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
-h1, h2, h3									{margin:10px 0;}
+h1, h2, h3									{margin:10px 0; color:#444444;}
 
 a 												{text-decoration:none; color: #1d8995; cursor:pointer}
-a:hover 										{text-decoration:underline; color: #333333;}
+a:hover 										{text-decoration:none; color: #333333;}
 
 p												{margin-bottom:15px;}
 
@@ -52,6 +52,8 @@ article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:
 article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left;}
 article .replies							{color:#999999; font-size:0.9em;}
 article .button-grey					{float:right;}
+article h3 a									{color:#444444 !important;}
+article h3 a:hover						{color:#1d8995 !important;}
 
 .news .date								{float:right;}
 
@@ -64,9 +66,12 @@ article .button-grey					{float:right;}
 .forum										{padding:50px;}
 .forum .date								{float:none; margin-bottom:0px;}
 .forum h4									{font-weight:400; margin-bottom:5px; margin-top:0;}
+.forum h4 a								{color:#444444 !important; font-weight:400;}
+.forum h4 a:hover						{color:#1d8995 !important;}
 .forum .replies							{margin-bottom:25px;}
+.forum .button-teal						{float:right;}
+.forum .right-border					{border-right:solid 1px #999;}
 
-/* Article, News NAVIGATION */
 
 
 
@@ -275,18 +280,18 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 /* FOOTER */
 .footer								{position:absolute; left:0; width:100%!important; margin-top:5%; background-color: #424242; padding-top:2%;}
-.footer-content a 			{color:white;}
-.footer-content a:hover 	{color: #1d8995; transition:0.5s;}
-.footer-arrows-color		{color: #1d8995; transition:0.5s;}
+.footer-content a 				{color:white;}
+.footer-content a:hover 		{color: #1d8995; transition:0.5s;}
+.footer-arrows-color			{color: #1d8995; transition:0.5s;}
 .footer-header					{padding-bottom:2%; color:white;}
-.footer-content				{color:white;}
-.footer-content ul li 		{list-style-type:none; padding-top:2%;}
-.footer-bottom				{margin-top:2%; margin-bottom:1%;}
+.footer-content					{color:white;}
+.footer-content ul li 			{list-style-type:none; padding-top:2%;}
+.footer-bottom					{margin-top:2%; margin-bottom:1%;}
 .footer-end						{color:white;}
-.footer-end a					{color:white;transition:0.5s;}
+.footer-end a						{color:white;transition:0.5s;}
 .footer-end a:hover			{color:#1d8995; transition:0.5s;}
-.footer-graphics				{padding-top:5%;}
-.more-info						{position:relative; left:14%;}
+.footer-graphics					{padding-top:5%;}
+.more-info							{position:relative; left:14%;}
 
 
 
