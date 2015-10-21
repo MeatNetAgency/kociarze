@@ -124,7 +124,7 @@
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#" >&gt;&gt;</a>
+                	<a href="#" title="Cofnij">&lt;&lt;</a> <a href="#" title="Do przodu">&gt;&gt;</a>
                 </div>
             </div>
         </div>
@@ -180,7 +180,7 @@
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                	<a href="#" title="Cofnij">&lt;&lt;</a> <a href="#" title="Do przodu">&gt;&gt;</a>
                 </div>
             </div>
         </div>
@@ -226,7 +226,7 @@
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                	<a href="#" title="Cofnij">&lt;&lt;</a> <a href="#" title="Do przodu">&gt;&gt;</a>
                 </div>
             </div>
         </div>
@@ -322,7 +322,7 @@
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                	<a href="#" title="Cofnij">&lt;&lt;</a> <a href="#" title="Do przodu">&gt;&gt;</a>
                 </div>
             </div>
         </div>
@@ -332,55 +332,63 @@
             	<article class="forum">
                 	<div class="row">
                     	<div class="fourcol">
-                        	<div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                        	<div class="right-border">
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                            </div>
                         </div>
                         <div class="fourcol">
-                        	<div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                       	 	<div class="right-border">
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                                
+                                <div class="date">Data: 22.05.2015</div>
+                                <h4>Karma dla kota</h4>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                            </div>
                         </div>
                         <div class="fourcol last">
                         	<div class="date">Data: 22.05.2015</div>
                             <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                            <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                             
                             <div class="date">Data: 22.05.2015</div>
                             <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                            <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                             
                             <div class="date">Data: 22.05.2015</div>
                             <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                            <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                             
                             <div class="date">Data: 22.05.2015</div>
                             <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#">5 odpowiedzi</a></div>
+                            <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                            
+                            <br>
+                            <a class="button button-teal" href="#" title="Dodaj nowy wątek">Dodaj nowy wątek &nbsp; &nbsp; &#x279d;</a>
+                    		<br class="clear">
                         </div>
                     </div>
                 </article>

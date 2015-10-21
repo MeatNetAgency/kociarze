@@ -97,7 +97,7 @@
         
         <!-- Main menu:begin -->
         
-        <div class="row">
+        <div class="row" id="menu-container">
         	<div id="row-spacer">&nbsp;</div>
             <div id="nav-border-top">&nbsp;</div>
             <div id="nav-border-bottom">&nbsp;</div>

@@ -32,6 +32,12 @@ function repositionSlider()
 }
 
 
+
+
+
+
+
+
 $(document).ready(function()
 {
 	
@@ -42,16 +48,28 @@ $(document).ready(function()
 	});
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	repositionSlider();
 	setTimeout("resize()", 100);
-	
-	
-	
+
 	
 	//resize main-menu row on screen change
 	$( window ).resize(function() {
 		resize();
 	});
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -74,12 +92,29 @@ $(document).ready(function()
 	});
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
 	// tabs uzytkownicy, filmy, zdjecia
 	$(function() 
 	{
     	$( "#tab" ).tabs();
  	});
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -98,11 +133,42 @@ $(document).ready(function()
 
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	//tabs users/movies/photos
 	$(function() 
 	{
    		$( "#tabs" ).tabs();
   	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	// gallery big photo
@@ -118,7 +184,7 @@ $(document).ready(function()
 		 $(".photo-des-content").css("visibility", "hidden");
 	 });
 	 
-	 
+
 	 
 	 // gallery small photo
 	  $(".gallery-small-photo").mouseenter(function() 
