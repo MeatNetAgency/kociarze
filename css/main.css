@@ -117,7 +117,7 @@ article .button-grey					{float:right;}
 
 
 /* TABS */
-#tabs ul li {display:inline; float:left; margin-left:10%;}
+#tabs ul li {display:inline; float:left; margin-left:5%;}
 
 
 /* GALLERY */
@@ -182,10 +182,14 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 #row-spacer						{position:absolute; left:0px; height:90px; background-color: #373a3b; z-index:0}	
 
 
+/* SLIDER CAPTIONS */
+
+
+
 #main-slider						{position:relative; width:100%; margin:0 auto; z-index:1;} 
-.flexslider							{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
+.flexslider								{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
 
-
+.flex-caption						{position:absolute; top:0; padding:2.5% 2% 2% 1.5%; font-size:180%;}
 
 
 

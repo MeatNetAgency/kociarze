@@ -87,15 +87,15 @@ $(document).ready(function()
 	// paginacja
     $('#easyPaginate').easyPaginate(
 	{
-		paginateElement: '.news',
+		paginateElement: '.three-news',
 		elementsPerPage: 1,
 		effect: 'slide',
        	slideOffset: '200',
-        prevButtonText:' &#8592;',
-		nextButtonText:' <span class="right-arrow">&#x279d;</span>',
+
   	});
 	$(".prev").appendTo("#toback");
 	$(".next").appendTo("#toforward");
+
 	
 	
 	//tabs users/movies/photos

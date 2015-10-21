@@ -8,18 +8,17 @@
     
     <!-- NEWS:begin -->
     <div class="container">
-    
     	<div class="row">
-        	<div class="fourcol"><h2>Koci magazyn</h2></div>
+        	<div class="fourcol"><h2>PAGINACJA</h2></div>
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                	<span id="toback"></span><span id="toforward"></span>
                 </div>
             </div>
         </div>
-    
-    	<div class="row">
+        <div class="row" id="easyPaginate">
+    	<div class="row three-news">
         	<div class="fourcol">
             	<article class="news">
                 	<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
@@ -57,6 +56,45 @@
                 </article>
             </div>
         </div>
+        <div class="row three-news">
+        	<div class="fourcol">
+            	<article class="news">
+                	<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    <h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                    <div class="author">Autor: <a href="#">Admin</a></div>
+                    <div class="date">Data: 22.05.2015</div>
+                    <br class="clear">
+                    <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    <a class="button button-grey">Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <br class="clear">
+                </article>
+            </div>
+            <div class="fourcol">
+            	<article class="news">
+                	<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    <h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                    <div class="author">Autor: <a href="#">Admin</a></div>
+                    <div class="date">Data: 22.05.2015</div>
+                    <br class="clear">
+                    <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    <a class="button button-grey">Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <br class="clear">
+                </article>
+            </div>
+            <div class="fourcol last">
+            	<article class="news">
+                	<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    <h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                    <div class="author">Autor: <a href="#">Admin</a></div>
+                    <div class="date">Data: 22.05.2015</div>
+                    <br class="clear">
+                    <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    <a class="button button-grey">Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <br class="clear">
+                </article>
+            </div>
+        </div>
+        </div>
     </div>
     <!-- NEWS:end -->
     
@@ -86,7 +124,7 @@
             <div class="fourcol"></div>
             <div class="fourcol last">
             	<div class="arrow-nav">
-                	<a href="#">&lt;&lt;</a> <a href="#">&gt;&gt;</a>
+                	<a href="#">&lt;&lt;</a> <a href="#" >&gt;&gt;</a>
                 </div>
             </div>
         </div>
@@ -182,7 +220,7 @@
             	<ul>
                 	<li><a href="#filmy"><h2>Użytkownicy</h2></a></li>
                     <li><a href="#uzytkownicy"><h2>Filmy</h2></a></li>
-                    <li><a href="#zdjecia"><h2>Zdjcia</h2></a></li>
+                    <li><a href="#zdjecia"><h2>Zdjęcia</h2></a></li>
                 </ul>
             </div>
             <div class="fourcol"></div>

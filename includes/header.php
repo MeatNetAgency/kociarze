@@ -51,10 +51,16 @@
                 <ul class="slides">
                 
                 	<!--FIRST SLIDER-->
-                    <li><img src="img/layer-main.png" alt="slide1" /></li>
+                    <li>
+                    	<img src="img/layer-main.png" alt="slide1" />
+                        <div class="flex-caption">Adventurer Cheesecake Brownie 1</div>
+                    </li>
                     
                     <!--SECOND SLIDER-->
-                    <li><img src="img/layer-main.png" alt="slide2" /></li>  
+                    <li>
+                    	<img src="img/layer-main.png" alt="slide2" />  
+                    	<div class="flex-caption">Adventurer Cheesecake Brownie 2</div>
+                    </li>
                 </ul>
             </div>
 		</div>
