@@ -27,8 +27,7 @@
         <link rel="Stylesheet" type="text/css" href="css/grid.css" />
         
         <!-- GOOGLE FONTS: LATO -->
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         
         
         <!--CSS JQUERY UI-->
@@ -43,6 +42,23 @@
     
     
     
+    
+    
+    
+    <!--BUY NOW-->
+        <a hover="#" title="Kup teraz!">
+        	<div class="buy-now" ><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>
+        		kup teraz
+        	</div>
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        
     
     
     <!--SLIDER-->
@@ -67,6 +83,76 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    <!-- TOP BAR:begin -->
+    <div class="container" id="top-bar">
+    	<div class="row">
+            <div class="twelvecol top-icons">
+            	<a href="#" title="Administrator" class="administrator"><img src="img/admin-img-1.png" alt="administrator"/><span>administrator</span></a>
+				<a href="#" title="Aktualności"><img src="img/admin-img-1.png" alt="aktualności"/><span class="count">12</span></a>
+               	<a href="#" title="Wiadmości"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
+               	<a href="javascript:void()" id="events" class="events" title="Wydarzenia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
+           		<a href="#" title="Wyloguj"><img src="img/admin-img-4.png" class="last-icon" alt="wyloguj"/></a>
+            </div>
+            
+            
+                
+            <!-- messages:begin -->
+            <div class="panel-roll">
+                <div class="panel-options">
+                    Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" id="close-panel" title="Zamknij panel">Zamknij</a></span>
+                    <br class="clear">
+                </div>
+                <div class="panel-message">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
+                    <div class="content">
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                <div class="panel-message">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
+                    <div class="content">
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                 <div class="panel-message">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
+                    <div class="content">
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                <div class="panel-footer">
+                	<a href="#" title="Zobacz wszystkie">Zobacz wszystkie</a>
+                </div>
+			</div>
+            <!-- messages:end -->
+            
+            
+            
+		</div>
+    </div>
+    <!-- TOP BAR:end -->
+    
+    
+    
+    
+    
+       
     
     
     

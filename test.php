@@ -7,7 +7,7 @@
     
     
     <!-- NEWS:begin -->
-    <div class="container">
+    <div class="container" id="content">
     	<div class="row">
         	<div class="fourcol"><h2>PAGINACJA</h2></div>
             <div class="fourcol"></div>

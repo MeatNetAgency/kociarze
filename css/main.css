@@ -16,14 +16,14 @@
 
 
 /* GENERAL STYLES */
-*												{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300; line-height:160%; letter-spacing:0.04em;}
+*												{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300; line-height:160%;}
 
 h1 											{font-size:3em;}
-h2 											{font-size:1.5em;}
+h2 											{font-size:1.4em;}
 h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
-h1, h2, h3									{margin:10px 0; color:#444444;}
+h1, h2, h3									{margin:10px 0; color:#444444; font-weight:400;}
 
 a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
@@ -31,7 +31,8 @@ a:hover 										{text-decoration:none; color: #333333;}
 p												{margin-bottom:15px;}
 
 .clear										{clear:both;}
-
+.fright										{float:right;}
+.fleft											{float:left;}
 
 
 
@@ -46,11 +47,11 @@ p												{margin-bottom:15px;}
 
 
 /* ARTICLE */
-article										{background-color:#E6EBE6; padding: 10px;}
-article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left;}				
-article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left;}
-article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left;}
-article .replies							{color:#999999; font-size:0.9em;}
+article										{background-color:#E6EBE6; padding: 10px!important;}
+article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}				
+article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
+article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
+article .replies							{color:#999999; font-size:0.9em; font-weight:400;}
 article .button-grey					{float:right;}
 article h3 a									{color:#444444 !important;}
 article h3 a:hover						{color:#1d8995 !important;}
@@ -76,12 +77,31 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
+/* ARTICLE NAVIGATION*/
+.next, .prev								{padding:0!important; margin:0!important;}
+.arrow-nav								{padding-top:10px;text-align:right; }
+#toback										{margin-right:1px; text-align:center; display: inline-block; background-color:#E6EBE6; padding: 6px 12px 6px 12px;}
+#toforward								{text-align:center; display: inline-block; background-color:#E6EBE6; padding: 8px 12px 8px 12px;}
+.arrow-nav a								{display: inline-block; background-color:#E6EBE6; padding: 10px!important; margin:0; color:#333!important; font-weight:400;}
+.arrow-nav .margin					{margin-right:1px;}
+.toback										{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
+.toforward									{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400;padding: 6px 12px 6px 12px;}
+.arrow-nav a .number					{text-align:center; display: inline-block; background-color:#E6EBE6;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
+.arrow-nav a:hover	,
+.arrow-nav a:hover	 span,
+.arrow-nav a:hover	 .next,
+.arrow-nav a:hover	 .prev,
+.arrow-nav .active ,
+.arrow-nav .active span					{color:white!important; background:#1d8995;}
+
+
+
 
 
 
 
 /* BUY NOW */
-.buy-now							{position:absolute; top:27%; right:0%; background-color:#1d8995;padding:1%; z-index:100; transition: 0.3s;}
+.buy-now							{position:absolute; top:27%; right:0%; background-color:#1d8995;padding:1%; z-index:100; transition: 0.3s; color:white; text-align:center; font-weight:400;}
 	.buy-now:hover			{background-color:#197575; transition: 0.3s;}
 	
 
@@ -93,26 +113,37 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
-/* LOGIN TOP BAR */
-.log-div-helper				{height:44px;}
-.log									{z-index: 9999; position: fixed; top:0; width:100%; margin:0 auto; background-color:white; border-bottom: solid #999999 1px; height:44px; visibility:visible;}
-.admin								{margin: 2% 0%; float:right;}
-	.admin a img				{padding:0% 3%;}
-	.admin .administrator  {font-size:0.9em; font-weight:bold;}
-	.admin .administrator img  {margin-right:2%;}
-	
 
-.panel								{position:absolute; left:0; right:0; margin:auto; max-width:1280px; z-index:9990; font-size:0.7em; display: none;}
-	.panel .panel-roll			{background-color: white; transition:0.3s;}
-	.panel .panel-roll	:hover {background-color: #E6EBE6 ; cursor:pointer; transition:0.3s;}
-	.panel-options				{padding:2%; border:solid #999999 1px; border-top:0px;}
-	.panel-controller			{padding-left:9%; color: #1d8995; } 
-	.panel-message img	{width:100%;}
-	.panel-text-author		{margin-left:-2%!important;}
-	.panel-author				{padding-right:2%;}
-	.panel-article				{padding-left:2%; border-left: solid #E6EBE6 1px;}
-	.panel-text					{font-size:1.5em; width:50%; padding-top:1.5%; font-weight:300; color:#606060; line-height:130%; }
-	
+
+
+/* LOGIN TOP BAR */
+#top-bar															{background:white; border-bottom:1px solid #ccc; border-top:1px solid #ccc; font-size:0.75em; padding:10px 0px;}
+#top-bar .top-icons											{vertical-align:middle;text-align:right!important;}
+#top-bar .top-icons a,
+#top-bar .top-icons img, 
+#top-bar .top-icons span									{vertical-align:middle;}
+#top-bar .top-icons .count									{position:absolute; background:#1d8995; padding:2px; vertical-align:middle; color:white!important; font-size:0.6em; margin-left:-32px; width:12px; text-align:center !important;-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+
+#top-bar img														{margin-right:25px;}
+#top-bar .administrator img								{margin-right:10px;}
+#top-bar .last-icon											{margin-right:0;}
+#top-bar a span												{font-weight:400 !important; display:inline-block; padding-right:20px; border-right:1px solid #CCC; margin-right:20px; color:#1d8995;}
+#top-bar a:hover span										{color:#424242;}
+
+.panel-roll															{background-color: white; position:absolute; z-index:9999; width:50%; max-width:480px; border-left:1px solid #ccc; border-right:1px solid #ccc; display:none; top:45px;}
+.panel-roll .panel-message:hover 						{background-color:#F5F5F5; transition:0.3s;}
+.panel-roll	.panel-options									{padding:8px; border-bottom:solid 1px #ccc; color:#333;}
+.panel-roll .panel-options span							{float:right;}
+.panel-roll	.panel-options a								{font-weight:400!important;}		
+.panel-roll	.panel-message 								{border-bottom:solid 1px #ccc; padding:8px;}
+.panel-roll	.panel-message .photo 						{float:left; overflow:hidden; width:15%; }
+.panel-roll	.panel-message .content 					{float:left; margin-left:8px; width:80%;}
+.panel-roll	.panel-message .content a					{font-weight:400;}		
+.panel-roll	.panel-message h4							{margin:0; }
+.panel-roll	.panel-message h4 a							{color:#333;font-weight:300!important;}
+.panel-roll	.panel-footer										{text-align:center; background:#F5F5F5; padding:15px;border-bottom:1px solid #ccc;}
+.panel-roll	.panel-footer	a									{font-weight:600!important; letter-spacing:0.02em;}
+
 
 
 
@@ -122,40 +153,55 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* TABS */
-#tabs ul li {display:inline; float:left; margin-left:5%;}
+#tabs ul li 															{display:inline-block; float:left; padding: 12px 10px 4px 10px; font-size:0.88em;}
+#tabs .ui-state-active											{background-color:#E6EBE6;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* GALLERY */
-.photo-gallery					{padding:1%;}
-	.photo-gallery img 		{width:100%; display:block;}
-	/* BIG PHOTO */
-	.gallery-big-photo		{float:left; width:40%; position:relative;}
-	.photo-background		{position:absolute; top:70%; width:100%; height:30%; background-color:teal; opacity:0.5; visibility:hidden;}
-	.photo-des-content		{position:absolute; top:70%; width:100%; height:30%; z-index:100; visibility:hidden;}
-	.photo-text-padding	{padding:3% 2%!important;}
-	.photo-text-left			{}
-	.cats-name					{color:white; font-size:1.1em; font-weight:bold; margin-bottom:10%;}
-	.photo-data					{color:white; font-weight:100; font-size:0.9em; opacity:0.8;}
-	.photo-votes				{color:white; font-size:0.9em; font-weight:300;}
-	.votes-number 			{color:white; font-size:0.9em; font-weight:bold;}
-	.photo-text-right			{float:right;}
-	.photo-text-right img {width:10%; float:right; margin-left:5%; margin-bottom:20%;}
-	.photo-text-right img:hover {opacity:0.5;}
-	.photo-user a			    {float:right; color:white; font-weight:bold; font-size:0.9em; margin-left:5%;}
-	
-	/* SMALL PHOTO */
-	.gallery-small-photo   {float:left; width:20%; position:relative;}
-	.photo-background-s {position:absolute; top:0%; width:100%; height:100%; background-color:teal; opacity:0.5; visibility:hidden;}
-	.photo-des-content-s {position:absolute; top:0%; width:100%; height:100%; z-index:100; visibility:hidden;}
-	.photo-text-padding-s {padding:3% 2%!important;}
-	.cats-name-s				{color:white; font-size:1.1em; font-weight:bold; margin:10% 0%; text-align:center;}
-	.photo-user-s				{text-align:center; margin-bottom:3%;}
-	.photo-user-s	a			{color:white; font-weight:bold; font-size:0.9em; }
-	.photo-user-s	a img	{width:10%; display:inline; vertical-align:middle; text-align:center; padding-right:5%; }
-	.photo-data-s				{text-align:center; color:white; font-weight:100; font-size:0.9em; opacity:0.8;}
-	.social-s						{text-align:center; margin-top:4%;}
-	.social-s img				{width:10%; margin-left:5%; display:inline;}
-	.social-s img:hover		{opacity:0.5}
+.photo-gallery img 								{width:100%; display:block;}
+/* BIG PHOTO */
+.gallery-big-photo								{float:left; width:40%; position:relative;}
+.photo-background							{position:absolute; top:70%; width:100%; height:30%; background-color:teal; opacity:0.5; visibility:hidden;}
+.photo-des-content							{position:absolute; top:70%; width:100%; height:30%; z-index:100; visibility:hidden;}
+.photo-text-padding							{padding:3% 2%!important;}
+.cats-name										{color:white; font-size:1.1em; font-weight:bold; margin-bottom:10%;}
+.photo-data										{color:white; font-weight:300; font-size:0.9em; opacity:0.8;}
+.photo-votes										{color:white; font-size:0.9em; font-weight:300;}
+.votes-number 									{color:white; font-size:0.9em; font-weight:bold;}
+.photo-text-right								{float:right;}
+.photo-text-right img 						{width:10%; float:right; margin-left:5%; margin-bottom:20%;}
+.photo-text-right img:hover				{opacity:0.5;}
+.photo-user a			   						{float:right; color:white; font-weight:bold; font-size:0.9em; margin-left:5%;}
+
+/* SMALL PHOTO */
+.gallery-small-photo  							{float:left; width:20%; position:relative;}
+.photo-background-s 						{position:absolute; top:0%; width:100%; height:100%; background-color:teal; opacity:0.5; visibility:hidden;}
+.photo-des-content-s 						{position:absolute; top:0%; width:100%; height:100%; z-index:100; visibility:hidden;}
+.photo-text-padding-s 						{padding:3% 2%!important;}
+.cats-name-s										{color:white; font-size:1.1em; font-weight:400; margin:10% 0%; text-align:center;}
+.photo-user-s									{text-align:center; margin-bottom:3%;}
+.photo-user-s	a								{color:white; font-weight:400; font-size:0.9em; }
+.photo-user-s	a img						{width:10%; display:inline; vertical-align:middle; text-align:center; padding-right:5%; }
+.photo-data-s									{text-align:center; color:white; font-weight:300; font-size:0.9em; opacity:0.8;}
+.social-s											{text-align:center; margin-top:4%;}
+.social-s img										{width:10%; margin-left:5%; display:inline;}
+.social-s img:hover								{opacity:0.5}
+
+
+
+
+
 
 
 
@@ -178,7 +224,7 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 #search								{background-color: #373a3b; height:90px; text-align:center; color:white;}
 #search	 input[type=text]	{padding:10px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:30px; width:75%;}
-#purinaone-logo img			{margin-top:10px;}
+#purinaone-logo img			{margin-top:15px;}
 #kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
 #login-link							{background-color: #1d8995; text-align:center; padding:15px;}
 	#login-link a					{color:white!important;}
@@ -187,10 +233,16 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 #row-spacer						{position:absolute; left:0px; height:90px; background-color: #373a3b; z-index:0}	
 
 
+
+
+
+
+
+
+
+
+
 /* SLIDER CAPTIONS */
-
-
-
 #main-slider						{position:relative; width:100%; margin:0 auto; z-index:1;} 
 .flexslider								{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
 
@@ -225,53 +277,6 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 
 
-.header-left						{float:left;}
-.article-header					{padding-top:2%;}
-.arrows								{float:right;}
-	.arrows a 						{background-color: #E6EBE6; color:white; padding:25px;margin-left:1px; transition:0.3s;}
-	.arrows a:hover			{background-color: #1d8995; transition:0.3s; }
-		.right-arrow				{color: #424242!important;}
-		.right-arrow:hover	{color: white!important;}
-.photo 								{width:100%;}
-
-	
-
-
-.magazine						{padding-top:2%; margin-top:2%; min-height:40px;}
-.magazine-whole				{background-color:#E6EBE6}
-	.magazine-photo			{padding:0.8% 0.0% 0.8% 0.8%;}
-	.magazine-content		{padding:3% 0%; width:55%!important;}
-		.magazine-data		{padding: 2% 0%; font-size:0.9em;color:#999999}
-		.inside-magazine		{color:#999999; padding-left:10%;}
-		.magazine-text  		{padding-top:5%; padding-bottom: 5%; line-height:150%; font-weight:300; color:#606060; }
-		.button-comment 	{background-color: #1d8995; padding:6.5%; width:50%; transition:0.3s;}
-		.button-comment:hover 	{background-color: #197575; transition:0.3s;}
-		.blog .button-read	{padding:6.5%; width:40%; left:50%; position:relative;}
-
-.lista .ellista 					{float:left; list-style-type:none;}
-	.ellista							{padding: 3% 3% 2.7% 3%;}
-	
-
-
-
-
-.media 								{background-color:#E6EBE6;}
-.forum								{background-color:#E6EBE6;}
-	.forum-content			{margin:2%; padding-left:2%; width:25%!important; border-left:solid #1d8995 1px;}
-	.forum-content:first-child	{border-left:solid #1d8995 0px;}
-	.date-f							{padding: 14% 0% 4%  0%; font-weight:300;}
-	.title-f							{font-size:1.2em; font-weight:bold;}
-	.thread							{padding-bottom:2%;}
-		.thread	.button-comment {width:70%; padding:7% 4%; position:relative; left:18%; }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -291,6 +296,22 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 .footer .button					{float:right;}	
 .footer .button-teal:hover	{background:#666; color:white;}		
 .footer .footer-image			{float:left;}					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

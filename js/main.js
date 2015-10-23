@@ -28,7 +28,15 @@ function resize()
 function repositionSlider()
 {
 	// set up slider
-	$("#main-slider").css("position", "absolute").css("top", 0).css("z-index", "-2");
+	var height = $("#content").css("top");
+	
+	var marginTop = 0;
+	if($(".panel-roll").is(":visible"))
+		marginTop = 45;
+	
+	$("#main-slider").css("position", "absolute").css("top", marginTop).css("z-index", "-2");
+	$(".flex-control-nav").insertBefore("#content").css("top", height).css("margin", 0).css("padding", 0);
+	
 }
 
 
@@ -44,7 +52,9 @@ $(document).ready(function()
 	//slider
 	$('.flexslider').flexslider(
 	{
-		animation: "slide"
+		animation: "slide",
+		directionNav: false,
+		controlNav: false
 	});
 	
 	
@@ -63,10 +73,23 @@ $(document).ready(function()
 	//resize main-menu row on screen change
 	$( window ).resize(function() {
 		resize();
+		
+		// hide popups
+		$(".panel-roll").hide();
 	});
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	
 	
 	
@@ -128,8 +151,8 @@ $(document).ready(function()
        	slideOffset: '200',
 
   	});
-	$(".prev").appendTo("#toback");
-	$(".next").appendTo("#toforward");
+	$(".prev").appendTo("#small-nav-1-prev");
+	$(".next").appendTo("#small-nav-1-next");
 
 	
 	
@@ -157,8 +180,23 @@ $(document).ready(function()
 	
 	
 	
+	//ADMIN
+	$("#events").click(function()
+	{
+        // set location of panel
+		var panelWidth = $(".panel-roll").outerWidth();
+		var rowWidth	= $("#top-bar .row").outerWidth();
+		var newMarginLeft = rowWidth - panelWidth;
+		
+		
+		$(".panel-roll").css("margin-left", (newMarginLeft)).stop(true,true).slideToggle(300);
+		
+    });
 	
-	
+	// hide 
+	$("#close-panel").click(function() {
+		$(".panel-roll").slideToggle();
+	});
 	
 	
 	
