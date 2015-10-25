@@ -2,21 +2,27 @@
 	<?php include 'includes/header.php'; ?>
     <!-- HEADER:end -->
     
-    
-    
-    
+        
     
     <!-- NEWS:begin -->
     <div class="container" id="content">
-    	<div class="row">
-        	<div class="fourcol"><h2>PAGINACJA</h2></div>
-            <div class="fourcol"></div>
-            <div class="fourcol last">
+    	
+        
+        <div class="row">
+            <div class="twelvecol">
+            	<h2 class="fleft title">Aktualności</h2>
             	<div class="arrow-nav fright">
                 	<a href="javascript:void();" class="margin" id="small-nav-1-prev"></a><a href="javascript:void();" id="small-nav-1-next"></a>
                 </div>
+                <br class="clear">
             </div>
         </div>
+        
+        
+        
+        
+        
+        
         <div class="row" id="easyPaginate">
     	<div class="row three-news">
         	<div class="fourcol">
@@ -121,7 +127,7 @@
     
     	<div class="row">
             <div class="twelvecol">
-            	<h2 class="fleft">Koci magazyn</h2>
+            	<h2 class="fleft title">Koci magazyn</h2>
             	<div class="arrow-nav fright">
                 	<a href="#" class="margin"><span class="toback"><</span></a><a href="#"><span class="toforward ">></span></a>
                 </div>
@@ -133,8 +139,9 @@
         	<div class="twelvecol">
             	<article class="single-article">
                 	<div class="row">
-                    	<div class="fourcol"><img class="photo" src="img/koci-magazyn-image.png" alt="Tytuł wpisu"/></div>
+                    	<div class="fourcol"><img class="photo desktop" src="img/koci-magazyn-image.png" alt="Tytuł wpisu" /></div>
                         <div class="eightcol last">
+                        	<img class="photo mobile" src="img/koci-magazyn-image.png" alt="Tytuł wpisu" />
                         	<h3>Kot na emeryturze</h3>
                             <div class="author">Autor: <a href="#">Admin</a></div>
                     		<div class="date">Data: 22.05.2015</div>
@@ -179,7 +186,7 @@
         	<div class="fourcol"></div>
             <div class="fourcol"></div>
             <div class="twelvecol">
-            	<h2 class="fleft">Koci magazyn</h2>
+            	<h2 class="fleft title">Z blogów kociarzy</h2>
             	<div class="arrow-nav fright">
                 	<a href="#" class="margin"><span class="toback"><</span></a><a href="#"><span class="toforward ">></span></a>
                 </div>
@@ -190,8 +197,9 @@
         	<div class="twelvecol">
             	<article class="single-article">
                 	<div class="row">
-                    	<div class="fourcol"><img class="photo" src="img/pani-z-kotem.png" alt="Tytuł wpisu"/></div>
+                    	<div class="fourcol"><img class="photo desktop" src="img/pani-z-kotem.png" alt="Tytuł wpisu" /></div>
                         <div class="eightcol last">
+                        	<img class="photo mobile" src="img/pani-z-kotem.png" alt="Tytuł wpisu" />
                         	<h3>Podejmij wyzwanie i zadbaj o zdrowie swojego kota!</h3>
                             <div class="author">Autor: <a href="#">Admin</a></div>
                     		<div class="date">Data: 22.05.2015</div>
@@ -239,14 +247,14 @@
             <div class="twelvecol">
             
             	<ul class="fleft">
-                <li><a href="#zdjecia"><h2>Zdjęcia</h2></a></li>
                 	<li><a href="#uzytkownicy"><h2>Użytkownicy</h2></a></li>
+               		<li><a href="#zdjecia"><h2>Zdjęcia</h2></a></li>
+                	
                     <li><a href="#filmy"><h2>Filmy</h2></a></li>
-                    
                 </ul>
             
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span</a><a  href="#" class="margin"><span class="number">3</span</a><a  href="#" class="margin"><span class="number">...</span</a><a  href="#" class="margin"><span class="number">64</span</a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">64</span></a><a href="#"><span class="toforward ">></span></a>
                 </div>
             </div>
         </div>
@@ -258,10 +266,9 @@
         <div class="row">
         	<div class="twelvecol media">
                 <article>
+                	<div id="uzytkownicy">wer</div>
                     <div id="zdjecia">
                         <div class="photo-gallery">
-                        
-                        
                         
                             <!-- big photo:begin -->
                             <div class="gallery-big-photo">
@@ -321,8 +328,8 @@
                             
                         </div>
                     </div>
-                    <div id="uzytkownicy"></div>
-                    <div id="filmy" ></div>
+                    
+                    <div id="filmy" >wer</div>
             	</article>
 			</div>
             
@@ -354,9 +361,9 @@
     
     	<div class="row">
             <div class="twelvecol">
-            	<h2 class="fleft">Aktualnie na forum</h2>
+            	<h2 class="fleft title">Ostatnio na forum</h2>
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span</a><a  href="#" class="margin"><span class="number">3</span</a><a  href="#" class="margin"><span class="number">...</span</a><a  href="#" class="margin"><span class="number">324</span</a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">324</span></a><a href="#"><span class="toforward ">></span></a>
                 </div>
             </div>
         </div>
@@ -366,63 +373,59 @@
             	<article class="forum">
                 	<div class="row">
                     	<div class="fourcol">
+                        	<div class="forum-padding">
                         	<div class="right-border">
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4> Duis aute irure dolor in reprehenderit</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4> Excepteur sint occaecat cupidatat non proident,</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
-                                <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
-                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                            </div>
                             </div>
                         </div>
-                        <div class="fourcol">
+                        <div class="fourcol"><div class="forum-padding">
                        	 	<div class="right-border">
+                            
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4>Sed ut perspiciatis unde omnis iste natus error</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4> Excepteur sint occaecat cupidatat non proident,</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
+                                <h4>Nemo enim ipsam voluptatem quia</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
-                                <div class="date">Data: 22.05.2015</div>
-                                <h4>Karma dla kota</h4>
-                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
+                            </div>
                             </div>
                         </div>
                         <div class="fourcol last">
+                        <div class="forum-padding">
+                        	<div class="no-border">
                         	<div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
+                            <h4> Nam libero tempore</h4>
                             <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                             
                             <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
+                            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                             <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
-                            
+                                                        
                             <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
+                            <h4> Duis aute irure dolor in reprehenderit</h4>
                             <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
-                            
-                            <div class="date">Data: 22.05.2015</div>
-                            <h4>Karma dla kota</h4>
-                            <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
-                            
-                            <br>
+                            </div>
                             <a class="button button-teal" href="#" title="Dodaj nowy wątek">Dodaj nowy wątek &nbsp; &nbsp; &#x279d;</a>
                     		<br class="clear">
+                            </div>
                         </div>
                     </div>
                 </article>

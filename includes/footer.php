@@ -23,18 +23,17 @@
                 </div>
                 <div class="sixcol last">
                 	<h4>O NAS</h4>
-                    <p>W Purina rozumiemy jak wiele znaczy dla Ciebie Twój kot,<br/>ponieważ sami jesteśmy właścicielami kotów.</p>
+                    <p>W Purina rozumiemy jak wiele znaczy dla Ciebie Twój kot,<br class="desktop" />ponieważ sami jesteśmy właścicielami kotów.</p>
                     <br />
                     <a href="#" title="Purina One" class="footer-image"><img src="img/purina-logo-footer.png" alt="Purina: Twój ulubieniec -nasza pasja"/></a>
                     <a class="button button-teal" href="#" title="Więcej informacji">Więcej informacji &nbsp; &nbsp; &#x279d;</a>
                     <br class="clear">
                 </div>
             </div>
+            <br />
             <div class="row footer-bottom">
-            	<div class="sixcol">© Copyright 2012-2015 kociarze.pl</div>
-                <div class="twocol"><a href="#" title="Kontakt">Kontakt</a></div>
-                <div class="twocol"><a href="#" title="Polityka prywatności">Polityka prywatności</a></div>
-                <div class="twocol last"><a href="#" title="Regulamin serwisu">Regulamin serwisu</a></div>
+            	<div class="sixcol copy">© Copyright 2012-2015 kociarze.pl</div>
+                <div class="sixcol last"><a href="#" title="Kontakt">Kontakt</a><span class="desktop">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="mobile" /><a href="#" title="Polityka prywatności">Polityka prywatności</a><span class="desktop">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="mobile" /><a href="#" title="Regulamin serwisu">Regulamin serwisu</a></div>
             </div>
         </div>
     </div>

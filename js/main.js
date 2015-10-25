@@ -5,40 +5,13 @@ function resize()
 	var width = 				$("#main-menu").width();
 	var marginRight = 		$("#main-menu").css("margin-right");
 	var spacerWidth = $("#main-menu").parent().width() - ($("#main-menu").width() + $("#search-box").width());
-	$("#menu-spacer").css("margin-left", (width-1)).css("width", spacerWidth);
+	$("#menu-spacer").css("margin-left", (width-1)).css("width", spacerWidth+1);
 	var position = $("#main-menu").position();
 	var lenght = position.left;
-	$("#row-spacer").css("width", lenght);
+	$("#row-spacer").css("width", lenght+1);
 	
-	
-	// set-up menu margin
-	var sliderHeight = $("#main-slider").height();
-	var menuHeight = $("#header").height();
-	var newMargin = sliderHeight - menuHeight;
-	
-	//alert("sliderHeight = "+sliderHeight + "\n" + "menuHeight = " + menuHeight + "\n" + "newMargin = "+newMargin);
-	
-	$("#header").css("margin-bottom", newMargin);
-}
-
-
-
-
-
-function repositionSlider()
-{
-	// set up slider
-	var height = $("#content").css("top");
-	
-	var marginTop = 0;
-	if($(".panel-roll").is(":visible"))
-		marginTop = 45;
-	
-	$("#main-slider").css("position", "absolute").css("top", marginTop).css("z-index", "-2");
-	$(".flex-control-nav").insertBefore("#content").css("top", height).css("margin", 0).css("padding", 0);
 	
 }
-
 
 
 
@@ -66,16 +39,11 @@ $(document).ready(function()
 	
 	
 	
-	repositionSlider();
-	setTimeout("resize()", 100);
-
-	
-	//resize main-menu row on screen change
+	resize();
 	$( window ).resize(function() {
 		resize();
-		
-		// hide popups
 		$(".panel-roll").hide();
+		$("#response").html($(document).width());
 	});
 	
 	
@@ -129,7 +97,7 @@ $(document).ready(function()
 	// tabs uzytkownicy, filmy, zdjecia
 	$(function() 
 	{
-    	$( "#tab" ).tabs();
+    	$( "#tabs" ).tabs();
  	});
 	
 	
@@ -164,26 +132,12 @@ $(document).ready(function()
 	
 	
 	
-	//tabs users/movies/photos
-	$(function() 
-	{
-   		$( "#tabs" ).tabs();
-  	});
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	//ADMIN
-	$("#events").click(function()
+	$(".open-panel").click(function()
 	{
-        // set location of panel
+        
+		// set location of panel
 		var panelWidth = $(".panel-roll").outerWidth();
 		var rowWidth	= $("#top-bar .row").outerWidth();
 		var newMarginLeft = rowWidth - panelWidth;
@@ -237,6 +191,36 @@ $(document).ready(function()
 		 $(this).find(".photo-background-s").css("visibility", "hidden");
 		 $(this).find(".photo-des-content-s").css("visibility", "hidden");
 	 });
+	
+	
+	
+	
+	
+	
+	
+	 $(window).scroll(function () {
+			
+			//get top-bar and logos height
+			var height = $("#top-bar").outerHeight()+$("#logotypes").outerHeight();
+			
+			//alert(height);
+			
+			if($(this).scrollTop() > height) 
+			{
+				var height2 = $("#logotypes").height();
+				var top = height2 * (-1);
+				$('#top-container').css("position", "fixed").css("top", top);
+       	 	} 
+			else if($(this).scrollTop() <= height) 
+			{
+				$('#top-container').css("position", "absolute").css("top", 48);
+			}
+    });
+	
+	
+	
+	
+	
 	
 	
 	

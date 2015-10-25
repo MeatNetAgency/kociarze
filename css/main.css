@@ -2,7 +2,7 @@
 	main font: #373a3b
 	another font:#999999
 	menu backround: #373a3b
-	page background: #E6EBE6 
+	page background: #f5f5f5 
 	buttons login, buy-now: #1d8995
 	buttons login, buy-now HOVER: #197575
 	buttons read-more: #424242
@@ -16,14 +16,15 @@
 
 
 /* GENERAL STYLES */
-*												{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300; line-height:160%;}
+*												{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300; line-height:160%;; font-size:14px;}
 
-h1 											{font-size:3em;}
-h2 											{font-size:1.4em;}
+h1 											{font-size:2.2em; font-weight:600;}
+h2 											{font-size:1.3em;}
 h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
-h1, h2, h3									{margin:10px 0; color:#444444; font-weight:400;}
+
+h2, h3, h4								{margin:10px 0; color:#444444; font-weight:400;}
 
 a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
@@ -33,6 +34,13 @@ p												{margin-bottom:15px;}
 .clear										{clear:both;}
 .fright										{float:right;}
 .fleft											{float:left;}
+
+.title											{margin:30px 0 0 10px;}
+
+
+
+.desktop									{display:inline;}
+.mobile										{display:none;}
 
 
 
@@ -46,8 +54,65 @@ p												{margin-bottom:15px;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+#top-container					{width:100%; position:absolute;top:48px; z-index:1000;}
+#header							{z-index:100!important;}
+
+
+nav 									{text-align: center; background-color: #373a3b; height:75px; z-index:2;}
+nav ul li 							{display:inline; vertical-align:middle;}
+nav ul li a 							{display:inline-block; text-decoration: none; color:white !important; font-weight:700; padding:27px 17px 27px 17px;vertical-align:middle;}
+nav ul li a:hover  				{color:#1d8995 !important;}
+#home								{padding:25px 17px 22px 17px !important;}
+
+#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
+#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:75px; display:none;}
+
+#menu-spacer					{position: absolute; background-color: #373a3b; height:75px; z-index:1; }
+
+#search								{background-color: #373a3b; height:75px; text-align:center; color:white; }
+#search	 input[type=text]	{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:20px; width:75%;}
+#purinaone-logo img			{margin-top:15px;}
+#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
+#login-link							{background-color: #1d8995; text-align:center; padding:15px 0;}
+	#login-link a					{color:white!important;}
+	#login-link img				{vertical-align:middle; margin-right:15px;}
+	
+#row-spacer						{position:absolute; left:0px; height:75px; background-color: #373a3b; z-index:0}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ARTICLE */
-article										{background-color:#E6EBE6; padding: 10px!important;}
+article										{background-color:#F5F5F5; padding: 10px!important;}
 article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}				
 article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
 article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
@@ -71,7 +136,8 @@ article h3 a:hover						{color:#1d8995 !important;}
 .forum h4 a:hover						{color:#1d8995 !important;}
 .forum .replies							{margin-bottom:25px;}
 .forum .button-teal						{float:right;}
-.forum .right-border					{border-right:solid 1px #999;}
+.forum .forum-padding				{padding:50px 0px 0px 25px;}
+.forum .right-border					{border-right:solid 1px #ccc; padding-right:25px;}
 
 
 
@@ -80,13 +146,13 @@ article h3 a:hover						{color:#1d8995 !important;}
 /* ARTICLE NAVIGATION*/
 .next, .prev								{padding:0!important; margin:0!important;}
 .arrow-nav								{padding-top:10px;text-align:right; }
-#toback										{margin-right:1px; text-align:center; display: inline-block; background-color:#E6EBE6; padding: 6px 12px 6px 12px;}
-#toforward								{text-align:center; display: inline-block; background-color:#E6EBE6; padding: 8px 12px 8px 12px;}
-.arrow-nav a								{display: inline-block; background-color:#E6EBE6; padding: 10px!important; margin:0; color:#333!important; font-weight:400;}
+#toback										{margin-right:1px; text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
+#toforward								{text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
+.arrow-nav a								{display: inline-block; background-color:#f5f5f5; padding: 10px!important; margin:0; color:#333!important; font-weight:400;}
 .arrow-nav .margin					{margin-right:1px;}
 .toback										{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
 .toforward									{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400;padding: 6px 12px 6px 12px;}
-.arrow-nav a .number					{text-align:center; display: inline-block; background-color:#E6EBE6;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
+.arrow-nav a .number					{text-align:center; display: inline-block; background-color:#f5f5f5;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
 .arrow-nav a:hover	,
 .arrow-nav a:hover	 span,
 .arrow-nav a:hover	 .next,
@@ -101,8 +167,9 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* BUY NOW */
-.buy-now							{position:absolute; top:27%; right:0%; background-color:#1d8995;padding:1%; z-index:100; transition: 0.3s; color:white; text-align:center; font-weight:400;}
-	.buy-now:hover			{background-color:#197575; transition: 0.3s;}
+.buy-now							{position:fixed; top:300px; right:0%; background-color:#1d8995;padding:10px; z-index:100; transition: 0.3s; color:white; text-align:center; font-weight:700; font-size:1em;}
+.buy-now img					{width:35px;}
+.buy-now:hover					{background-color:#197575; transition: 0.3s;}
 	
 
 
@@ -117,8 +184,8 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* LOGIN TOP BAR */
-#top-bar															{background:white; border-bottom:1px solid #ccc; border-top:1px solid #ccc; font-size:0.75em; padding:10px 0px;}
-#top-bar .top-icons											{vertical-align:middle;text-align:right!important;}
+#top-bar															{background:white; border-bottom:1px solid #ccc; border-top:1px solid #ccc; font-size:0.75em; padding-top:10px; padding-bottom:10px;}
+#top-bar .top-icons											{vertical-align:middle; text-align:right!important;}
 #top-bar .top-icons a,
 #top-bar .top-icons img, 
 #top-bar .top-icons span									{vertical-align:middle;}
@@ -130,7 +197,7 @@ article h3 a:hover						{color:#1d8995 !important;}
 #top-bar a span												{font-weight:400 !important; display:inline-block; padding-right:20px; border-right:1px solid #CCC; margin-right:20px; color:#1d8995;}
 #top-bar a:hover span										{color:#424242;}
 
-.panel-roll															{background-color: white; position:absolute; z-index:9999; width:50%; max-width:480px; border-left:1px solid #ccc; border-right:1px solid #ccc; display:none; top:45px;}
+.panel-roll															{background-color: white; position:absolute; z-index:9999; width:50%; max-width:480px; border-left:1px solid #ccc; border-right:1px solid #ccc; display:none; top:48px;}
 .panel-roll .panel-message:hover 						{background-color:#F5F5F5; transition:0.3s;}
 .panel-roll	.panel-options									{padding:8px; border-bottom:solid 1px #ccc; color:#333;}
 .panel-roll .panel-options span							{float:right;}
@@ -153,8 +220,8 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* TABS */
-#tabs ul li 															{display:inline-block; float:left; padding: 12px 10px 4px 10px; font-size:0.88em;}
-#tabs .ui-state-active											{background-color:#E6EBE6;}
+#tabs ul li 															{display:inline-block; float:left; padding: 10px 10px 5px 10px; font-size:0.88em; background:transparent;}
+#tabs .ui-state-active											{background-color:#f5f5f5;}
 
 
 
@@ -209,28 +276,6 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
-#header							{z-index:100!important;}
-
-nav 									{text-align: center; background-color: #373a3b; height:65px; z-index:2; padding:25px 0px 0px 0px;}
-nav ul li 							{display:inline; padding:0 15px 10px 15px; vertical-align:middle;}
-nav ul li a 							{text-decoration: none; color:white !important; font-weight:400;}
-nav ul li a:hover  				{color:#1d8995 !important;}
-
-
-#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
-#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:90px; display:none;}
-
-#menu-spacer					{position: absolute; background-color: #373a3b; height:90px; z-index:1; }
-
-#search								{background-color: #373a3b; height:90px; text-align:center; color:white;}
-#search	 input[type=text]	{padding:10px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:30px; width:75%;}
-#purinaone-logo img			{margin-top:15px;}
-#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
-#login-link							{background-color: #1d8995; text-align:center; padding:15px;}
-	#login-link a					{color:white!important;}
-	#login-link img				{vertical-align:middle; margin-right:15px;}
-	
-#row-spacer						{position:absolute; left:0px; height:90px; background-color: #373a3b; z-index:0}	
 
 
 
@@ -242,11 +287,30 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 
 
-/* SLIDER CAPTIONS */
-#main-slider						{position:relative; width:100%; margin:0 auto; z-index:1;} 
-.flexslider								{position:relative; margin: 0 auto; z-index:1; max-width:1500px;}
 
-.flex-caption						{position:absolute; top:0; padding:2.5% 2% 2% 1.5%; font-size:180%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SLIDER */
+#main-slider						{position:relative; margin:0 auto; z-index:1; max-width:1500px;} 
+#main-slider	.button			{font-size:1.4em; font-weight:400; padding:15px 30px;}
+.flexslider							{position:relative;}
+.flex-caption						{position:absolute; top:0;padding-top:2%; padding-left:1%;  z-index:2;}
 
 
 
@@ -284,7 +348,7 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 
 /* FOOTER */
-#footer								{background-color: #424242;}	
+#footer								{background-color: #424242; }	
 .footer								{padding:25px 15px;}
 .footer a 							{color:white;}
 .footer a:hover 					{color: #1d8995; transition:0.3s;}
@@ -293,11 +357,33 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 .footer p							{color:white;}
 .footer ul li 						{list-style-type:none; padding-top:2%;}
 .footer-bottom .twocol		{text-align:right !important;}
+.footer-bottom div				{color:white !important;}
 .footer .button					{float:right;}	
 .footer .button-teal:hover	{background:#666; color:white;}		
 .footer .footer-image			{float:left;}					
 
 
+
+
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width: 1023px) {
+
+
+nav ul li a 							{padding:27px 7px 27px 7px;}
+#purinaone-logo img			{margin-top:7px;}
+
+
+.desktop							{display:inline;}
+.mobile								{display:none;}
+
+
+}
 
 
 
@@ -318,6 +404,39 @@ nav ul li a:hover  				{color:#1d8995 !important;}
 
 @media handheld, only screen and (max-width: 767px) {
 
-	#menu-spacer {display:none;}
-	#row-spacer  {display:none;}
+
+.desktop									{display:none;}
+.mobile										{display:inline;}
+
+
+.title											{font-size:1.6em; margin-top:16px; margin-bottom:0px;}
+
+#main-menu							{display:none;}
+#menu-spacer 						{display:none;}
+#row-spacer  						{display:none;}
+.buy-now								{display:none;}
+
+#kociarze-logo						{padding:10px 0 0 0;}		
+#top-bar .top-icons				{text-align:center!important;}
+#purinaone-logo					{text-align:left!important; padding:0px; margin-left:30px;}
+#purinaone-logo img				{margin:15px 0;}
+
+#kociarze-logo						{display:none;}
+#search-box							{display:none;}
+#login-link								{display:none;}
+
+.flex-caption							{padding-left:30px; padding-top:80px;}
+.flex-caption h2						{line-height:140%; margin-top:0px;}
+.flex-caption .button				{padding:10px 20px !important;}
+
+
+article .photo							{float:left; width:25%; margin-right:8px; margin-bottom:15px;}
+.forum .right-border				{border-right:none;}
+.forum-padding						{padding:0px !important;}
+
+
+.footer h4								{text-align:center;}
+.footer .footer-bottom div		{width:50%; text-align:right;}
+.footer .footer-bottom .copy	{padding-top:45px;}
+
 }
