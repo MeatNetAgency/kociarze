@@ -291,7 +291,7 @@
                                                 <a href="#" title="Twitter"><img src="img/social-twitter.png" alt="Twitter"/></a>
                                                <div style="clear:both"></div>
                                                <div class="photo-user"><a href="#" title="user name">kotulek</a></div>
-                                               <div><a href="#" title="user name"><img src="img/ikona-person.png" alt="użytkownik kociarze.pl"/></a></div>
+                                               <div><a href="#" class="user-cover" title="user name"><img src="img/ikona-person.png" alt="użytkownik kociarze.pl"/></a></div>
                                             </div>
                                             <div style="clear:both"></div>
                                         </div>

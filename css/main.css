@@ -534,4 +534,17 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 #main-slider	.button										{position:absolute; bottom:15%; font-size:1.3em; padding:10px 20px!important;}
 .flex-caption	h1 											{font-size:1.8em; position:absolute; bottom:45%;}
 .flex-caption	h2											{visibility:hidden;}
+
+
+
+
+
+
+.cats-name										{font-size:2em;  margin-bottom:0%;}
+.photo-text-right							    {position:absolute; top:10%; right:3%;}
+.photo-text-right img						{width:5%; margin-bottom:5%; margin-left:2%; }
+.user-cover img 								{display:none;}
+.photo-user a			   						{font-size:1.3em;}
+
+.cats-name-s									{margin:10% 0%; }
 }
