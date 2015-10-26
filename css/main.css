@@ -460,6 +460,10 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 .flex-caption	h1				{margin-top:5%; font-size:1.8em;}
 .flex-caption	h2				{font-size:1.0em; margin-bottom:0px;}
 
+.cats-name										{margin-bottom:5%;}
+.photo-text-right img 					{margin-bottom:10%;}
+.cats-name-s									{margin:2.5% 0%; }
+
 }
 
 
@@ -504,10 +508,6 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 #search-box													{display:none;}
 #login-link														{display:none;}
 
-.flex-caption													{padding-left:30px; padding-top:80px;}
-.flex-caption h2												{line-height:140%; margin-top:0px;}
-.flex-caption .button										{padding:10px 20px !important;}
-
 
 article .photo													{float:left; width:25%; margin-right:8px; margin-bottom:15px;}
 .forum .right-border										{border-right:none;}
@@ -531,7 +531,7 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 
 .gallery-small-photo  										{float:left; width:50%;}
 
-#main-slider	.button										{position:absolute; bottom:20%; font-size:1.3em; padding:10px 20px!important;}
+#main-slider	.button										{position:absolute; bottom:15%; font-size:1.3em; padding:10px 20px!important;}
 .flex-caption	h1 											{font-size:1.8em; position:absolute; bottom:45%;}
-.flex-caption	h2												{visibility:hidden;}
+.flex-caption	h2											{visibility:hidden;}
 }
