@@ -45,7 +45,7 @@ $(document).ready(function()
 		$(".panel-roll").hide();
 		$("#response").html($(document).width());
 		
-		$("#test-response").html($("#top-bar").outerHeight());
+		//$("#test-response").html($("#top-bar").outerHeight());
 		
 	});
 	

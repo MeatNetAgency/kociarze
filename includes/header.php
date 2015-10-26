@@ -88,6 +88,16 @@
        
        <!-- TOP BAR:begin -->
     <div class="container" id="top-bar">
+    	
+        
+        
+        
+        <div class="row" id="mobile-login-link">
+            <div class="twelvecol">
+                <a href="#" title="Zaloguj się"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
+            </div>
+        </div>
+    
     	<div class="row">
             <div class="twelvecol top-icons">
             	<span id="test-response"></span>
