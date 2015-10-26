@@ -465,6 +465,8 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 .photo-text-right img 					{margin-bottom:10%;}
 .cats-name-s									{margin:2.5% 0%; }
 
+#first-title	{position:absolute;}
+
 }
 
 
@@ -548,4 +550,7 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 .photo-user a			   						{font-size:1.3em;}
 
 .cats-name-s									{margin:10% 0%; }
+
+
+.xxx {text-align:center!important; margin: 0 auto!important;}
 }

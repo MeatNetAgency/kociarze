@@ -10,7 +10,7 @@
         
         <div class="row">
             <div class="fourcol">
-            	<h2 class="title">Aktualności</h2>
+            	<h2 id="first-title" class="title">Aktualności</h2>
             </div>
             <div class="fourcol"></div>
             <div class="fourcol last">
@@ -20,6 +20,7 @@
                 <br class="clear">
             </div>
         </div>
+
         
         
         
@@ -247,15 +248,15 @@
      <div id="tabs" class="container">
     	<!-- navigation:begin -->
         <div class="row">
-            <div class="twelvecol">
-            
+            <div class="twelvecol ">
+            <div>
             	<ul class="fleft">
                 	<li><a href="#uzytkownicy"><h2>Użytkownicy</h2></a></li>
                		<li><a href="#zdjecia"><h2>Zdjęcia</h2></a></li>
                 	
                     <li><a href="#filmy"><h2>Filmy</h2></a></li>
                 </ul>
-            
+            </div>
             	<div class="arrow-nav fright">
                 	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">64</span></a><a href="#"><span class="toforward ">></span></a>
                 </div>
