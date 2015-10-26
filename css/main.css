@@ -101,7 +101,7 @@ p												{margin-bottom:15px;}
 
 
 /* LOGIN TOP BAR */
-#top-bar															{background:white; border-bottom:1px solid #ccc; border-top:1px solid #ccc; font-size:0.75em; padding-top:10px; padding-bottom:10px;}
+#top-bar															{background:white; border-bottom:1px solid #ccc; border-top:1px solid #ccc; font-size:0.75em; padding-top:10px; padding-bottom:10px;height:28px; max-height:28px; min-height:28px;}
 #top-bar .top-icons											{vertical-align:middle; text-align:right!important;}
 #top-bar .top-icons a,
 #top-bar .top-icons img, 
