@@ -60,6 +60,22 @@ $(document).ready(function()
 	
 	
 	
+	
+	
+	
+	
+	
+	//mobile menu (open/close)
+	$("#open-mobile-menu").click(function() {
+			$("#mobile-menu").toggle(300);
+	});
+	
+	$("#close-mobile-menu").click(function() {
+			$("#mobile-menu").hide(300);
+	});
+	
+	
+	
 
 	
 	
