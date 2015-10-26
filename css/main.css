@@ -387,6 +387,9 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 .desktop							{display:inline;}
 .mobile								{display:none;}
 
+#main-slider	.button			{font-size:1.3em; padding:10px 20px!important;}
+.flex-caption	h1				{margin-top:5%; font-size:1.8em;}
+.flex-caption	h2				{font-size:1.0em; margin-bottom:0px;}
 
 }
 
@@ -455,4 +458,8 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 
 
 .gallery-small-photo  										{float:left; width:50%;}
+
+#main-slider	.button			{position:absolute; bottom:20%; font-size:1.3em; padding:10px 20px!important;}
+.flex-caption	h1 				{font-size:1.8em; position:absolute; bottom:45%;}
+.flex-caption	h2				{visibility:hidden;}
 }
