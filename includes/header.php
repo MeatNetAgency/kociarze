@@ -24,7 +24,7 @@
         <link rel="Stylesheet" type="text/css" href="css/grid.css" />
         
         <!-- GOOGLE FONTS: LATO -->
-        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
                         
         <!-- MAIN CSS -->
         <link rel="Stylesheet" type="text/css" href="css/main.css" />
@@ -39,11 +39,9 @@
     
     
     	<!--BUY NOW-->
-        <a hover="#" title="Kup teraz!">
-        	<div class="buy-now" ><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>
-        		kup teraz
-        	</div>
-        </a>
+        
+        	<div class="buy-now" ><a hover="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
+        	<div class="buy-now-mobile" ><a hover="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
        
        
        
@@ -70,7 +68,7 @@
                     Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" id="close-panel" title="Zamknij panel">Zamknij</a></span>
                     <br class="clear">
                 </div>
-                <div class="panel-message">
+                <div class="panel-message unread">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
                     <div class="content">
                         <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
@@ -79,7 +77,7 @@
                     </div>
                     <br class="clear">
 				</div>
-                <div class="panel-message">
+                <div class="panel-message unread">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
                     <div class="content">
                         <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
@@ -88,7 +86,7 @@
                     </div>
                     <br class="clear">
 				</div>
-                 <div class="panel-message">
+                 <div class="panel-message read">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
                     <div class="content">
                         <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>

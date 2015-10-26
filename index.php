@@ -9,10 +9,13 @@
     	
         
         <div class="row">
-            <div class="twelvecol">
-            	<h2 class="fleft title">Aktualności</h2>
+            <div class="fourcol">
+            	<h2 class="title">Aktualności</h2>
+            </div>
+            <div class="fourcol"></div>
+            <div class="fourcol last">
             	<div class="arrow-nav fright">
-                	<a href="javascript:void();" class="margin" id="small-nav-1-prev"></a><a href="javascript:void();" id="small-nav-1-next"></a>
+                	 <a href="javascript:void();" class="margin" id="small-nav-1-prev"></a><a href="javascript:void();" id="small-nav-1-next"></a>
                 </div>
                 <br class="clear">
             </div>
