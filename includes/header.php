@@ -44,7 +44,45 @@
         	<div class="buy-now-mobile" ><a hover="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
        
        
-       
+		
+        
+        
+        
+        
+        
+        
+        <!-- MOBILE MNEU:begin -->
+        
+        <div id="mobile-menu">
+        	<div>	
+            	<h4 class="fleft">MENU:</h4>
+                <a id="close-mobile-menu">&#10006;</a>
+                <br class="clear">
+                    <ul>
+                        <li><a href="index.php" title="Strona główna">strona główna</a></li>
+                        <li><a href="#" title="Aktualności" style="display:inline-block;">aktualności</a></li>
+                        <li><a href="#" title="Koci magazyn">koci magazyn</a></li>
+                        <li><a href="#" title="Wyzwanie">wyzwanie</a></li>
+                        <li><a href="#" title="Forum">forum</a></li>
+                        <li><a href="#" title="Blogi">blogi</a></li>
+                        <li><a href="#" title="Klub">klub</a></li>
+                        <li><a href="#" title="Produkty">produkty</a></li>
+                    </ul> 
+            </div>
+        </div>
+        
+        <!-- MOBILE MNEU:begin -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+               
        
        
        
@@ -126,6 +164,8 @@
      	<div class="row">
         	<div class="twelvecol content">
             	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl" /></a>
+                <span class="fright"><img src="img/mobile-menu-icon.png" alt="Menu główne"></span>
+                <br class="clear">
             </div>
         </div>
      </div>
