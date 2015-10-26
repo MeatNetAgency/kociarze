@@ -156,7 +156,7 @@ p												{margin-bottom:15px;}
 
 /* MOBILE MENU */
 
-#mobile-menu													{position:fixed;background:#373a3b; top:0px; width:50%; height:100%; z-index:9999; color:white;}
+#mobile-menu													{position:fixed;background:#373a3b; top:0px; width:50%; height:100%; z-index:9999; color:white; display:none;}
 #mobile-menu div												{padding:15px;}
 #mobile-menu h4												{color:white;}
 #mobile-menu a												{color:white;}
