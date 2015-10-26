@@ -90,13 +90,14 @@
     <div class="container" id="top-bar">
     	
         
-        
-        
+        <!-- login mobile -->
+        <!--
         <div class="row" id="mobile-login-link">
             <div class="twelvecol">
-                <a href="#" title="Zaloguj się"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
+                <a href="#" title="Zaloguj się">Zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
             </div>
         </div>
+        -->
     
     	<div class="row">
             <div class="twelvecol top-icons">
