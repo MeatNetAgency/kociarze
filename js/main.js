@@ -223,7 +223,7 @@ $(document).ready(function()
 	
 	
 	
-	
+	setTimeout("resize()", 300);
 	
 	
 }); 
