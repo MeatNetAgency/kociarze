@@ -46,7 +46,7 @@
     
     	<!--BUY NOW-->
         
-        	<div class="buy-now" ><a href="#" title="Kup teraz!" class="tooltip"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
+        	<div class="buy-now" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
         	<div class="buy-now-mobile" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
        
        
@@ -57,27 +57,27 @@
         
         
         
-        <!-- MOBILE MNEU:begin -->
+        <!-- MOBILE MENU:begin -->
         
         <div id="mobile-menu">
         	<div>	
             	<h4 class="fleft">MENU:</h4>
-                <a href="#" id="close-mobile-menu">&#10006;</a>
+                <a href="#" id="close-mobile-menu" title="Zamknij menu" class="tooltip">&#10006;</a>
                 <br class="clear">
                     <ul>
-                        <li><a href="index.php" title="Strona główna" class="tooltip">strona główna</a></li>
-                        <li><a href="#" title="Aktualności" style="display:inline-block;" class="tooltip">aktualności</a></li>
-                        <li><a href="#" title="Koci magazyn" class="tooltip">koci magazyn</a></li>
-                        <li><a href="#" title="Wyzwanie" class="tooltip">wyzwanie</a></li>
-                        <li><a href="#" title="Forum" class="tooltip">forum</a></li>
-                        <li><a href="#" title="Blogi" class="tooltip">blogi</a></li>
-                        <li><a href="#" title="Klub" class="tooltip">klub</a></li>
-                        <li><a href="#" title="Produkty" class="tooltip">produkty</a></li>
+                        <li><a href="index.php" title="Strona główna">strona główna</a></li>
+                        <li><a href="#" title="Aktualności" style="display:inline-block;">aktualności</a></li>
+                        <li><a href="#" title="Koci magazyn">koci magazyn</a></li>
+                        <li><a href="#" title="Wyzwanie">wyzwanie</a></li>
+                        <li><a href="#" title="Forum">forum</a></li>
+                        <li><a href="#" title="Blogi">blogi</a></li>
+                        <li><a href="#" title="Klub">klub</a></li>
+                        <li><a href="#" title="Produkty">produkty</a></li>
                     </ul> 
             </div>
         </div>
         
-        <!-- MOBILE MNEU:begin -->
+        <!-- MOBILE MENU:begin -->
         
         
         
@@ -108,11 +108,11 @@
     	<div class="row">
             <div class="twelvecol top-icons">
             	<span id="test-response"></span>
-            	<a href="#" title="Administrator"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
-				<a href="javascript:void();" title="Aktualności" class="open-panel tooltip"><img src="img/admin-img-1.png" alt="aktualności"/><span class="count">12</span></a>
+            	<a href="#" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
+				<a href="javascript:void();" title="Znajomi" class="open-panel tooltip"><img src="img/admin-img-1.png" alt="znajomi"/><span class="count">12</span></a>
                	<a href="javascript:void();" title="Wiadmości" class="open-panel tooltip"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
                	<a href="javascript:void();" class="open-panel tooltip" title="Wydarzenia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
-           		<a href="#" title="Wyloguj" class="tooltip" ><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
+           		<a href="#" title="Wyloguj" class="tooltip"><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
             </div>
             
             
@@ -120,38 +120,38 @@
             <!-- messages:begin -->
             <div class="panel-roll">
                 <div class="panel-options">
-                    Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane" class="tooltip">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia" class="tooltip">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" id="close-panel" title="Zamknij panel" class="tooltip">Zamknij</a></span>
+                    Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" id="close-panel" title="Zamknij panel">Zamknij</a></span>
                     <br class="clear">
                 </div>
                 <div class="panel-message unread">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości" /></div>
                     <div class="content">
-                        <a href="#" title="Kociarze.pl" class="tooltip">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem" class="tooltip">Kocim okiem</a>
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
                         <br>
-                        <h4><a href="#" title="Tytuł artykułu" class="tooltip">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
                     </div>
                     <br class="clear">
 				</div>
                 <div class="panel-message unread">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
                     <div class="content">
-                        <a href="#" title="Kociarze.pl" class="tooltip">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem" class="tooltip">Kocim okiem</a>
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
                         <br>
-                        <h4><a href="#" title="Tytuł artykułu" class="tooltip">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
                     </div>
                     <br class="clear">
 				</div>
                  <div class="panel-message read">
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
                     <div class="content">
-                        <a href="#" title="Kociarze.pl" class="tooltip">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem" class="tooltip">Kocim okiem</a>
+                        <a href="#" title="Kociarze.pl">Kociarze.pl</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Kocim okiem">Kocim okiem</a>
                         <br>
-                        <h4><a href="#" title="Tytuł artykułu" class="tooltip">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
                     </div>
                     <br class="clear">
 				</div>
                 <div class="panel-footer">
-                	<a href="#" title="Zobacz wszystkie" class="tooltip">Zobacz wszystkie</a>
+                	<a href="#" title="Zobacz wszystkie">Zobacz wszystkie</a>
                 </div>
 			</div>
             <!-- messages:end -->
@@ -180,8 +180,8 @@
      <div class="container" id="mobile-menu-bar">
      	<div class="row">
         	<div class="twelvecol content">
-            	<a href="index.php" title="Kociarze.pl" class="tooltip"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl" class="tooltip"/></a>
-                <span class="fright"><img src="img/mobile-menu-icon.png" alt="Menu główne" id="open-mobile-menu" class="tooltip"></span>
+            	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl"/></a>
+                <span class="fright"><img src="img/mobile-menu-icon.png" alt="Menu główne" id="open-mobile-menu"></span>
                 <br class="clear">
             </div>
         </div>
@@ -217,14 +217,14 @@
             <div class="ninecol">
             	<div class="row">
                 	<div class="threecol" id="purinaone-logo-wrapper">
-                    	<div id="purinaone-logo"><a href="index.php" title="Purina One" class="tooltip"><img class="logo-purina" src="img/logo-purina-one.png" alt="Purina One"/></a></div>
+                    	<div id="purinaone-logo"><a href="index.php" title="Purina One"><img class="logo-purina" src="img/logo-purina-one.png" alt="Purina One"/></a></div>
                      </div>
                     <div class="ninecol last"></div>
                 </div>
             </div>
             <div class="threecol last">
             	<div id="kociarze-logo">
-                	<a href="index.php" title="Kociarze.pl" class="tooltip"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl"/></a>
+                	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl"/></a>
                 </div>   
             </div>           
         </div>
@@ -240,20 +240,20 @@
             <div class="ninecol" id="main-menu">
                 <nav>
                     <ul>
-                        <li><a id="home" class="tooltip" href="index.php" title="Strona główna"><img  src="img/ikona-home.png" alt="Strona główna"/></a></li>
-                        <li><a href="#" title="Aktualności" style="display:inline-block;" class="tooltip">aktualności</a></li>
-                        <li><a href="#" title="Koci magazyn" class="tooltip">koci magazyn</a></li>
-                        <li><a href="#" title="Wyzwanie" class="tooltip">wyzwanie</a></li>
-                        <li><a href="#" title="Forum" class="tooltip">forum</a></li>
-                        <li><a href="#" title="Blogi" class="tooltip">blogi</a></li>
-                        <li><a href="#" title="Klub" class="tooltip">klub</a></li>
-                        <li><a href="#" title="Produkty" class="tooltip">produkty</a></li>
+                        <li><a id="home" href="index.php" title="Strona główna"><img  src="img/ikona-home.png" alt="Strona główna"/></a></li>
+                        <li><a href="#" title="Aktualności" style="display:inline-block;">aktualności</a></li>
+                        <li><a href="#" title="Koci magazyn">koci magazyn</a></li>
+                        <li><a href="#" title="Wyzwanie">wyzwanie</a></li>
+                        <li><a href="#" title="Forum">forum</a></li>
+                        <li><a href="#" title="Blogi">blogi</a></li>
+                        <li><a href="#" title="Klub">klub</a></li>
+                        <li><a href="#" title="Produkty">produkty</a></li>
                     </ul> 
                 </nav>
             </div>
             <div id="menu-spacer">&nbsp;</div>
             <div class="threecol last" id="search-box">
-            	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE"/></div>
+            	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE" /><a href="javascript:void();"><span id="search-button">&nbsp;</span></a></div>
             </div>
             
         </div>
@@ -265,7 +265,7 @@
         	<div class="ninecol"></div>
             <div class="threecol last">
                 <div id="login-link">
-                	<a href="#" title="Zaloguj się" class="tooltip"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
+                	<a href="#" title="Zaloguj się"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
                 </div>        
             </div>
         </div>
@@ -304,7 +304,7 @@
                         	<h1>Dołącz do klubu Kociarza!</h1>
                             <h2>Klub Kociarze - nowe miejsce na mapie naszego serwisu.<br>Dołącz do nas, na pierwszych 400 klubowiczów<br>czeka upominek.</h2>
                         	<br>
-                            <a class="button button-teal tooltip" href="#" title="Dołącz" >Dołącz &nbsp; &nbsp; &#x279d;</a>
+                            <a class="button button-teal" href="#" title="Dołącz" >Dołącz &nbsp; &nbsp; &#x279d;</a>
                     		<br class="clear">
                         </div>
                     </li>
@@ -316,7 +316,7 @@
                         	<h1>Dołącz do klubu Kociarza!</h1>
                             <h2>Klub Kociarze - nowe miejsce na mapie naszego serwisu.<br>Dołącz do nas, na pierwszych 400 klubowiczów<br>czeka upominek.</h2>
                         	<br>
-                            <a class="button button-teal tooltip" href="#" title="Dołącz">Dołącz &nbsp; &nbsp; &#x279d;</a>
+                            <a class="button button-teal" href="#" title="Dołącz">Dołącz &nbsp; &nbsp; &#x279d;</a>
                     		<br class="clear">
                         </div>
                     </li>

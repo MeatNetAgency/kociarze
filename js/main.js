@@ -213,9 +213,7 @@ $(document).ready(function()
 	
 	
 	// tooltip
-	$('.tooltip').tooltipster
-	({
-    });
+	$('.tooltip').tooltipster();
 
 	
 	
@@ -236,7 +234,7 @@ $(document).ready(function()
        	 	} 
 			else if($(this).scrollTop() <= height) 
 			{
-				$('#top-container').css("position", "absolute").css("top", 48);
+				$('#top-container').css("position", "absolute").css("top", 50);
 			}
     });
 	
