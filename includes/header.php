@@ -114,6 +114,29 @@
        
        
        
+     
+     
+     
+     
+     
+     
+     
+     <!-- MOBILE MENU BAR:begin -->
+     <div class="container" id="mobile-menu-bar">
+     	<div class="row">
+        	<div class="twelvecol content">
+            	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl" /></a>
+            </div>
+        </div>
+     </div>
+     <!-- MOBILE MENU BAR:end -->
+     
+     
+     
+     
+     
+     
+     
        
        
        

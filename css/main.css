@@ -65,118 +65,26 @@ p												{margin-bottom:15px;}
 
 
 
-/* HEADER */
-#top-container					{width:100%; position:absolute;top:48px; z-index:1000;}
-#header							{z-index:100!important;}
-
-
-nav 									{text-align: center; background-color: #373a3b; height:75px; z-index:2;}
-nav ul li 							{display:inline; vertical-align:middle;}
-nav ul li a 							{display:inline-block; text-decoration: none; color:white !important; font-weight:700; padding:27px 17px 27px 17px;vertical-align:middle;}
-nav ul li a:hover  				{color:#1d8995 !important;}
-#home								{padding:25px 17px 22px 17px !important;}
-
-#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
-#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:75px; display:none;}
-
-#menu-spacer					{position: absolute; background-color: #373a3b; height:75px; z-index:1; }
-
-#search								{background-color: #373a3b; height:75px; text-align:center; color:white; }
-#search	 input[type=text]	{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:20px; width:75%;}
-#purinaone-logo img			{margin-top:15px;}
-#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
-#login-link							{background-color: #1d8995; text-align:center; padding:15px 0;}
-	#login-link a					{color:white!important;}
-	#login-link img				{vertical-align:middle; margin-right:15px;}
-	
-#row-spacer						{position:absolute; left:0px; height:75px; background-color: #373a3b; z-index:0}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ARTICLE */
-article										{background-color:#F5F5F5; padding: 10px!important;}
-article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}				
-article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
-article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
-article .replies							{color:#999999; font-size:0.9em; font-weight:400;}
-article .button-grey					{float:right;}
-article h3 a									{color:#444444 !important;}
-article h3 a:hover						{color:#1d8995 !important;}
-
-.news .date								{float:right;}
-
-.single-article .author					{margin-right:25px; margin-bottom:50px;}
-.single-article .date					{margin-right:25px; margin-bottom:50px;}
-.single-article .comments			{margin-right:0; margin-bottom:50px;}
-.single-article .button-grey			{float:right;}
-.single-article .button-teal			{float:left;}
-
-.forum										{padding:50px;}
-.forum .date								{float:none; margin-bottom:0px;}
-.forum h4									{font-weight:400; margin-bottom:5px; margin-top:0;}
-.forum h4 a								{color:#444444 !important; font-weight:400;}
-.forum h4 a:hover						{color:#1d8995 !important;}
-.forum .replies							{margin-bottom:25px;}
-.forum .button-teal						{float:right;}
-.forum .forum-padding				{padding:50px 0px 0px 25px;}
-.forum .right-border					{border-right:solid 1px #ccc; padding-right:25px;}
-
-
-
-
-
-/* ARTICLE NAVIGATION*/
-.next, .prev								{padding:0!important; margin:0!important;}
-.arrow-nav								{padding-top:10px;text-align:right; }
-#toback										{margin-right:1px; text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
-#toforward								{text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
-.arrow-nav a								{display: inline-block; background-color:#f5f5f5; padding: 10px!important; margin:0; color:#333!important; font-weight:400;}
-.arrow-nav .margin					{margin-right:1px;}
-.toback										{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
-.toforward									{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400;padding: 6px 12px 6px 12px;}
-.arrow-nav a .number					{text-align:center; display: inline-block; background-color:#f5f5f5;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
-.arrow-nav a:hover	,
-.arrow-nav a:hover	 span,
-.arrow-nav a:hover	 .next,
-.arrow-nav a:hover	 .prev,
-.arrow-nav .active ,
-.arrow-nav .active span					{color:white!important; background:#1d8995;}
-
-
-
-
 
 
 
 /* BUY NOW */
-.buy-now							{position:fixed; top:300px; right:0%; background-color:#1d8995;padding:10px; z-index:100; transition: 0.3s; text-align:center; font-weight:700; font-size:1em;}
-.buy-now a						{color:white;}
+.buy-now							{position:fixed; top:300px; right:0%; background-color:#1d8995;padding:10px; z-index:100; transition: 0.3s; text-align:center; font-weight:700; font-size:1em; opacity:0.8;}
+.buy-now a						{color:white; font-weight:700;}
 .buy-now img					{width:35px;}
 .buy-now:hover					{background-color:#197575; transition: 0.3s;}
 	
-.buy-now-mobile				{position:fixed; bottom:0; background-color:#1d8995;padding:10px; z-index:100; transition: 0.3s; text-align:center; font-weight:700; font-size:0.9em; display:none; vertical-align:middle;}
-.buy-now-mobile a span	{color:white; vertical-align:middle;}
+.buy-now-mobile				{position:fixed; bottom:0; background-color:#1d8995;padding:10px 20px; z-index:100; transition: 0.3s; text-align:center; font-weight:700; font-size:0.9em; display:none; vertical-align:middle; opacity:0.8;}
+.buy-now-mobile a span	{color:white; vertical-align:middle; font-weight:700;}
 .buy-now-mobile img			{width:20px; vertical-align:middle; float:left; margin-right:15px; margin-top:5px;}
 .buy-now-mobile span		{float:left; padding-top:3px;}
 .buy-now-mobile:hover		{background-color:#197575; transition: 0.3s;}
+
+
+
+
+
+
 
 
 
@@ -216,7 +124,145 @@ article h3 a:hover						{color:#1d8995 !important;}
 .panel-roll	.panel-footer										{text-align:center; background:#F5F5F5; padding:15px;border-bottom:1px solid #ccc;}
 .panel-roll	.panel-footer	a									{font-weight:600!important; letter-spacing:0.02em;}
 
-.panel-roll  .unread a										{font-weight:bold!important;}
+.panel-roll  .unread a											{font-weight:bold!important;}
+
+
+
+
+
+
+
+
+/* LOGO + MENU ICON + SEARCH - mobile */
+#mobile-menu-bar											{background:#373a3b; border-bottom:1px solid #ccc; font-size:0.75em; height:48px; color:white; display:none;}		
+#mobile-menu-bar .content								{text-align:center;}
+#mobile-menu-bar .content a img						{height:20px; width:auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+#top-container					{width:100%; position:absolute;top:48px; z-index:1000;}
+#header							{z-index:100!important;}
+
+
+nav 									{text-align: center; background-color: #373a3b; height:75px; z-index:2;}
+nav ul li 							{display:inline; vertical-align:middle;}
+nav ul li a 							{display:inline-block; text-decoration: none; color:white !important; font-weight:700; padding:27px 17px 27px 17px;vertical-align:middle;}
+nav ul li a:hover  				{color:#1d8995 !important;}
+#home								{padding:25px 17px 22px 17px !important;}
+
+#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
+#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:75px; display:none;}
+
+#menu-spacer					{position: absolute; background-color: #373a3b; height:75px; z-index:1; }
+
+#search								{background-color: #373a3b; height:75px; text-align:center; color:white; }
+#search	 input[type=text]	{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; cursor:pointer; border:none; margin-top:20px; width:75%;}
+#purinaone-logo img			{margin-top:15px;}
+#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
+#login-link							{background-color: #1d8995; text-align:center; padding:15px 0;}
+#login-link a						{color:white!important;}
+#login-link img					{vertical-align:middle; margin-right:15px;}
+	
+#row-spacer						{position:absolute; left:0px; height:75px; background-color: #373a3b; z-index:0}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ARTICLE */
+article										{background-color:#F5F5F5; padding: 10px!important;}
+article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}				
+article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
+article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
+article .replies							{color:#999999; font-size:0.9em; font-weight:400;}
+article .button-grey					{float:right;}
+article h3 a								{color:#444444 !important;}
+article h3 a:hover						{color:#1d8995 !important;}
+
+.news .date								{float:right;}
+
+.single-article .author					{margin-right:25px; margin-bottom:50px;}
+.single-article .date					{margin-right:25px; margin-bottom:50px;}
+.single-article .comments			{margin-right:0; margin-bottom:50px;}
+.single-article .button-grey			{float:right;}
+.single-article .button-teal			{float:left;}
+
+.forum										{padding:50px;}
+.forum .date								{float:none; margin-bottom:0px;}
+.forum h4									{font-weight:400; margin-bottom:5px; margin-top:0;}
+.forum h4 a								{color:#444444 !important; font-weight:400;}
+.forum h4 a:hover						{color:#1d8995 !important;}
+.forum .replies							{margin-bottom:25px;}
+.forum .button-teal						{float:right;}
+.forum .forum-padding				{padding:50px 0px 0px 25px;}
+.forum .right-border					{border-right:solid 1px #ccc; padding-right:25px;}
+
+
+
+
+
+/* ARTICLE NAVIGATION*/
+.next, .prev								{padding:0!important; margin:0!important;}
+.arrow-nav								{padding-top:10px;text-align:right; }
+#toback										{margin-right:1px; text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
+#toforward								{text-align:center; display: inline-block; background-color:#f5f5f5; padding: 0px 12px 0px 12px;}
+.arrow-nav a								{display: inline-block; background-color:#f5f5f5; padding: 10px!important; margin:0; color:#333!important; font-weight:400;}
+.arrow-nav .margin					{margin-right:1px;}
+.toback										{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
+.toforward									{text-align:center; display: inline-block; background-color:transparent;  color:#333!important; font-weight:400;padding: 6px 12px 6px 12px;}
+.arrow-nav a .number				{text-align:center; display: inline-block; background-color:#f5f5f5;  color:#333!important; font-weight:400; padding: 6px 12px 6px 12px;}
+.arrow-nav a:hover	,
+.arrow-nav a:hover	 span,
+.arrow-nav a:hover	 .next,
+.arrow-nav a:hover	 .prev,
+.arrow-nav .active ,
+.arrow-nav .active span					{color:white!important; background:#1d8995;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -426,8 +472,9 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 .buy-now-mobile											{display:inline;}
 
 #kociarze-logo												{padding:10px 0 0 0;}		
+#top-bar														{border-bottom:none;}
 #top-bar .top-icons										{text-align:center!important;}
-#purinaone-logo											{text-align:left!important; padding:0px; margin-left:30px;}
+#purinaone-logo											{text-align:left!important; padding:0px; margin-left:30px; display:none;}
 #purinaone-logo img										{margin:15px 0;}
 
 #kociarze-logo												{display:none;}
@@ -448,6 +495,8 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 .footer .footer-bottom div								{width:50%; text-align:right;}
 .footer .footer-bottom .copy							{padding-top:45px;}
 
+#mobile-menu-bar										{display:block;}
+#mobile-menu-bar a img								{margin-top:13px;}
 
 .panel-roll														{width:100%; max-width:767px; top:48px;}
 
@@ -459,7 +508,7 @@ article .photo													{float:left; width:25%; margin-right:8px; margin-bott
 
 .gallery-small-photo  										{float:left; width:50%;}
 
-#main-slider	.button			{position:absolute; bottom:20%; font-size:1.3em; padding:10px 20px!important;}
-.flex-caption	h1 				{font-size:1.8em; position:absolute; bottom:45%;}
-.flex-caption	h2				{visibility:hidden;}
+#main-slider	.button										{position:absolute; bottom:20%; font-size:1.3em; padding:10px 20px!important;}
+.flex-caption	h1 											{font-size:1.8em; position:absolute; bottom:45%;}
+.flex-caption	h2												{visibility:hidden;}
 }

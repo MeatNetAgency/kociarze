@@ -44,6 +44,9 @@ $(document).ready(function()
 		resize();
 		$(".panel-roll").hide();
 		$("#response").html($(document).width());
+		
+		$("#test-response").html($("#top-bar").outerHeight());
+		
 	});
 	
 	
