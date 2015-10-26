@@ -133,7 +133,7 @@
             <div class="twelvecol">
             	<h2 class="fleft title">Koci magazyn</h2>
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 </div>
                 <br class="clear">
             </div>
@@ -192,7 +192,7 @@
             <div class="twelvecol">
             	<h2 class="fleft title">Z blogów kociarzy</h2>
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 </div>
             </div>
         </div>
@@ -258,7 +258,7 @@
                 </ul>
             </div>
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">64</span></a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">64</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 </div>
             </div>
         </div>
@@ -276,7 +276,7 @@
                         
                             <!-- big photo:begin -->
                             <div class="gallery-big-photo">
-                                <img src="img/koci-magazyn-image.png"/>
+                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />
                                 <div class="photo-background"></div>	<!-- BACKGROUND -->
                                     <div class="photo-des-content">
                                         <div class="photo-text-padding">
@@ -303,7 +303,7 @@
                             
                             <!-- small photos:begin -->
                             <div class="gallery-small-photo">
-                                <img src="img/koci-magazyn-image.png"/>	<!-- BACKGROUND -->
+                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
                                 <div class="photo-background-s"></div>	
                                 <div class="photo-des-content-s ">
                                     <div class="photo-text-padding-s">
@@ -320,11 +320,11 @@
                                    </div>
                                 </div>
                             </div>
-                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
-                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
-                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
-                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
-                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png"/></div>
+                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
                             <div style="clear:both"></div>
                             <!-- small photos:end -->
                             
@@ -367,7 +367,7 @@
             <div class="twelvecol">
             	<h2 class="fleft title">Ostatnio na forum</h2>
             	<div class="arrow-nav fright">
-                	<a href="#" class="margin"><span class="toback"><</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">324</span></a><a href="#"><span class="toforward ">></span></a>
+                	<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">324</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 </div>
             </div>
         </div>

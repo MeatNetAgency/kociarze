@@ -40,8 +40,8 @@
     
     	<!--BUY NOW-->
         
-        	<div class="buy-now" ><a hover="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
-        	<div class="buy-now-mobile" ><a hover="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
+        	<div class="buy-now" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
+        	<div class="buy-now-mobile" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
        
        
 		
@@ -56,7 +56,7 @@
         <div id="mobile-menu">
         	<div>	
             	<h4 class="fleft">MENU:</h4>
-                <a id="close-mobile-menu">&#10006;</a>
+                <a href="#" id="close-mobile-menu">&#10006;</a>
                 <br class="clear">
                     <ul>
                         <li><a href="index.php" title="Strona główna">strona główna</a></li>
@@ -247,7 +247,7 @@
             </div>
             <div id="menu-spacer">&nbsp;</div>
             <div class="threecol last" id="search-box">
-            	<div id="search"><a><input type="text" placeholder="SZUKAJ NA STRONIE"/></a></div>
+            	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE"/></div>
             </div>
             
         </div>
