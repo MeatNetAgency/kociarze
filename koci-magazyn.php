@@ -37,7 +37,6 @@
                                         <h3>Kot na emeryturze</h3>
                                         <div class="author">Autor: <a href="#" title="Autor" >Admin</a></div>
                                         <div class="date">Data: 22.05.2015</div>
-                                        <div class="comments">Komentarze: (<a href="#" title="Komentarze" >22</a>)</div>
                                         <br class="clear">
                                         <p>Niejednokrotnie trudno jest pogodzić się z tym, że nasz kociak, kiedyś tak wesoły, skory do zabawy i niezwykle żywy, nagle przestaje być tak aktywny, potrzebuje więcej czasu na odpoczynek, często wydaje się być wręcz znudzony. Warto jednak wiedzieć, że nawet kot w podeszłym wieku nadal potrzebuje naszego wsparcia i czułości. Ważna jest także zbilansowana dieta, dostosowana do wieku i potrzeb jego organizmu.</p>
                                         <p>Ważna jest także zbilansowana dieta, dostosowana do wieku i potrzeb jego organizmu. Ważna jest także zbilansowana dieta, dostosowana do wieku i potrzeb jego organizmu.</p>
