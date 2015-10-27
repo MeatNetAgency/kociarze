@@ -248,8 +248,26 @@ $(document).ready(function()
 			}
     });
 	
+	// accordion
+	
+	$(".date-show").click(function(){
+		
+		$(".submenu-months").not($(this).find(".submenu-months")).hide("fold", 400);
+        $(this).find(".submenu-months").show("fold", 400);
+	
+    });
 	
 	
+	
+	$(".submenu").click(function(){
+		
+		$(".submenu").css("background-color", "white");
+		$(".submenu").css("color", "#373a3b");
+		
+		$(this).css("background-color", "#1d8995");
+		$(this).css("color", "white");
+	
+	});
 	
 	
 	

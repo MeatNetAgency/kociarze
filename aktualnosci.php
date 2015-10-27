@@ -9,35 +9,184 @@
     
     
 	<div class="container">
-    	<div class="row">
-         	<div class="twocol">
-            	<a class="button button-teal submenu" href="#" title="Wszystkie">Wszystkie &nbsp; &nbsp; &nbsp; &#x279d;</a>
-            </div>
-            <div class="tencol last">
-            	<h1>Wszystkie aktualności</h1>
-            </div>
-    	</div>
+   		
         <div class="row">
-        	<div class="twocol">
-            	 <a class="button submenu-option" href="#" title="2015">2015</a>
-                <a class="button submenu-option" href="#" title="2014">2014</a>
-                <a class="button submenu-option" href="#" title="2013">2013</a>
-                <a class="button submenu-option" href="#" title="2012">2012</a>
-                <a class="button submenu-option" href="#" title="2011">2011</a>
-                <a class="button submenu-option submenu-last" href="#" title="2010">2010</a>
+        
+        	<!-- SUBMENU:begin -->
+            
+        	<div class="threecol">
+            	<ul>
+                	<span class="date-show">
+                    	<li class="submenu submenu-first" >Wszystkie</li>
+                    </span>
+                    <span class="date-show">
+                    	<li class="submenu" >2015</li>
+                    	<li class="submenu-months">
+                        	<ul>
+                            	<li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                            </ul>            
+                        </li>
+                    </span>
+                    <span class="date-show">
+                    	<li class="submenu submenu-last" >2014</li>
+                    	<li class="submenu-months">
+                        	<ul>
+                            	<li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
+                            </ul>            
+                        </li>
+                    </span>
+                </ul>
             </div>
-            <div class="tencol last">
+            
+            <!-- SUBMENU:end -->
+            
+            
+            <!-- NEWS:begin -->
+            
+            <div class="ninecol last">
             	<div class="row">
                 	<div class="fourcol">
-                    article 1
+                    	<h2 class="first-title">Aktualności</h2>
+                    </div>
+                    <div class="fourcol"><h2>&nbsp;</h2></div>
+                    <div class="fourcol last"><h2>&nbsp;</h2></div>
+                    
+
+                    <div class="fourcol">
+            			<article class="news">
+                			<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    		<h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                   			<div class="author">Autor: <a href="#" title="Autor" >Admin</a></div>
+                    		<div class="date">Data: 22.05.2015</div>
+                    		<br class="clear">
+                    		<p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    		<a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    		<br class="clear">
+                		</article>
                     </div>
                     <div class="fourcol">
-                    article 2
+                    	<article class="news">
+                			<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    		<h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                   			<div class="author">Autor: <a href="#" title="Autor" >Admin</a></div>
+                    		<div class="date">Data: 22.05.2015</div>
+                    		<br class="clear">
+                    		<p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    		<a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    		<br class="clear">
+                		</article>
                     </div>
                     <div class="fourcol last">
-                    article3
+                    	<article class="news">
+                			<img class="photo" src="img/image-kot-2.png" alt="Tytuł artykułu"/>
+                    		<h3>Wyniki konkursu 3-tygodniowe wyzwanie - widoczne zdrowie 2015!</h3>
+                   			<div class="author">Autor: <a href="#" title="Autor" >Admin</a></div>
+                    		<div class="date">Data: 22.05.2015</div>
+                    		<br class="clear">
+                    		<p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
+                    		<a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    		<br class="clear">
+                		</article>
                     </div>
                     
+                    <!-- NEWS:end -->
+                    
+        
+                    
+                    
+                     <!-- FORUM DASHBOARD:begin -->
+                     
+                    <div class="twelvecol">
+                    
+                    
+                    	<div class="row">
+            				<div class="twelvecol">
+            					<h2 class="fleft title">Historia</h2>
+            					<div class="arrow-nav fright">
+                					<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">324</span></a><a href="#"><span class="toforward ">&gt;</span></a>
+                				</div>
+            				</div>
+        				</div>
+        
+        
+        				<div class="row">
+        					<div class="twelvecol">
+            					<article class="forum">
+                					<div class="row">
+                                    
+                    					<div class="fourcol">
+                        					<div class="forum-padding">
+                        					<div class="right-border">
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Duis aute irure dolor in reprehenderit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Excepteur sint occaecat cupidatat non proident,</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                            				</div>
+                            				</div>
+                        				</div>
+                                        
+                                        
+                                        <div class="fourcol">
+                        					<div class="forum-padding">
+                        					<div class="right-border">
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Duis aute irure dolor in reprehenderit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Excepteur sint occaecat cupidatat non proident,</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                            				</div>
+                            				</div>
+                        				</div>
+                                        
+                                        
+                                        <div class="fourcol last">
+                        					<div class="forum-padding">
+                        					<div class="no-border">
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Duis aute irure dolor in reprehenderit</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                
+                                				<div class="date">Data: 22.05.2015</div>
+                                				<h4> Excepteur sint occaecat cupidatat non proident,</h4>
+                                				<div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
+                                                	 <a class="button button-teal " href="#" title="Dodaj nowy wątek">Dodaj nowy wątek &nbsp; &nbsp; &#x279d;</a>
+                    								<br class="clear">
+                            				</div>
+                            				</div>
+                        				</div>
+
+                    				</div>
+                			</article>
+           				 </div>
+     				</div>
+                 
+                 </div>
+                 <!-- FORUM DASHBOARD:end -->
+                 
+
                 </div>
             </div>
         </div>

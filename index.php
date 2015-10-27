@@ -20,7 +20,7 @@
         
         <div class="row">
             <div class="fourcol">
-            	<h2 id="first-title" class="title">Aktualności</h2>
+            	<h2 class="title first-title">Aktualności</h2>
             </div>
             <div class="fourcol"></div>
             <div class="fourcol last">

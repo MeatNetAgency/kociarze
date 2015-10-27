@@ -375,12 +375,18 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* SUBMENU */
-.submenu							{width:91%; font-size: 1.3em; text-align:left;}
+.submenu							{ padding: 8% 12%; font-size: 1.3em; text-align:left; color: #373a3b; font-weight: bold; text-align:left; border-top: solid #f5f5f5 1px; border-right: solid #f5f5f5 1px; border-left: solid #f5f5f5 1px;}
+	.submenu:hover 			{color: white!important; background-color:#1d8995!important; border-top: solid #1d8995 1px; border-right: solid #1d8995 1px; border-left: solid #1d8995 1px; transition: 0.5s;}
+.submenu-first 				{background-color: #1d8995; color:white;}
+.submenu-last 				{border-bottom: solid #f5f5f5 1px;}
+	.submenu-last:hover 	{border-bottom: solid #1d8995 1px;}
+.submenu-months 			{display:none; background-color:#f5f5f5!important; padding: 3% 5%;}
+.submenu-months 	li 		{list-style-type:none; padding: 5% 0%; }
 
-.submenu-option				{width:90%; font-size: 1.1em; color: #373a3b; text-align:left; border-top: solid #f5f5f5 1px; border-right: solid #f5f5f5 1px; border-left: solid #f5f5f5 1px;}
-	.submenu-option:hover 		{color:white; background-color: #1d8995; border-top: solid #1d8995 1px; border-right: solid #1d8995 1px; border-left: solid #1d8995 1px;transition: 0.5s;}
-.submenu-last 		{border-bottom: solid #f5f5f5 1px;}
-	
+.submenu-month a 			{font-size:1.4em!important; color: #373a3b; font-weight:bold}
+.submenu-month a:hover		{color: #1d8995!important;}
+
+
 
 
 
@@ -452,7 +458,7 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 .photo-text-right img 					{margin-bottom:10%;}
 .cats-name-s									{margin:2.5% 0%; }
 
-#first-title	{position:absolute;}
+.first-title	{position:absolute;}
 
 }
 
