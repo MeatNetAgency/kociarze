@@ -2,6 +2,16 @@
 	<?php include 'includes/header.php'; ?>
     <!-- HEADER:end -->
     
+    
+    
+    
+    
+    
+    <!-- SLIDER:begin -->
+	<?php include 'includes/slider.php'; ?>
+    <!-- SLIDER:end -->
+    
+
         
     
     <!-- NEWS:begin -->

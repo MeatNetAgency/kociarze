@@ -359,8 +359,13 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
+/* SUBMENU */
+.submenu							{width:91%; font-size: 1.3em; text-align:left;}
 
-
+.submenu-option				{width:90%; font-size: 1.1em; color: #373a3b; text-align:left; border-top: solid #f5f5f5 1px; border-right: solid #f5f5f5 1px; border-left: solid #f5f5f5 1px;}
+	.submenu-option:hover 		{color:white; background-color: #1d8995; border-top: solid #1d8995 1px; border-right: solid #1d8995 1px; border-left: solid #1d8995 1px;transition: 0.5s;}
+.submenu-last 		{border-bottom: solid #f5f5f5 1px;}
+	
 
 
 

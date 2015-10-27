@@ -281,5 +281,3 @@
 
 
 
-    <!--SLIDER-->
-	<?php include 'slider.php'; ?>
