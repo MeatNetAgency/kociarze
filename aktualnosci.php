@@ -46,10 +46,11 @@
             
             <!-- SUBMENU:end -->
             
+             <div class="ninecol last">
             
             <!-- NEWS:begin -->
             
-            <div class="ninecol last">
+           
             	<div class="row">
                 	<div class="fourcol">
                     	<h2 class="first-title">Aktualności</h2>
@@ -94,14 +95,23 @@
                     		<br class="clear">
                 		</article>
                     </div>
-                    
+              	</div>
                     <!-- NEWS:end -->
                     
+                    
+                    
+                    
         
+                    <br/><br/>
+                    
+                    
+                    
+                    
+                    
                     
                     
                      <!-- FORUM DASHBOARD:begin -->
-                     
+                 <div class="row">
                     <div class="twelvecol">
                     
                     
@@ -184,14 +194,14 @@
      				</div>
                  
                  </div>
+               	</div>
                  <!-- FORUM DASHBOARD:end -->
                  
 
-                </div>
+    
             </div>
         </div>
   
-    
     </div>
     
     
