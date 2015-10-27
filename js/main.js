@@ -183,33 +183,43 @@ $(document).ready(function()
 	
 	
 	// gallery big photo
-	 $(".gallery-big-photo").mouseenter(function() 
-	 {
+	 $(".gallery-big-photo").hover(function() {
 		 $(".photo-background").css("visibility", "visible");
 		 $(".photo-des-content").css("visibility", "visible");
-	 });
-	 
-	  $(".gallery-big-photo").mouseleave(function() 
-	 {
+	 }, function() {
 		 $(".photo-background").css("visibility", "hidden");
 		 $(".photo-des-content").css("visibility", "hidden");
-	 });
-	 
+	});
 
 	 
-	 // gallery small photo
-	  $(".gallery-small-photo").mouseenter(function() 
-	 {
-		
+	// gallery small photo
+	$(".gallery-small-photo").hover(function() {
 		 $(this).find(".photo-background-s").css("visibility", "visible");
 		 $(this).find(".photo-des-content-s").css("visibility", "visible");
-	 });
-	 
-	  $(".gallery-small-photo").mouseleave(function() 
-	 {
+	 }, function() {
 		 $(this).find(".photo-background-s").css("visibility", "hidden");
 		 $(this).find(".photo-des-content-s").css("visibility", "hidden");
-	 });
+	});
+
+	
+	// gallery small photo (subpages)
+	$(".gallery-small-photo-sub").hover(function() {
+		 $(this).find(".photo-background-s").css("visibility", "visible");
+		 $(this).find(".photo-des-content-s").css("visibility", "visible");
+	 }, function() {
+		 $(this).find(".photo-background-s").css("visibility", "hidden");
+		 $(this).find(".photo-des-content-s").css("visibility", "hidden");
+	});
+
+
+
+
+
+
+
+
+
+
 	
 	
 	// tooltip
