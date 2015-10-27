@@ -248,6 +248,14 @@ $(document).ready(function()
 			}
     });
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	// accordion
 	
 	$(".date-show").click(function(){
@@ -270,6 +278,21 @@ $(document).ready(function()
 	});
 	
 	
+	
+	
+	
+	// challenge
+	
+	$(".challenge").mouseover(function(){
+		
+		$(".challenge").not($(this)).animate({
+			width: '16%'
+		});
+			
+		$(this).animate({
+			width: '35.9%'
+		});
+	});
 	
 	
 	setTimeout("resize()", 300);
