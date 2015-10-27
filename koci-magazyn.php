@@ -11,7 +11,7 @@
 	<?php include 'includes/subslider.php'; ?>
     <!-- SLIDER:end -->
     
-
+	<br>
         
     
 	<div class="container" id="content">
