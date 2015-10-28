@@ -16,27 +16,33 @@
             
         	<div class="threecol">
             	<ul id="sub-nav">
-                    	<li><a href="#" title="Tytuł strony">Level 0</a></li>
                         <li class="parent">
-                        	<a href="javascript:void();" title="Tytuł strony">Level 1</a>
+                        	<a href="javascript:void();" title="Tytuł strony" class="active">2015</a>
                             <ul>
-                            	<li><a href="#" title="Tytuł strony">Sublevel 1.1</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 1.2</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 1.3</a></li>
+                            	<li><a href="#" title="Tytuł strony" class="active">Grudzień</a></li>
+                                <li><a href="#" title="Tytuł strony">Listopad</a></li>
+                                <li><a href="#" title="Tytuł strony">Październik</a></li>
+                                <li><a href="#" title="Tytuł strony">Wrzesień</a></li>
                             </ul>
                        	</li>
                         <li class="parent">
-                        	<a href="javascript:void();" title="Tytuł strony" class="active">Level 2</a>
+                        	<a href="javascript:void();" title="Tytuł strony">2014</a>
                             <ul>
-                            	<li><a href="#" title="Tytuł strony" class="active">Sublevel 2.1</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 2.2</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 2.3</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 2.4</a></li>
-                                <li><a href="#" title="Tytuł strony">Sublevel 2.5</a></li>
+                            	<li><a href="#" title="Tytuł strony">Grudzień</a></li>
+                                <li><a href="#" title="Tytuł strony">Listopad</a></li>
+                                <li><a href="#" title="Tytuł strony">Październik</a></li>
+                                <li><a href="#" title="Tytuł strony">Wrzesień</a></li>
                             </ul>
                        	</li>
-                        <li><a href="#" title="Tytuł strony">Level 3</a></li>
-                        <li><a href="#" title="Tytuł strony">Level 4</a></li>
+                        <li class="parent">
+                        	<a href="javascript:void();" title="Tytuł strony">2013</a>
+                            <ul>
+                            	<li><a href="#" title="Tytuł strony">Grudzień</a></li>
+                                <li><a href="#" title="Tytuł strony">Listopad</a></li>
+                                <li><a href="#" title="Tytuł strony">Październik</a></li>
+                                <li><a href="#" title="Tytuł strony">Wrzesień</a></li>
+                            </ul>
+                       	</li>
                 </ul>
             </div>
             

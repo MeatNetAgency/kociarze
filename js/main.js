@@ -317,7 +317,7 @@ $(document).ready(function()
 	
 	// subnavigation - subpages
 	// 1.show active elements
-	
+	$("#sub-nav .parent .active").parent().find("ul").show();
 	
 	$("#sub-nav .parent").click(function() {
 		$(this).find("ul").slideToggle(300);	
