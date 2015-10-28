@@ -295,8 +295,9 @@
                             <input type="email" placeholder="email" name="email" />
                             <input type="password" placeholder="hasło" name="password" />
                             <div style="text-align:left;">
-                            <span><strong>Zapomniałeś hasła?</strong><br><a href="#">Kliknij tutaj</a></span>
                             <button class="button button-white fright">zaloguj się</button>
+                            <span><strong>Zapomniałeś hasła?</strong><br><a href="#">Kliknij tutaj</a></span>
+                            
                             <br class="clear">
                             <hr />
                             <h4>Logowanie przez Facebook</h4>
