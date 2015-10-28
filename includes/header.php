@@ -296,7 +296,7 @@
                             <input type="password" placeholder="hasło" name="password" />
                             <div style="text-align:left;">
                             <button class="button button-white fright">zaloguj się</button>
-                            <span><strong>Zapomniałeś hasła?</strong><br><a href="#">Kliknij tutaj</a></span>
+                            <span><strong>Zapomniałeś hasła?</strong><br><a href="haslo.php" class="underline">Kliknij tutaj</a></span>
                             
                             <br class="clear">
                             <hr />

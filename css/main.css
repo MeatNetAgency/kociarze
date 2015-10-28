@@ -32,7 +32,7 @@ a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
 
 p												{margin-bottom:15px;}
-
+.underline									{text-decoration:underline!important;}
 .clear										{clear:both;}
 .fright										{float:right;}
 .fleft											{float:left;}
@@ -216,7 +216,6 @@ nav ul li a:hover  										{color:#1d8995 !important;}
 #login-link .login-box	 a,
 #login-link .login-box	 strong,
 #login-link .login-box	 p 							{color:white; font-size:0.9em; line-height:120%!important;font-size:0.9em; font-weight:400;;}
-#login-link .login-box	 a								{text-decoration:underline;}
 #login-link .login-box	 a:hover						{color:#333;}
 #login-link .login-box hr								{border:none; height:1px; background:white; margin:15px 0px; opacity:0.7;}
 
