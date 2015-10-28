@@ -272,17 +272,17 @@ $(document).ready(function()
 	
 	
 	// challenge
-	
-	$(".chall-accor").mouseover(function()
+
+	$(".accor").mouseover(function()
 	
 	{
 		
-		$(".chall-accor").not($(this)).animate({
-			width: '16%'
+		$(".accor").not($(this)).animate({
+			width: '19%'
 		});
 			
 		$(this).animate({
-			width: '35.9%'
+			width: '24%'
 		});
 	});
 	
