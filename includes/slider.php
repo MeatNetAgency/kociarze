@@ -13,7 +13,6 @@
                         <div class="flex-caption">
                         	<h1>Dołącz do klubu Kociarza!</h1>
                             <h2>Klub Kociarze - nowe miejsce na mapie naszego serwisu.<br>Dołącz do nas, na pierwszych 400 klubowiczów<br>czeka upominek.</h2>
-                        	<br>
                             <a class="button button-teal" href="#" title="Dołącz" >Dołącz &nbsp; &nbsp; &#x279d;</a>
                     		<br class="clear">
                         </div>
@@ -25,7 +24,6 @@
                     	<div class="flex-caption">
                         	<h1>Dołącz do klubu Kociarza!</h1>
                             <h2>Klub Kociarze - nowe miejsce na mapie naszego serwisu.<br>Dołącz do nas, na pierwszych 400 klubowiczów<br>czeka upominek.</h2>
-                        	<br>
                             <a class="button button-teal" href="#" title="Dołącz">Dołącz &nbsp; &nbsp; &#x279d;</a>
                     		<br class="clear">
                         </div>

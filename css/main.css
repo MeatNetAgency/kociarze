@@ -318,10 +318,10 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 /* SLIDER */
-#main-slider						{position:relative; margin:0 auto; z-index:1; max-width:2458px;} 
+#main-slider						{position:relative; margin:0 auto; z-index:1; max-width:2560px;} 
 #main-slider	.button			{font-size:1.4em; font-weight:400; padding:15px 30px; text-shadow: 0px 0px;}
 .flexslider							{position:relative;}
-.flex-caption						{position:absolute; top:0;padding-top:1.6%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
+.flex-caption						{position:absolute; top:0;padding-top:1.5%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
 
 
 
