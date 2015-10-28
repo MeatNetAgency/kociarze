@@ -1,5 +1,4 @@
-<!doctype html>
-<html>
+<!doctype html><html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Kociarze.pl</title>
@@ -23,12 +22,12 @@
         <!--JS MAIN-->
         <script src="js/main.js"></script>
         
-        <!-- CSS TOOLTIP -->
-        <link rel="Stylesheet" type="text/css" href="css/tooltip.css" />
-            
         <!--CSS GRID 1280 PX-->
         <link rel="Stylesheet" type="text/css" href="css/grid.css" />
         
+        <!-- CSS TOOLTIP -->
+        <link rel="Stylesheet" type="text/css" href="css/tooltip.css" />
+                    
         <!-- GOOGLE FONTS: LATO -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
                         
@@ -46,8 +45,8 @@
     
     	<!--BUY NOW-->
         
-        	<div class="buy-now" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
-        	<div class="buy-now-mobile" ><a href="#" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
+        	<div class="buy-now" ><a href="javascript:void();" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
+        	<div class="buy-now-mobile" ><a href="javascript:void();" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
        
        
 		
@@ -62,17 +61,17 @@
         <div id="mobile-menu">
         	<div>	
             	<h4 class="fleft">MENU:</h4>
-                <a href="#" id="close-mobile-menu" title="Zamknij menu" class="tooltip">&#10006;</a>
+                <a href="javascript:void();" id="close-mobile-menu" title="Zamknij menu" class="tooltip">&#10006;</a>
                 <br class="clear">
                     <ul>
                         <li><a href="index.php" title="Strona główna">strona główna</a></li>
-                        <li><a href="#" title="Aktualności" style="display:inline-block;">aktualności</a></li>
-                        <li><a href="#" title="Koci magazyn">koci magazyn</a></li>
-                        <li><a href="#" title="Wyzwanie">wyzwanie</a></li>
-                        <li><a href="#" title="Forum">forum</a></li>
-                        <li><a href="#" title="Blogi">blogi</a></li>
-                        <li><a href="#" title="Klub">klub</a></li>
-                        <li><a href="#" title="Produkty">produkty</a></li>
+                        <li><a href="aktualnosci.php" title="Aktualności" style="display:inline-block;">aktualności</a></li>
+                        <li><a href="koci-magazyn.php" title="Koci magazyn">koci magazyn</a></li>
+                        <li><a href="wyzwanie.php" title="Wyzwanie">wyzwanie</a></li>
+                        <li><a href="forum.php" title="Forum">forum</a></li>
+                        <li><a href="blogi.php" title="Blogi">blogi</a></li>
+                        <li><a href="klub.php" title="Klub">klub</a></li>
+                        <li><a href="produkty.php" title="Produkty">produkty</a></li>
                     </ul> 
             </div>
         </div>
@@ -108,11 +107,11 @@
     	<div class="row">
             <div class="twelvecol top-icons">
             	<span id="test-response"></span>
-            	<a href="#" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
+            	<a href="konto.php" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
 				<a href="javascript:void();" title="Znajomi" class="open-panel tooltip"><img src="img/admin-img-1.png" alt="znajomi"/><span class="count">12</span></a>
                	<a href="javascript:void();" title="Wiadmości" class="open-panel tooltip"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
                	<a href="javascript:void();" class="open-panel tooltip" title="Wydarzenia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
-           		<a href="#" title="Wyloguj" class="tooltip"><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
+           		<a href="wyloguj.php" title="Wyloguj" class="tooltip"><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
             </div>
             
             
@@ -201,6 +200,27 @@
        
        
        
+       
+       
+     
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
         
         
     
@@ -241,21 +261,22 @@
                 <nav>
                     <ul>
                         <li><a id="home" href="index.php" title="Strona główna"><img  src="img/ikona-home.png" alt="Strona główna"/></a></li>
-                        <li><a href="#" title="Aktualności" style="display:inline-block;">aktualności</a></li>
-                        <li><a href="#" title="Koci magazyn">koci magazyn</a></li>
-                        <li><a href="#" title="Wyzwanie">wyzwanie</a></li>
-                        <li><a href="#" title="Forum">forum</a></li>
-                        <li><a href="#" title="Blogi">blogi</a></li>
-                        <li><a href="#" title="Klub">klub</a></li>
-                        <li><a href="#" title="Produkty">produkty</a></li>
+                        <li><a href="aktualnosci.php" title="Aktualności" style="display:inline-block;">aktualności</a></li>
+                        <li><a href="koci-magazyn.php" title="Koci magazyn">koci magazyn</a></li>
+                        <li><a href="wyzwanie.php" title="Wyzwanie">wyzwanie</a></li>
+                        <li><a href="forum.php" title="Forum">forum</a></li>
+                        <li><a href="blogi.php" title="Blogi">blogi</a></li>
+                        <li><a href="klub.php" title="Klub">klub</a></li>
+                        <li><a href="produkty.php" title="Produkty">produkty</a></li>
                     </ul> 
                 </nav>
             </div>
             <div id="menu-spacer">&nbsp;</div>
+            <form id="search-form" action="szukaj.php" method="post">
             <div class="threecol last" id="search-box">
             	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE" /><a href="javascript:void();"><span id="search-button">&nbsp;</span></a></div>
             </div>
-            
+            </form>
         </div>
         <!-- Main menu:end -->
         
@@ -264,9 +285,31 @@
         <div class="row">
         	<div class="ninecol"></div>
             <div class="threecol last">
-                <div id="login-link">
-                	<a href="#" title="Zaloguj się"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a>
-                </div>        
+            	<form id="login-form">
+                    <div id="login-link">
+                        <div class="link"><a href="javascript:void();" title="Zaloguj się"><img src="img/ikona-person.png" alt="Zaloguj się" /> zaloguj się &nbsp; &nbsp; &nbsp; &nbsp;&#x2192;</a></div>
+                        <div class="login-box">
+                            <h4 class="fleft">Logowanie</h4>
+                            <a href="javascript:void();" id="close-login-box" title="Zamknij okno" class="tooltip">&#10006;</a>
+                            <br class="clear">
+                            <input type="email" placeholder="email" name="email" />
+                            <input type="password" placeholder="hasło" name="password" />
+                            <div style="text-align:left;">
+                            <span><strong>Zapomniałeś hasła?</strong><br><a href="#">Kliknij tutaj</a></span>
+                            <button class="button button-white fright">zaloguj się</button>
+                            <br class="clear">
+                            <hr />
+                            <h4>Logowanie przez Facebook</h4>
+                            <p>Logowanie dostępne dla osób, które nie posiadają konta na kociarze.pl</p>
+                            <button class="button button-facebook">zaloguj się przez Facebook</button>
+                            <hr />
+                            <h4>Nie masz jeszcze konta?</h4>
+                            <p>Aby w pełni korzystać z serwisu kociarze.pl zarejestruj się</p>
+                            <button class="button button-white-register">zarejestruj się</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <!-- Login:end -->
@@ -275,9 +318,4 @@
     </div>
     <!-- HEADER:end -->
     </div>
-    
-
-
-
-
-
+   

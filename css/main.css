@@ -24,7 +24,9 @@ h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
 
-h2, h3, h4								{margin:10px 0; color:#444444; font-weight:400;}
+h2, h3, h4									{margin:10px 0; color:#444444; font-weight:400;}
+
+strong										{font-weight:400;}
 
 a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
@@ -50,11 +52,14 @@ p												{margin-bottom:15px;}
 .button-grey:hover						{background:#1d8995; transition:0.3s; text-decoration:none; color:white;}
 .button-teal								{background:#1d8995;}
 .button-teal:hover						{background:#424242; transition:0.3s; text-decoration:none; color:white;}
+.button-white								{background:white !important; padding:8px 12px !important; color:#1d8995 !important; font-weight:700; font-size:0.85em; cursor:pointer; border:none;}
+.button-white:hover					{background:#424242 !important; transition:0.3s; text-decoration:none; color:white !important;}
 
+.button-facebook 						{background:#3b5998 !important; color:white; border:none;cursor:pointer;padding:8px 12px !important; font-weight:700; vertical-align:middle; width:100%; font-size:0.85em; }
+.button-facebook:hover				{background:#424242 !important; transition:0.3s; text-decoration:none; }
 
-
-
-
+.button-white-register				{background:white !important; padding:8px 12px !important; color:#1d8995 !important; font-weight:700; font-size:0.85em; cursor:pointer; border:none; width:100%;}
+.button-white-register:hover		{background:#424242 !important; transition:0.3s; text-decoration:none; color:white !important;}
 
 
 
@@ -179,34 +184,46 @@ p												{margin-bottom:15px;}
 
 
 /* HEADER */
-#top-container					{width:100%; position:absolute;top:50px; z-index:1000;}
-#header							{z-index:100!important;}
+#top-container											{width:100%; position:absolute;top:50px; z-index:1000;}
+#header													{z-index:100!important;}
 
 
-nav 									{text-align: center; background-color: #373a3b; height:75px; z-index:2;}
-nav ul li 							{display:inline; vertical-align:middle;}
-nav ul li a 							{display:inline-block; text-decoration: none; color:white !important; font-weight:700; padding:27px 17px 27px 17px;vertical-align:middle;}
-nav ul li a:hover  				{color:#1d8995 !important;}
-#home								{padding:25px 17px 22px 17px !important;}
+nav 															{text-align: center; background-color: #373a3b; height:75px; z-index:2;}
+nav ul li 													{display:inline; vertical-align:middle;}
+nav ul li a 													{display:inline-block; text-decoration: none; color:white !important; font-weight:700; padding:27px 17px 27px 17px;vertical-align:middle;}
+nav ul li a:hover  										{color:#1d8995 !important;}
+#home														{padding:25px 17px 22px 17px !important;}
 
-#nav-border-top				{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
-#nav-border-bottom			{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:75px; display:none;}
+#nav-border-top										{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:-3px; display:none;}
+#nav-border-bottom									{position:absolute; background:#1d8995; height:3px; z-index:50 !important; margin-top:75px; display:none;}
+		
+#menu-spacer											{position: absolute; background-color: #373a3b; height:75px; z-index:1; }
 
-#menu-spacer					{position: absolute; background-color: #373a3b; height:75px; z-index:1; }
+#search														{background-color: #373a3b; height:75px; text-align:center; color:white; }
+#search	 input[type=text]							{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; border:none; margin-top:20px; width:80%;}
+#search-button											{background:transparent; height:33px; width:32px; cursor:pointer; float:right; position:absolute; z-index:999; margin-left:-33px; margin-top:21px;}
+#purinaone-logo img									{margin-top:15px;}
+#kociarze-logo											{background-color: #373a3b; text-align:center; padding:20px;}
+#login-link													{padding:0; height:56px;background-color: #1d8995;}
+#login-link .link a										{display:block; color:white!important; font-weight:400; padding:15px;text-align:center; opacity:0.8;}
+#login-link .link a:hover								{opacity:1; transition:0.5s;}
+#login-link img											{vertical-align:middle; margin-right:15px;}
+#login-link .login-box									{padding:10px 20px 20px 20px; text-align:center; margin:0; display:none; color:white !important;}
+#login-link .login-box	 input[type=email],
+#login-link .login-box	 input[type=password]	{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; vertical-align:middle; border:none; margin-top:0px; width:93%; margin-bottom:10px;}
+#login-link .login-box h4							{color:white; margin-top:0px; font-weight:700;}
+#login-link .login-box	 span,
+#login-link .login-box	 a,
+#login-link .login-box	 strong,
+#login-link .login-box	 p 							{color:white; font-size:0.9em; line-height:120%!important;font-size:0.9em; font-weight:400;;}
+#login-link .login-box	 a								{text-decoration:underline;}
+#login-link .login-box	 a:hover						{color:#333;}
+#login-link .login-box hr								{border:none; height:1px; background:white; margin:15px 0px; opacity:0.7;}
 
-#search								{background-color: #373a3b; height:75px; text-align:center; color:white; }
-#search	 input[type=text]	{padding:10px; font-size: 0.75em; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; background-image:url("../img/ikona-lupa.png"); background-size:8%; background-position:95%;background-repeat: no-repeat; vertical-align:middle; border:none; margin-top:20px; width:75%;}
-#search-button					{background:transparent; height:33px; width:32px; cursor:pointer; float:right; position:absolute; z-index:999; margin-left:-33px; margin-top:21px;}
-#purinaone-logo img			{margin-top:15px;}
-#kociarze-logo					{background-color: #373a3b; text-align:center; padding:20px;}
-#login-link							{  padding:0;}
-#login-link a						{display:block; color:white!important;background-color: #1d8995; font-weight:400; padding:15px;text-align:center; opacity:0.8;}
-#login-link a:hover				{opacity:1; transition:0.5s;}
-#login-link img					{vertical-align:middle; margin-right:15px;}
-	
-#row-spacer						{position:absolute; left:0px; height:75px; background-color: #373a3b; z-index:0}	
+#close-login-box  										{float:right;}
+#close-login-box a										{font-weight:900; font-size:2em !important; text-decoration:none !important;}
 
-
+#row-spacer												{position:absolute; left:0px; height:75px; background-color: #373a3b; z-index:0}	
 
 
 
@@ -301,7 +318,11 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
-
+/* SLIDER */
+#main-slider						{position:relative; margin:0 auto; z-index:1; max-width:1800px;} 
+#main-slider	.button			{font-size:1.4em; font-weight:400; padding:15px 30px; text-shadow: 0px 0px;}
+.flexslider							{position:relative;}
+.flex-caption						{position:absolute; top:0;padding-top:2%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
 
 
 
@@ -358,11 +379,6 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
-/* SLIDER */
-#main-slider						{position:relative; margin:0 auto; z-index:1; max-width:1440px;} 
-#main-slider	.button			{font-size:1.4em; font-weight:400; padding:15px 30px; text-shadow: 0px 0px;}
-.flexslider							{position:relative;}
-.flex-caption						{position:absolute; top:0;padding-top:2%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
 
 
 
@@ -374,17 +390,8 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 
 
-/* SUBMENU */
-.submenu							{ padding: 8% 12%; font-size: 1.3em; text-align:left; color: #373a3b; font-weight: bold; text-align:left; border-top: solid #f5f5f5 1px; border-right: solid #f5f5f5 1px; border-left: solid #f5f5f5 1px;}
-	.submenu:hover 			{color: white!important; background-color:#1d8995!important; border-top: solid #1d8995 1px; border-right: solid #1d8995 1px; border-left: solid #1d8995 1px; transition: 0.5s;}
-.submenu-first 				{background-color: #1d8995; color:white;}
-.submenu-last 				{border-bottom: solid #f5f5f5 1px;}
-	.submenu-last:hover 	{border-bottom: solid #1d8995 1px;}
-.submenu-months 			{display:none; background-color:#f5f5f5!important; padding: 3% 5%;}
-.submenu-months 	li 		{list-style-type:none; padding: 5% 0%; }
 
-.submenu-month a 			{font-size:1.4em!important; color: #373a3b; font-weight:bold}
-.submenu-month a:hover		{color: #1d8995!important;}
+
 
 
 

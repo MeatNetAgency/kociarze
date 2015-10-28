@@ -1,5 +1,4 @@
-﻿    <!-- HEADER:begin -->
-	<?php include 'includes/header.php'; ?>
+﻿	<?php include 'includes/header.php'; ?>
     <!-- HEADER:end -->
     
     

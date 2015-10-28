@@ -22,13 +22,7 @@ function resize()
 $(document).ready(function()
 {
 	
-	//slider
-	$('.flexslider').flexslider(
-	{
-		animation: "slide",
-		directionNav: false,
-		controlNav: false
-	});
+	
 	
 	
 	
@@ -45,7 +39,6 @@ $(document).ready(function()
 		$(".panel-roll").hide();
 		$("#response").html($(document).width());
 		
-		//$("#test-response").html($("#top-bar").outerHeight());
 		
 	});
 	
@@ -114,10 +107,7 @@ $(document).ready(function()
 	
 		
 	// tabs uzytkownicy, filmy, zdjecia
-	$(function() 
-	{
-    	$( "#tabs" ).tabs();
- 	});
+    $( "#tabs" ).tabs();
 	
 	
 	
@@ -298,4 +288,31 @@ $(document).ready(function()
 	setTimeout("resize()", 300);
 	
 	
+	
+	$("#search-button").click(function() {
+		$("#search-form").submit();
+	});
+	
+	
+	
+	
+	$("#login-link").click(function() {
+		$(this).css("height", "auto").css("max-height", "auto").css("opacity","1.0");	
+		$(".link").hide();
+		$(".login-box").slideDown(300);
+	});
+	
+	
+	
 }); 
+
+
+$(window).load(function() {
+	//slider
+	$('.flexslider').flexslider(
+	{
+		animation: "slide",
+		directionNav: false,
+		controlNav: false
+	});
+});
