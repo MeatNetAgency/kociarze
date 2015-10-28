@@ -8,7 +8,7 @@
                 
                 	<!--FIRST SLIDER-->
                     <li>
-                    	<img src="img/layer-main.png" alt="slide1" />
+                    	<img src="img/slide.jpg" alt="slide1" />
                         
                         <div class="flex-caption">
                         	<h1>Dołącz do klubu Kociarza!</h1>
@@ -21,7 +21,7 @@
                     
                     <!--SECOND SLIDER-->
                     <li>
-                    	<img src="img/layer-main.png" alt="slide2" />  
+                    	<img src="img/slide.jpg" alt="slide2" />
                     	<div class="flex-caption">
                         	<h1>Dołącz do klubu Kociarza!</h1>
                             <h2>Klub Kociarze - nowe miejsce na mapie naszego serwisu.<br>Dołącz do nas, na pierwszych 400 klubowiczów<br>czeka upominek.</h2>
