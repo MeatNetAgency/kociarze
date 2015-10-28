@@ -312,8 +312,8 @@
                             
                             <!-- small photos:begin -->
                             <div class="gallery-small-photo">
-                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
-                                <div class="photo-background-s"></div>	
+                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	
+                                <div class="photo-background-s"></div>	<!-- BACKGROUND -->
                                 <div class="photo-des-content-s ">
                                     <div class="photo-text-padding-s">
                                         <div class="cats-name-s">NAZWA KOTA</div>

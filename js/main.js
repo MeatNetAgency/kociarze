@@ -269,22 +269,64 @@ $(document).ready(function()
 	
 	
 	
-	
+			
 	
 	// challenge
 
-	$(".accor").mouseover(function()
 	
+	$(".accor").hover(function()
 	{
 		
-		$(".accor").not($(this)).animate({
-			width: '19%'
+		$(".accor").stop(true, true).not($(this)).animate(
+		{
+			width: '18.9%'
 		});
-			
-		$(this).animate({
-			width: '24%'
+		$(this).stop(true, true).animate(
+		{
+			width: '23.9%'
 		});
+		$(this).find(".accor-back").stop(true, true).animate(
+		{
+			opacity: '0.0'
+		});
+		$(this).find(".accor-content").stop(true, true).show('blind');
+		$(this).find(".accor-header").stop(true, true).animate(
+		{
+			top: '45%'
+		});
+		$(this).find(".accor-subheader").stop(true, true).animate(
+		{
+			top: '55%'
+		});
+		
+		
+	}, function()
+	{
+		$(".accor").stop(true, true).animate(
+		{
+			width: '19.9%'
+		});
+		$(this).find(".accor-back").stop(true, true).animate(
+		{
+			opacity: '0.5'
+		});
+		$(this).find(".accor-content").stop(true, true).hide('blind');
+		$(this).find(".accor-header").stop(true, true).animate(
+		{
+			top: '60%'
+		});
+		$(this).find(".accor-subheader").stop(true, true).animate(
+		{
+			top: '75%'
+		});
+	
 	});
+	
+	
+	
+	
+	
+	
 	
 	
 	setTimeout("resize()", 300);
