@@ -46,7 +46,7 @@
                     <div class="date">Data: 22.05.2015</div>
                     <br class="clear">
                     <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
-                    <a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <a class="button button-grey " href="page.php"  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
                     <br class="clear">
                 </article>
             </div>
@@ -58,7 +58,7 @@
                     <div class="date">Data: 22.05.2015</div>
                     <br class="clear">
                     <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
-                    <a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <a class="button button-grey " href="page.php"  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
                     <br class="clear">
                 </article>
             </div>
@@ -70,7 +70,7 @@
                     <div class="date">Data: 22.05.2015</div>
                     <br class="clear">
                     <p>Drodzy Kociarze, gratulujemy wszystkim uczestnikom i laureatom konkursu towarzyszącemu 3-tygodniowemu wyzwaniu. Publikujemy długo...</p>
-                    <a class="button button-grey "  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
+                    <a class="button button-grey " href="page.php"  title="Czytaj dalej" >Czytaj dalej &nbsp; &nbsp; &#x279d;</a>
                     <br class="clear">
                 </article>
             </div>
