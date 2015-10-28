@@ -16,7 +16,17 @@
     
 	<div class="container" id="content">
     	<div class="row">
-        	<div class="threecol">NAV</div>
+        	<div class="threecol">
+            
+            	<ul id="sub-nav">
+                    	<li><a href="#" title="Nauka i zabawa">Nauka i zabawa</a></li>
+                        <li><a href="#" title="Psychologia" class="active">Psychologia</a></li>
+                        <li><a href="#" title="Język">Język</a></li>
+                        <li><a href="#" title="Adopcje i pomoc">Adopcje i pomoc</a></li>
+                        <li><a href="#" title="Rasy">Rasy</a></li>
+                </ul>
+            
+            </div>
             <div class="ninecol last">
             	<div class="row">
                 	
