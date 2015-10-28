@@ -232,12 +232,17 @@ nav ul li a:hover  										{color:#1d8995 !important;}
 
 
 
+/* SUB NAVIGATION */					
+#sub-nav													{border-bottom:1px solid #ddd;}
+#sub-nav li a												{padding:12px; display:block; border-top:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd; font-weight:700; color:#373a3b;}
+#sub-nav li a:hover									{background:#1d8995; color:white;}
+#sub-nav li ul li a										{background:url(../img/strzalka-teal.png) no-repeat 10px #f5f5f5; padding-left:40px;}
+#sub-nav li ul li a:hover								{background:url(../img/strzalka-white.png) no-repeat 10px #1d8995; color:white;}
 
+#sub-nav > li .active									{background:url(../img/strzalka-white.png) no-repeat 90% #1d8995; padding-right:40px; color:white;}
+#sub-nav .parent ul li .active						{color:#1d8995!important; background:url(../img/strzalka-teal.png) no-repeat 10px #f5f5f5 !important;}
 
-
-
-
-
+#sub-nav .parent ul									{display:none;}
 
 
 

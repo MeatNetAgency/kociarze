@@ -15,32 +15,28 @@
         	<!-- SUBMENU:begin -->
             
         	<div class="threecol">
-            	<ul>
-                	<span class="date-show">
-                    	<li class="submenu submenu-first" >Wszystkie</li>
-                    </span>
-                    <span class="date-show">
-                    	<li class="submenu" >2015</li>
-                    	<li class="submenu-months">
-                        	<ul>
-                            	<li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                            </ul>            
-                        </li>
-                    </span>
-                    <span class="date-show">
-                    	<li class="submenu submenu-last" >2014</li>
-                    	<li class="submenu-months">
-                        	<ul>
-                            	<li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                               <li class="submenu-month"><a href="#" title="Październik"><span class="footer-arrows-color">➝ &nbsp;&nbsp;&nbsp;</span>Październik</a></li>
-                            </ul>            
-                        </li>
-                    </span>
+            	<ul id="sub-nav">
+                    	<li><a href="#" title="Tytuł strony">Level 0</a></li>
+                        <li class="parent">
+                        	<a href="javascript:void();" title="Tytuł strony">Level 1</a>
+                            <ul>
+                            	<li><a href="#" title="Tytuł strony">Sublevel 1.1</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 1.2</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 1.3</a></li>
+                            </ul>
+                       	</li>
+                        <li class="parent">
+                        	<a href="javascript:void();" title="Tytuł strony" class="active">Level 2</a>
+                            <ul>
+                            	<li><a href="#" title="Tytuł strony" class="active">Sublevel 2.1</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 2.2</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 2.3</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 2.4</a></li>
+                                <li><a href="#" title="Tytuł strony">Sublevel 2.5</a></li>
+                            </ul>
+                       	</li>
+                        <li><a href="#" title="Tytuł strony">Level 3</a></li>
+                        <li><a href="#" title="Tytuł strony">Level 4</a></li>
                 </ul>
             </div>
             
