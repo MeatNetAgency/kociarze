@@ -273,9 +273,11 @@ $(document).ready(function()
 	
 	// challenge
 	
-	$(".challenge").mouseover(function(){
+	$(".chall-accor").mouseover(function()
+	
+	{
 		
-		$(".challenge").not($(this)).animate({
+		$(".chall-accor").not($(this)).animate({
 			width: '16%'
 		});
 			
