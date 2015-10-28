@@ -18,7 +18,7 @@
 /* GENERAL STYLES */
 *												{font-family: 'Lato', sans-serif; color:#373a3b; text-align:left; font-weight:300; line-height:160%;; font-size:14px;}
 
-h1 											{font-size:2.2em; font-weight:600;}
+h1 											{font-size:2.0em; font-weight:600;}
 h2 											{font-size:1.3em;}
 h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
@@ -204,8 +204,8 @@ nav ul li a:hover  										{color:#1d8995 !important;}
 #search-button											{background:transparent; height:33px; width:32px; cursor:pointer; float:right; position:absolute; z-index:999; margin-left:-33px; margin-top:21px;}
 #purinaone-logo img									{margin-top:15px;}
 #kociarze-logo											{background-color: #373a3b; text-align:center; padding:20px;}
-#login-link													{padding:0; height:56px;background-color: #1d8995;}
-#login-link .link a										{display:block; color:white!important; font-weight:400; padding:15px;text-align:center; opacity:0.8;}
+#login-link													{padding:0; height:56px;background-color: #1d8995; opacity:0.8;}
+#login-link .link a										{display:block; color:white!important; font-weight:400; padding:15px;text-align:center;}
 #login-link .link a:hover								{opacity:1; transition:0.5s;}
 #login-link img											{vertical-align:middle; margin-right:15px;}
 #login-link .login-box									{padding:10px 20px 20px 20px; text-align:center; margin:0; display:none; color:white !important;}
@@ -319,10 +319,10 @@ article h3 a:hover						{color:#1d8995 !important;}
 
 /* SLIDER */
 #main-slider						{position:relative; margin:0 auto; z-index:1; max-width:2560px;} 
-#main-slider	.button			{font-size:1.4em; font-weight:400; padding:15px 30px; text-shadow: 0px 0px;}
+#main-slider	.button			{font-size:1.4em; font-weight:400; padding:10px 30px; text-shadow: 0px 0px; margin-top:10px;}
 .flexslider							{position:relative;}
-.flex-caption						{position:absolute; top:0;padding-top:1.5%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
-
+.flex-caption						{position:absolute; top:0;padding-top:1.55%; padding-left:1%;  z-index:2; text-shadow: 1px 1px white;}
+.flex-caption h2					{font-size:1.2em;}
 
 
 

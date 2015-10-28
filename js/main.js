@@ -296,10 +296,16 @@ $(document).ready(function()
 	
 	
 	
-	$("#login-link").click(function() {
-		$(this).css("height", "auto").css("max-height", "auto").css("opacity","1.0");	
+	$("#login-link .link").click(function() {
+		$("#login-link").css("height", "auto").css("max-height", "auto").css("opacity","1.0");	
 		$(".link").hide();
 		$(".login-box").slideDown(300);
+	});
+	
+	$("#close-login-box").click(function() {
+		$("#login-link").css("opacity","0.8");		
+		$(".login-box").hide();
+		$(".link").slideDown(300);
 	});
 	
 	
