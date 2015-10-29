@@ -423,6 +423,13 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .opinions-margin {margin-top:2%}
 .opinion-title	{font-size: 1.5em; font-weight:bold; color:#1d8995}
 
+/* BLOGI */
+
+.forum-padding .right-border a {font-size:1em;}
+
+
+
+
 
 /* FOOTER */
 #footer								{background-color: #424242; }	
