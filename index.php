@@ -416,7 +416,7 @@
                                 
                                 <div class="date">Data: 22.05.2015</div>
                                 <h4>Nemo enim ipsam voluptatem quia</h4>
-                                <div class="replies"><a href="#" title="Odpowiedzi" 5 odpowiedzi</a></div>
+                                <div class="replies"><a href="#" title="Odpowiedzi">5 odpowiedzi</a></div>
                                 
                             </div>
                             </div>

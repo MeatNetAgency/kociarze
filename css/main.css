@@ -24,7 +24,7 @@ h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
 
-h2, h3, h4									{margin:10px 0; color:#444444; font-weight:400;}
+h2, h3, h4									{margin:0 0 10px 0; color:#444444; font-weight:400;}
 
 strong										{font-weight:400;}
 
@@ -32,6 +32,10 @@ a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
 
 p												{margin-bottom:15px;}
+hr												{border:none; height:1px; background:#ccc; margin:30px 0px 15px 0px; opacity:0.7;}
+
+
+
 .underline									{text-decoration:underline!important;}
 .clear										{clear:both;}
 .fright										{float:right;}
@@ -248,7 +252,7 @@ nav ul li a:hover  										{color:#1d8995 !important;}
 
 
 /* ARTICLE */
-article										{background-color:#F5F5F5; padding: 10px!important;}
+article										{background-color:#F5F5F5; padding: 15px!important;}
 article .author							{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}				
 article .date								{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
 article .comments						{color:#999999; font-size:0.9em; margin-bottom:15px; float:left; font-weight:400;}
@@ -257,6 +261,12 @@ article .button-grey					{float:right;}
 article h3 a								{color:#444444 !important;}
 article h3 a:hover						{color:#1d8995 !important;}
 
+article ul 									{list-style: none; padding:0; margin:0;}
+article ul li 									{padding-left: 1em; line-height:200%;}
+article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; margin-right:7px;}
+
+
+
 .news .date								{float:right;}
 
 .single-article .author					{margin-right:25px; margin-bottom:50px;}
@@ -264,6 +274,14 @@ article h3 a:hover						{color:#1d8995 !important;}
 .single-article .comments			{margin-right:0; margin-bottom:50px;}
 .single-article .button-grey			{float:right;}
 .single-article .button-teal			{float:left;}
+.single-article .header .photo		{max-height:150px; margin-bottom:15px; margin-right:15px; width:auto;}
+.single-article .header .date		{bottom:0;}
+
+.single-article .header .author	,	
+.single-article .header .date		{margin:0; float:none;}
+
+
+
 
 .forum										{padding:50px;}
 .forum .date								{float:none; margin-bottom:0px;}
