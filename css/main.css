@@ -280,7 +280,14 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .single-article .header .author	,	
 .single-article .header .date		{margin:0; float:none;}
 
-
+.article-comments						{background:none;}
+.article-comments .author,
+.article-comments .date				{margin:0; float:none;}
+.article-comments .row				{margin-bottom:10px;}
+.article-comments p					{margin:0px;}
+.article-comments a					{font-weight:700; margin-bottom:15px;}
+.article-comments input				{padding:7px; font-size:0.9em; width:95%;}
+.article-comments .sub-reply		{margin-top:15px; display:none;}
 
 
 .forum										{padding:50px;}

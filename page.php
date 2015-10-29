@@ -63,11 +63,48 @@
                             
                             
                             <h2>Komentarze:</h2>
-                            <div class="row article-comments">
-                            	<div class="onecol">gfx</div>
-                                <div class="elevencol last">sdfsdf</div>
-                            </div>
+                            <article class="article-comments">
+                                <div class="row">
+                                    <div class="onecol"><img src="img/user.jpg" /></div>
+                                    <div class="elevencol last">
+                                        <span class="author"><a href="profil.php">Amber</a></span>
+                                        <span class="date">dzisiaj, 12:01</span>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                        <div class="row"><a href="javascript: void();" title="Odpowiedz na komentarz" class="tooltip comment-reply">Odpowiedz.</a></div>
+                                        
+                                        <div class="sub-reply">
+                                            <div class="row">
+                                                <div class="onecol"><img src="img/user.jpg" /></div>
+                                                <div class="elevencol last"><input type="text" name="comment" placeholder="Napisz komentarz" /></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="onecol"><img src="img/user.jpg" /></div>
+                                            <div class="elevencol last">
+                                                <span class="author"><a href="profil.php">Admin</a></span>
+                                                <span class="date">dzisiaj, 12:01</span>
+                                                <p>Sed ut perspiciatis unde omnis iste natus error sit .</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="onecol"><img src="img/user.jpg" /></div>
+                                            <div class="elevencol last">
+                                                <span class="author"><a href="profil.php">Bunia</a></span>
+                                                <span class="date">dzisiaj, 12:01</span>
+                                                <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                             
+                            	<div class="row">
+									<div class="onecol"><img src="img/user.jpg" /></div>
+									<div class="elevencol last"><input type="text" name="comment" placeholder="Napisz komentarz" /></div>
+                            	</div>
+                            </article>
                             
                             
                             

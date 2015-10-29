@@ -371,6 +371,13 @@ $(document).ready(function()
 	
 	
 	
+	$(".comment-reply").click(function() {
+		$(this).parent().parent().find(".sub-reply").slideToggle(300);	
+	});
+	
+	
+	
+	
 	
 }); 
 
