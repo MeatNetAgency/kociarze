@@ -19,6 +19,9 @@
         <!-- JS TOOLTIP -->
         <script src="js/tooltip.min.js"></script>
         
+         <!-- JS SHOW MORE TEXT -->
+        <script src="js/showmoretext.js"></script>
+        
         <!--JS MAIN-->
         <script src="js/main.js"></script>
         

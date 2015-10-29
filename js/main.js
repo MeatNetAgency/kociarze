@@ -271,7 +271,7 @@ $(document).ready(function()
 	
 			
 	
-	// challenge
+	// challenge - ACCORDEON
 
 	
 	$(".accor").hover(function()
@@ -289,16 +289,7 @@ $(document).ready(function()
 		{
 			opacity: '0.0'
 		});
-		$(this).find(".accor-content").stop(true, true).show('blind');
-		$(this).find(".accor-header").stop(true, true).animate(
-		{
-			top: '45%'
-		});
-		$(this).find(".accor-subheader").stop(true, true).animate(
-		{
-			top: '55%'
-		});
-		
+		$(this).find(".accor-content").stop(true, true).show('toggle');
 		
 	}, function()
 	{
@@ -310,17 +301,25 @@ $(document).ready(function()
 		{
 			opacity: '0.5'
 		});
-		$(this).find(".accor-content").stop(true, true).hide('blind');
-		$(this).find(".accor-header").stop(true, true).animate(
-		{
-			top: '60%'
-		});
-		$(this).find(".accor-subheader").stop(true, true).animate(
-		{
-			top: '75%'
-		});
+		$(this).find(".accor-content").stop(true, true).hide('toggle');
 	
+
 	});
+	
+	
+	// SHOW MORE TEXT
+	
+$(".opinion-content").shorten({
+    "showChars" : 200
+});
+ 
+
+$(".opinion-content").shorten({
+    "showChars" : 500,
+    "moreText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Rozwiń &nbsp; &nbsp; &#10549;</p>",
+    "lessText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Ukryj &nbsp; &nbsp; &#10548;</p>",
+});
+	
 	
 	
 	
