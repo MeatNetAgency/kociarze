@@ -405,6 +405,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 /* CHALLANGE */
 #challenge-width	 {max-width:1440px;}
 .chall 					{position:relative;}
+.chall img				{display:block;}
 .chall-big-text-first	{position:absolute; top:5%; left:50%; font-size:2.5em; color:white; font-weight:bold; text-shadow: 2px 2px black;}
 .chall-big-text-second	{position:absolute; top:5%; left:10%; font-size:2.5em; color:white; font-weight:bold; text-shadow: 2px 2px black;}
 .chall-big-subtext  {position:absolute; top:35%; left:10%; font-size:1.5em; color:white; font-weight:bold; text-shadow: 2px 2px black;}

@@ -4,17 +4,23 @@
     
 
     <!-- SLIDER:begin -->
-	<?php include 'includes/slider.php'; ?>
+	<?php include 'includes/slider-chall.php'; ?>
     <!-- SLIDER:end -->
     
+    	
+    
 <div class="row" id="challenge-width" >
+
+
+
+		<!-- TESTUJ PRODUKTY:begin -->
 
   	<div class="chall" >
     	<img src="img/wyzwanie-kot-2.jpg" />
         <div class="chall-big-text-first">Testuj produkty PURINA ONE <br/> przez 3 tygodnie</div>
     </div>
     
-    
+		<!-- TESTUJ PRODUKTY:end -->
     
     
 
@@ -111,7 +117,14 @@
 		<div style="clear:both"></div>
         
 		<!-- ACCORDEON:end -->
-        
+     
+     
+     
+     
+     
+     
+     
+     <!-- DO DZIEŁA:begin -->
         
   	<div class="chall" >
     	<img src="img/wyzwanie-kot-3.jpg" />
@@ -120,8 +133,28 @@
         <a class="button button-teal chall-big-button" title="Do dzieła!">DO DZIEŁA! &nbsp; &nbsp; &#x279d; </a>
     </div>
     
+    <!-- DO DZIEŁA:end -->
     
-    <!-- OPINIONS:begin -->
+  
+  
+  
+  
+  
+  
+  
+  
+  <br/><br/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+<!-- OPINIONS:begin -->
 <div class="container">
     <div class="row">
     	<h2>Opinie</h2>
