@@ -289,6 +289,14 @@ $(document).ready(function()
 		{
 			opacity: '0.0'
 		});
+		$(this).find(".accor-header").stop(true, true).animate(
+		{
+			top: '45%'
+		});
+		$(this).find(".accor-subheader").stop(true, true).animate(
+		{
+			top: '53%'
+		});
 		$(this).find(".accor-content").stop(true, true).show('toggle');
 		
 	}, function()
@@ -300,6 +308,14 @@ $(document).ready(function()
 		$(this).find(".accor-back").stop(true, true).animate(
 		{
 			opacity: '0.5'
+		});
+		$(this).find(".accor-header").stop(true, true).animate(
+		{
+			top: '60%'
+		});
+		$(this).find(".accor-subheader").stop(true, true).animate(
+		{
+			top: '68%'
 		});
 		$(this).find(".accor-content").stop(true, true).hide('toggle');
 	

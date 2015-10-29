@@ -7,10 +7,11 @@
 	<?php include 'includes/slider.php'; ?>
     <!-- SLIDER:end -->
     
-    
+<div class="row" id="challenge-width" >
+
   	<div class="chall" >
     	<img src="img/wyzwanie-kot-2.jpg" />
-        <div class="chall-big-img">Testuj produkty PURINA ONE <br/> przez 3 tygodnie</div>
+        <div class="chall-big-text-first">Testuj produkty PURINA ONE <br/> przez 3 tygodnie</div>
     </div>
     
     
@@ -113,8 +114,10 @@
         
         
   	<div class="chall" >
-    	<img src="img/wyzwanie-kot-2.jpg" />
-        <div class="chall-big-img">Testuj produkty PURINA ONE <br/> przez 3 tygodnie</div>
+    	<img src="img/wyzwanie-kot-3.jpg" />
+        <div class="chall-big-text-second">Użyj narzędzia samooceny<br/> dostępnego w ramach programu<br/> i przekaż nam swoją opinię</div>
+        <div class="chall-big-subtext">Odpowiedz na kilka prostych pytań i przekonaj się,<br/> jaki wynik uzyska Twój kot.</div>
+        <a class="button button-teal chall-big-button" title="Do dzieła!">DO DZIEŁA! &nbsp; &nbsp; &#x279d; </a>
     </div>
     
     
@@ -131,7 +134,7 @@
 			Życzymy dużo przyjemności podczas oglądania ich pięknych zdjęć.
             </div>
         </div>
-    </div>
+     </div>
     
     
     
@@ -218,9 +221,7 @@
     
     
         
-        
-        
-
+</div>
     
     
     <!-- FOOTER:begin -->

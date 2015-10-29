@@ -34,8 +34,8 @@
 					$this.addClass('less');
 					$this.html(config.lessText);
 				}
-				$this.parent().prev().toggle();
-				$this.prev().toggle();
+				$this.parent().prev().toggle(500);
+				$this.prev().toggle(500);
 				return false;
 			}
 		}, '.morelink');
