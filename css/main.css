@@ -369,6 +369,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 
 
 /* GALLERY */
+
 .photo-gallery img 								{width:100%; display:block;}
 /* BIG PHOTO */
 .gallery-big-photo								{float:left; width:40%; position:relative;}
@@ -414,7 +415,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .friends .photo-text-padding-s .photo-data-s-left		{text-align:center; float:none;}
 .friends .photo-text-padding-s .photo-data-s-left		{position:relative; bottom:0;}
 .friends .photo-text-padding-s .photo-data-s-left a	{color:white !important; font-weight:400;text-align:center; float:none;}
-.friends .button-white 												{font-size:0.95em; margin: 10px 0px;}
+.friends .button-white 												{font-size:0.95em; margin: 10px 0px; text-align: center;}
 
 
 
@@ -452,7 +453,12 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 
 .forum-padding .right-border a {font-size:1em;}
 
-
+/* WYSZUKIWARKA */
+.seeker-user			{padding:4%; background-color:#f5f5f5;}
+.seeker-user-photo 	{width:100%; displau:block;}
+.seeker-article img 		{padding:20%; background-color:#f5f5f5;}
+.seeker-article h3 a		{font-weight:bold; font-size:1.3em;}
+.seeker-article .author  {margin-right:2%;}
 
 
 
@@ -533,7 +539,7 @@ nav ul li a 							{padding:27px 7px 27px 7px;}
 
 .title																{font-size:1.6em; margin-top:16px; margin-bottom:0px;}
 
-#main-menu													{display:none;}
+ #main-menu													{display:none;}
 #menu-spacer 												{display:none;}
 #row-spacer  												{display:none;}
 .buy-now														{display:none;}
