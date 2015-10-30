@@ -114,7 +114,7 @@
             <div class="twelvecol top-icons">
             	<span id="test-response"></span>
             	<a href="konto.php" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
-				<a href="javascript:void();" title="Znajomi" class="open-panel tooltip"><img src="img/admin-img-1.png" alt="znajomi"/><span class="count">12</span></a>
+				<a href="znajomi.php" title="Znajomi" class="tooltip"><img src="img/admin-img-1.png" alt="znajomi"/><span class="count">12</span></a>
                	<a href="javascript:void();" title="Wiadmości" class="open-panel tooltip"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
                	<a href="javascript:void();" class="open-panel tooltip" title="Wydarzenia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
            		<a href="wyloguj.php" title="Wyloguj" class="tooltip"><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
