@@ -12,13 +12,19 @@
     
     
     
+    <div class="row">
+    	<div class="twelvecol">
+        	<h1>Wyniki wyszukiwania:</h1>
+        </div>
+    </div>
     
+    <br/><br/>
     
     <!-- WYSZUKANI UZYTKOWNICY:begin -->
     
     	 <div class="row">
         	<div class="twelvecol">
-            	<h1 class="subtitle">Użytkownicy</h1>
+            	<h2 class="subtitle">Użytkownicy</h2>
         	</div>
 		</div>
     	<div class="row">
@@ -100,7 +106,7 @@
     <!-- WYSZUKANE ARTYKUŁY:begin -->
         <div class="row">
         	<div class="twelvecol">
-            	<h1 class="subtitle">Artykuły</h1>
+            	<h2 class="subtitle">Artykuły</h2>
         	</div>
 		</div>
         
@@ -149,7 +155,7 @@
     <!-- WYSZUKANE BLOGI:begin -->
        <div class="row">
         	<div class="twelvecol">
-            	<h1 class="subtitle">Blogi</h1>
+            	<h2 class="subtitle">Blogi</h2>
         	</div>
 		</div>
         
@@ -173,7 +179,7 @@
     <!-- WYSZUKANE WPISY FORUM:begin -->
        <div class="row">
         	<div class="twelvecol">
-            	<h1 class="subtitle">Forum</h1>
+            	<h2 class="subtitle">Forum</h2>
         	</div>
 		</div>
         
