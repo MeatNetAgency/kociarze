@@ -28,6 +28,114 @@ $(document).ready(function()
 	
 	
 	
+					$(".validate").validate({
+                        rules: {
+                            name: {
+                                required: true,
+								minlength: 2
+                            },
+                            surname: {
+                                required: true,
+								minlength: 2
+                            },
+                            username: {
+                                required: true,
+								minlength: 2
+                            },
+							email: {
+                                required: true
+                            },
+                            password: {
+                                required: true,
+                                pwcheck: true,
+                                minlength: 8
+                            },
+                            password2: {
+                                required: true,
+                                equalTo: "#password"
+                            },
+                            street: {
+                                required: true,
+								minlength: 2
+                            },
+							street_num: {
+                                required: true,
+								minlength: 2
+                            },
+							postal: {
+                                required: true,
+								postal: true,
+								minlength: 5
+                            },
+							city: {
+                                required: true,
+								minlength: 3
+                            },
+							regulations: {
+                                required: true
+                            }
+                        },
+                        messages: {
+                            name: {
+                                required: "&#8593; Podaj swoje imię",
+								minlength: "&#8593; Minimalna ilość znaków to 2"
+                            },
+                            surname: {
+                                required: "&#8593; Podaj swoje nazwisko",
+								minlength: "&#8593; Minimalna ilość znaków to 2"
+                            },
+                            username: {
+                                required: "&#8593; Wybierz nazwę użytkownika",
+								minlength: "&#8593; Minimalna ilość znaków to 2"
+                            },
+                            password: {
+                                required: "&#8593; Ustaw nowe hasło",
+                                pwcheck: "&#8593; Hasło mało skomplikowane",
+                                minlength: "&#8593; Hasło jest zbyt krótkie"
+                            },
+                            password2: {
+                                required: "&#8593; Wpisz ponownie hasło",
+                                equalTo: "&#8593; Wpisana wartość różni się od hasła"
+                            },
+                            email: {
+                                required: "&#8593; Podaj swój adres email",
+                                email: "&#8593; Niepoprawny format adresu email"
+                            },
+							postal: {
+								required: "&#8593; Podaj kod pocztowy",
+								postal: "Niepoprawny format kodu pocztowego",
+								minlength: "Minimalna ilość znaków to 5"
+							},
+							city: {
+								required: "&#8593; Podaj nazwę miasta",
+								minlength: "Minimalna ilość znaków to 3"
+							},
+							street: {
+								required: "&#8593; Podaj nazwę ulicy",
+								minlength: "Minimalna ilość znaków to 2"
+							},
+							street_num: {
+								required: "&#8593; Podaj numer ulicy / mieszkania",
+								minlength: "Minimalna ilość znaków to 2"
+							},
+							regulations: {
+								required: "&#8593; To pole jest obowiązkowe",
+							}
+                        }
+                    });
+
+                    $.validator.addMethod("pwcheck",
+                        function(value, element) {
+                            return /^[A-Za-z0-9\d=!\-@._*]+$/.test(value);
+                    });
+					
+					$.validator.addMethod("postal", 
+						function(value, element) { 
+							return this.optional(element) || /^\d{2}-\d{3}$/.test(value);
+					});
+	
+	
+	
 	
 	
 	
@@ -348,9 +456,6 @@ $(".opinion-content").shorten({
 	
 	
 	
-	$("#search-button").click(function() {
-		$("#search-form").submit();
-	});
 	
 	
 	

@@ -22,6 +22,9 @@
          <!-- JS SHOW MORE TEXT -->
         <script src="js/showmoretext.js"></script>
         
+        <!-- JS JQUERY VALIDATE -->
+        <script src="js/jquery.validate.js"></script>
+        
         <!--JS MAIN-->
         <script src="js/main.js"></script>
         
@@ -268,16 +271,15 @@
                         <li><a href="koci-magazyn.php" title="Koci magazyn">koci magazyn</a></li>
                         <li><a href="wyzwanie.php" title="Wyzwanie">wyzwanie</a></li>
                         <li><a href="forum.php" title="Forum">forum</a></li>
-                        <li><a href="blogi.php" title="Blogi">blogi</a></li>
-                        <li><a href="klub.php" title="Klub">klub</a></li>
+                        <li><a href="blogi.php" title="Blogi">blogi</a></li
+                        ><li><a href="klub.php" title="Klub">klub</a></li>
                         <li><a href="produkty.php" title="Produkty">produkty</a></li>
                     </ul> 
                 </nav>
             </div>
             <div id="menu-spacer">&nbsp;</div>
             <form id="search-form" action="szukaj.php" method="post">
-            <div class="threecol last" id="search-box">
-            	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE" /><a href="javascript:void();"><span id="search-button">&nbsp;</span></a></div>
+            <div class="threecol last" id="search-box">            	<div id="search"><input type="text" placeholder="SZUKAJ NA STRONIE" /><input type="submit" id="search-button" value=""></div>
             </div>
             </form>
         </div>
@@ -305,11 +307,11 @@
                             <hr />
                             <h4>Logowanie przez Facebook</h4>
                             <p>Logowanie dostępne dla osób, które nie posiadają konta na kociarze.pl</p>
-                            <button class="button button-facebook">zaloguj się przez Facebook</button>
+                            <a class="button button-facebook">zaloguj się przez Facebook</a>
                             <hr />
                             <h4>Nie masz jeszcze konta?</h4>
                             <p>Aby w pełni korzystać z serwisu kociarze.pl zarejestruj się</p>
-                            <button class="button button-white-register">zarejestruj się</button>
+                            <a class="button button-white-register" href="rejestracja.php">zarejestruj się</a>
                             </div>
                         </div>
                     </div>
