@@ -166,7 +166,7 @@
             </div>
             <div class="elevencol last">
                 <div><h3><a href="#" alt="Tytuł">Lorem ipsum</a><h3></div>
-                <div class="author fleft">Autor: <a href="#" title="Autor" >Admin </a></div>
+                <div class="author fleft">Autor: <a href="#" title="Autor" >Admin</a></div>
                 <div class="date"> Data: 22.05.2015</div>
             </div>
 		</div>

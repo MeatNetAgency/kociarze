@@ -445,6 +445,26 @@ $(".opinion-content").shorten({
 });
 	
 	
+	// BORDER IN MESSAGE PANEL
+	
+	
+	var message = $(".messages").height();
+	var chat = $("#chat").height();
+	
+	if (message > chat)
+	{
+	
+	
+		$(".messages").css("border-right", "solid #ccc 1px");
+		$(".chat-box").css("border-left", "solid #ccc  0px");
+		$(".write-message").css("border-left", "solid #ccc  0px");
+	}
+	else
+	{
+		$(".messages").css("border-right", "solid #ccc 0px");
+		$(".chat-box").css("border-left", "solid #ccc  1px");
+		$(".write-message").css("border-left", "solid #ccc  1px");
+	}
 	
 	
 	
