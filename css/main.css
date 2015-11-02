@@ -72,11 +72,14 @@ button										{border:none; cursor:pointer;}
 
 
 
+/* FORM */
 
 
+#send-form input {width:440px; padding:2%; font-size:1.3em; font-weight:400; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; border: solid #CCC 1px;}
+#send-form textarea {width:440px; padding:2%; height:200px; border: solid #CCC 1px; border-radius:5px;}
 
 
-
+ #topic-submenu {background:transparent; width:2%!important; height:4%; padding:0%!important;  cursor:pointer; float:right; position:absolute; z-index:999; margin-left:-50px; border:0px; }
 
 
 
@@ -460,7 +463,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .seeker-article h3 a		{font-weight:bold; font-size:1.1em;}
 .seeker-article .author  {margin-right:2%;}
 
-/* WIADOMOSCI */
+/* MESSAGES */
 .messages	{border-top: solid 1px #ccc; border-left: solid 1px #ccc; border-right: solid 1px #ccc;}
 .messages .panel-message {border-bottom:solid 1px #ccc; padding:8px;}
 .messages img {width:20%; float:left; padding-right:2%;}
