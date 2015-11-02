@@ -449,7 +449,7 @@ $(".opinion-content").shorten({
 	
 	
 	var message = $(".messages").height();
-	var chat = $("#chat").height();
+	var chat = ($("#chat").height())+ ($(".delete-message").height());
 	
 	if (message > chat)
 	{
@@ -458,12 +458,14 @@ $(".opinion-content").shorten({
 		$(".messages").css("border-right", "solid #ccc 1px");
 		$(".chat-box").css("border-left", "solid #ccc  0px");
 		$(".write-message").css("border-left", "solid #ccc  0px");
+		$(".delete-message").css("border-left", "solid #ccc  0px");
 	}
 	else
 	{
 		$(".messages").css("border-right", "solid #ccc 0px");
 		$(".chat-box").css("border-left", "solid #ccc  1px");
 		$(".write-message").css("border-left", "solid #ccc  1px");
+		$(".delete-message").css("border-left", "solid #ccc  1px");
 	}
 	
 	
