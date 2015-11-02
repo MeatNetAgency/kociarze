@@ -67,6 +67,10 @@ $(document).ready(function()
 								postal: true,
 								minlength: 5
                             },
+							question: {
+								 required: true,
+								minlength: 20
+							},
 							city: {
                                 required: true,
 								minlength: 3
@@ -105,6 +109,10 @@ $(document).ready(function()
 								required: "&#8593; Podaj kod pocztowy",
 								postal: "Niepoprawny format kodu pocztowego",
 								minlength: "Minimalna ilość znaków to 5"
+							},
+							question: {
+								required: "&#8593; Napisz wiadomość",
+								minlength: "&#8593; Wiadomość jest za krótka."	
 							},
 							city: {
 								required: "&#8593; Podaj nazwę miasta",
