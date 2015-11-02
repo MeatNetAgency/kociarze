@@ -477,6 +477,12 @@ $(".opinion-content").shorten({
 	}
 	
 	
+	// SUCCESS OF SENDING MESSAGE
+	
+	
+		$("#message-success").fadeIn(1500);
+		$("#message-success").fadeOut(2500);
+
 	
 	
 	

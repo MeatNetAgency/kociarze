@@ -54,7 +54,7 @@
                     	  <h2><label for="Treść">Treść</label></h2>
                     </div>
                     <div class="sixcol">
-                    	   <textarea name="question"></textarea>
+                    	   <textarea type="text" name="question"></textarea>
                     </div>
                     <div class="fourcol last"></div>                               
                 </div>

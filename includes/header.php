@@ -49,13 +49,20 @@
     
     
     
-    	<!--BUY NOW-->
+    	<!--BUY NOW:begin-->
         
         	<div class="buy-now" ><a href="javascript:void();" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><br>kup teraz</a></div>
         	<div class="buy-now-mobile" ><a href="javascript:void();" title="Kup teraz!"><img src="img/ikona-lapa.png" alt="Kup teraz"/><span>kup teraz</span></a></div>
+            
+        <!--BUY NOW:end-->
        
        
-		
+		 <!-- MESSAGE SUCCESS:begin -->
+        <div id="message-success" style="position:fixed; width:100%; text-align:center; padding:2% 0%;  z-index:99999; background-color:green; font-size:1.4em; color:white; opacity:0.9; display:none; ">
+        Wiadomość została wysłana. Dziękujemy.
+        </div>
+        
+        <!-- MESSAGE SUCCESS:end -->
         
         
         
@@ -319,6 +326,9 @@
             </div>
         </div>
         <!-- Login:end -->
+        
+
+        
         
         
     </div>
