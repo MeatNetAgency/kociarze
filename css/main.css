@@ -80,7 +80,8 @@ button										{border:none; cursor:pointer;}
 #send-form input  {width:440px; padding:2%; border: solid #CCC 1px; border-radius:5px; margin-bottom:2%;}
 #send-form label		{margin:0 0 10px 0; color:#444444; font-weight:400; font-size:1.0em;}	
 
-
+/* MESSAGE SUCCESS */
+#message-success {position:fixed; width:100%; text-align:center; padding:2% 0%;  z-index:99999; background-color:#1d8995; font-size:1.4em; color:white; opacity:0.9; display:none;}
 
 
 

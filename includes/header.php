@@ -58,7 +58,7 @@
        
        
 		 <!-- MESSAGE SUCCESS:begin -->
-        <div id="message-success" style="position:fixed; width:100%; text-align:center; padding:2% 0%;  z-index:99999; background-color:green; font-size:1.4em; color:white; opacity:0.9; display:none; ">
+        <div id="message-success">
         Wiadomość została wysłana. Dziękujemy.
         </div>
         

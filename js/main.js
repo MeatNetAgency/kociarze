@@ -479,10 +479,18 @@ $(".opinion-content").shorten({
 	
 	// SUCCESS OF SENDING MESSAGE
 	
+	//function success()
+	//{
+		$("#message-success").slideDown(1000);
+		setTimeout(hide_success_message, 3000);
+		function hide_success_message ()
+		{
+			$("#message-success").slideUp(1000);
+		}
+		
 	
-		$("#message-success").fadeIn(1500);
-		$("#message-success").fadeOut(2500);
-
+		
+	//}
 	
 	
 	
