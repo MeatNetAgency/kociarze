@@ -254,33 +254,29 @@
      
      
      <!-- USERS/MOVIES/PHOTOS:begin -->
-     <div id="tabs" class="container">
+     <div class="container">
+     
     	<!-- navigation:begin -->
         <div class="row">
             <div class="twelvecol ">
-            <div>
-            	<ul class="fleft">
-                	<li><a href="#uzytkownicy" title="Użytkownicy" ><h2>Użytkownicy</h2></a></li>
-               		<li><a href="#zdjecia" title="Zdjcia" ><h2>Zdjęcia</h2></a></li>
-                	
-                    <li><a href="#filmy" title="Filmy" ><h2>Filmy</h2></a></li>
-                </ul>
-            </div>
+            	<div>
+            		<div class="fleft title users"><h2>Użytkownicy</h2></div>
+               		<div class="fleft title photos active"><h2>Zdjęcia</h2></div>
+                	<div class="fleft title movies"><h2>Filmy</h2></div>
+            	</div>
             	<div class="arrow-nav fright">
                 	<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">64</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 </div>
             </div>
         </div>
         <!-- navigation:end -->
-        
-        
-        
+
         <!-- tabs content:begin -->
         <div class="row">
         	<div class="twelvecol media">
                 <article>
-                	<div id="uzytkownicy">wer</div>
-                    <div id="zdjecia">
+                	<div class="show-users">Users</div>
+                    <div class="show-photos">
                         <div class="photo-gallery">
                         
                             <!-- big photo:begin -->
@@ -342,7 +338,7 @@
                         </div>
                     </div>
                     
-                    <div id="filmy" >wer</div>
+                    <div class="show-movies">Movies</div>
             	</article>
 			</div>
             

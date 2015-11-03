@@ -223,11 +223,35 @@ $(document).ready(function()
 	
 		
 	// tabs uzytkownicy, filmy, zdjecia
-    $( "#tabs" ).tabs();
+    //$( "#tabs" ).tabs();
 	
 	
 	
-	
+	//new tabs
+	$(".photos").click(function(){
+		$(".show-photos").css("display", "block");
+		$(".show-movies").css("display", "none");
+		$(".show-users").css("display", "none");
+		$(".photos").addClass("active");
+		$(".movies").removeClass("active");
+		$(".users").removeClass("active");
+	});
+	$(".movies").click(function(){
+		$(".show-photos").css("display", "none");
+		$(".show-movies").css("display", "block");
+		$(".show-users").css("display", "none");
+		$(".photos").removeClass("active");
+		$(".movies").addClass("active");
+		$(".users").removeClass("active");
+	});
+	$(".users").click(function(){
+		$(".show-photos").css("display", "none");
+		$(".show-movies").css("display", "none");
+		$(".show-users").css("display", "block");
+		$(".photos").removeClass("active");
+		$(".movies").removeClass("active");
+		$(".users").addClass("active");
+	});
 	
 	
 	
