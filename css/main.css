@@ -468,7 +468,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 
 .forum-padding .right-border a {font-size:1em;}
 
-/* WYSZUKIWARKA */
+/* SEEKER */
 .seeker-user			{padding:4%; background-color:#f5f5f5;}
 .seeker-user-photo 	{width:100%; displau:block;}
 .seeker-article img 		{padding:20%; background-color:#f5f5f5;}
@@ -499,8 +499,10 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .write-message {background-color:#F5F5F5; padding:5%; border-bottom:solid 1px #CCC; border-right:solid 1px #CCC;}
 .write-message textarea {width:96%; height:40px; overflow:scroll; padding:2%; border:0px;}
 
-
-
+/* STRAND */
+.strand-main 	{background-color:#f5f5f5; border: solid #f5f5f5 1px; padding:3%;}
+.strand-main .date {color:#999999;}
+.strand-answer 	{padding:3%; border-left:solid #f5f5f5 1px; border-right:solid #f5f5f5 1px; border-bottom: solid #f5f5f5 1px; }
 
 
 

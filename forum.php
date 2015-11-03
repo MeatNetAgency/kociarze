@@ -144,11 +144,6 @@
                	</div>
                  <!-- FORUM DASHBOARD:end -->
                  
-                 <!-- WYSIWIG:begin -->
-                 <div>
-                 	EDYTOR TEKSTU DO WPISOW
-                 </div>
-                 <!-- WYSIWIG:end -->
 
     
             </div>
