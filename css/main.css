@@ -32,7 +32,7 @@ a 												{text-decoration:none; color: #1d8995; cursor:pointer}
 a:hover 										{text-decoration:none; color: #333333;}
 
 p												{margin-bottom:15px;}
-hr												{border:none; height:1px; background:#ccc; margin:30px 0px 15px 0px; opacity:0.7;}
+hr												{border:none; height:1px; background:#ccc; margin:30px 0px 30px 0px; opacity:0.7;}
 
 .center										{text-align:center !important;}
 
@@ -97,6 +97,7 @@ button										{border:none; cursor:pointer;}
 .buy-now-mobile img			{width:20px; vertical-align:middle; float:left; margin-right:15px; margin-top:5px;}
 .buy-now-mobile span		{float:left; padding-top:3px;}
 .buy-now-mobile:hover		{background-color:#197575; transition: 0.3s;}
+
 
 
 
@@ -421,7 +422,10 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .friends .photo-text-padding-s .photo-data-s-left a	{color:white !important; font-weight:400;text-align:center; float:none;}
 .friends .button-white 												{font-size:0.95em; margin: 10px 0px; text-align: center;}
 
+/* USER PROFIL */
+.user h1 {color: #1d8995;}
 
+.profile-info {font-size:1.0em; padding:0%!important;}
 
 
 

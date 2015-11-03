@@ -481,11 +481,11 @@ $(".opinion-content").shorten({
 	
 	//function success()
 	//{
-		$("#message-success").slideDown(1000);
+		$("#message-success").slideDown(400);
 		setTimeout(hide_success_message, 3000);
 		function hide_success_message ()
 		{
-			$("#message-success").slideUp(1000);
+			$("#message-success").slideUp(400);
 		}
 		
 	
