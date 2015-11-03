@@ -1,0 +1,197 @@
+﻿    <!-- HEADER:begin -->
+	<?php include 'includes/header.php'; ?>
+    <!-- HEADER:end -->
+    
+    
+    
+    
+    
+    
+    <!-- SLIDER:begin -->
+	<?php include 'includes/subslider.php'; ?>
+    <!-- SLIDER:end -->
+    
+	<br>
+        
+    
+	<div class="container" id="content">
+    	<div class="row">
+        
+        	<div class="threecol">
+            	<ul id="sub-nav">
+                    	<li><a href="#" title="Mój profil" class="active">Mój profil</a></li>
+                        <li><a href="#" title="Wiadomości">Wiadomości</a></li>
+                        <li><a href="#" title="Znajomi" >Znajomi</a></li>
+                        <li><a href="#" title="Wyzwanie">Wyzwanie</a></li>
+                </ul>
+            </div>
+            
+            <div class="ninecol last">
+            	<h2>KONTO - administrator</h2>
+                <a href="#" title="Nazwa kota"><h2>MÓJ KOT KICIA</h2></a>
+                
+             	<!-- FORM:begin -->
+                <form id="send-form" action="edytuj-profil.php" method="post">
+            	<div class="row">
+                
+            		<div class="fourcol ">
+                		<h2><label for="name">Imię</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<input type="text" name="name" placeholder="Kicia"/>
+                	</div>
+                    
+                    <div class="fourcol ">
+                		<h2><label for="dateofbirth">Rok urodzenia</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<select name="dateofbirth">
+							 <option value="2015">2015</option>
+							 <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+						</select>
+                	</div>
+                    
+                    <div class="fourcol ">
+                		<h2><label for="monthofbirth">Miesiąc urodzenia</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<select name="monthofbirth">
+							 <option value="Styczeń">Styczeń</option>
+							 <option value="Luty">Luty</option>
+                            <option value="Marzec">Marzec</option>
+                            <option value="Kwiecień">Kwiecień</option>
+                            <option value="Maj">Maj</option>
+                            <option value="Czerwiec">Czerwiec</option>
+                            <option value="Lipiec">Lipiec</option>
+                            <option value="Sierpień">Sierpień</option>
+                            <option value="Wrzesień">Wrzesień</option>
+                            <option value="Październik">Październik</option>
+                            <option value="Listopad">Listopad</option>
+                            <option value="Grudzień">Grudzień</option>
+						</select>
+                	</div>
+                    
+                    <div class="fourcol ">
+                		<h2><label for="sex">Płeć</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<select name="sex">
+							 <option value="Kotka">Kotka</option>
+							 <option value="Kot">Kot</option>
+						</select>
+                	</div>
+                    
+                   <div class="fourcol ">
+                		<h2><label for="race">Rasa</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<input type="text" name="race"/>
+                	</div>
+                    
+                  	<div class="fourcol ">
+                		<h2><label for="colors">Kolory</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<select name="colors">
+							 <option value="1">1</option>
+							 <option value="2">2</option>
+                            <option value="3">3</option>
+							 <option value="4">4</option>
+						</select>
+                	</div>
+                    
+                   <div class="fourcol">
+                		<h2><label for="main-color">Kolor dominujący</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<input type="text" name="main-color"/>
+                	</div>
+                    
+                   <div class="fourcol ">
+                		<h2><label for="pattern">Wzór</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<select name="pattern">
+							 <option value="Pręgowaty">Pręgowaty</option>
+							 <option value="Ciapki">Ciapki</option>
+                            <option value="Jednolity">Jednolity</option>
+						</select>
+                	</div>
+                
+            	</div>
+               
+                
+                <hr/>
+                
+                <div class="row">
+                	<div class="fourcol">
+                		<h2><label for="photo">Zdjęcie</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<img src="img/kot-maly.png" alt="Nazwa usera"/> 
+                	</div>
+                    <div class="fourcol">
+                	</div>
+                	<div class="eightcol last">
+                		<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Wybierz zdjęcie &nbsp; &nbsp; &#10010;</a> 
+                	</div>
+                </div>
+                
+                <hr/>
+                
+                <div class="row">
+                	<div class="fourcol">
+                		<h2><label>Profil</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<a class="button button-grey " href="page.php"  title="Usuń profil" >Usuń &nbsp; &nbsp; &#10006;</a>
+                	</div>
+                </div>
+                
+                <hr/>
+                
+                 <div class="row">
+                	<div class="fourcol">
+                		<h2><label for"description">Opis</label></h2>
+                	</div>
+                	<div class="eightcol last">
+                		<textarea type="text" name="description"></textarea>
+                	</div>
+                    <div class="fourcol">
+                	</div>
+                	<div class="eightcol last">
+                		<button class="button button-teal fleft" type="submit" href="#" title="Wyślij">Zapisz dane &nbsp; &nbsp; &#x279d;</button>
+                	</div>
+                </div>
+                 </form>
+            	<!-- FORM:end -->
+                
+                
+        	</div>
+        	
+    	</div>
+   </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    <!-- FOOTER:begin -->
+	<?php include 'includes/footer.php'; ?>
+    <!-- FOOTER:end -->
+    
+    
+	

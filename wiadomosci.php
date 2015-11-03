@@ -13,10 +13,9 @@
        	<div class="row">
         	<div class="threecol">
             	<ul id="sub-nav">
-                    	<li><a href="#" title="Nauka i zabawa">Wróć</a></li>
-                        <li><a href="#" title="Psychologia" class="active">Odebrane</a></li>
-                        <li><a href="#" title="Język">Wysłane</a></li>
-                        <li><a href="#" title="Adopcje i pomoc">Usunięte</a></li>
+                    	<li><a href="#" title="Wróć">Wróć</a></li>
+                        <li><a href="#" title="Odebrane" class="active">Odebrane</a></li>
+                        <li><a href="#" title="Usunięte">Usunięte</a></li>
                 </ul>
             </div>
             

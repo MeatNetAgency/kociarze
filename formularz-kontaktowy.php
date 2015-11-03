@@ -30,11 +30,11 @@
             
             <!-- FORM:begin -->
             <div class="ninecol last">
-            	<h1 class="subtitle">Formularz kontaktowy</h1>
+            	<h2 class="subtitle">Formularz kontaktowy</h2>
                 <form id="send-form" action="wyslij-wiadomosc.php" method="post" class="validate">
                 
                 <div class="row">
-                	<div class="twocol" style="margin-right:0%">
+                	<div class="twocol">
                     	<h2><label for="Temat">Temat</label></h2>
                     </div>
                     <div class="sixcol" >
@@ -49,8 +49,8 @@
                     <div class="fourcol last"></div>
                   </div>
                   
-                  <div class="row" style="margin-top:2%;">
-                	<div class="twocol" style="margin-right:0%">
+                  <div class="row">
+                	<div class="twocol">
                     	  <h2><label for="Treść">Treść</label></h2>
                     </div>
                     <div class="sixcol">
@@ -59,8 +59,8 @@
                     <div class="fourcol last"></div>                               
                 </div>
                   
-                 <div class="row" style="margin-top:2%;">
-                	<div class="twocol" style="margin-right:0%">
+                 <div class="row">
+                	<div class="twocol">
                     	  <h2><label for="E-mail">E-mail</label></h2>
                     </div>
                     <div class="sixcol">

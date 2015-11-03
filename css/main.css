@@ -25,11 +25,13 @@ h4 											{font-size:1.1em;}
 
 
 h2, h3, h4									{margin:0 0 10px 0; color:#444444; font-weight:400;}
+				
 
 strong										{font-weight:400;}
 
 a 												{text-decoration:none; color: #1d8995; cursor:pointer}
-a:hover 										{text-decoration:none; color: #333333;}
+a:hover 									{text-decoration:none; color: #333333;}
+a h2 										{color:#1d8995;}
 
 p												{margin-bottom:15px;}
 hr												{border:none; height:1px; background:#ccc; margin:30px 0px 30px 0px; opacity:0.7;}
@@ -74,11 +76,17 @@ button										{border:none; cursor:pointer;}
 
 /* FORM */
 
+select {width:480px; height:50px; padding:1.5%; margin-bottom:3%; font-size:1.3em; font-weight:400; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; border: solid #CCC 1px; background-color:white!important; color:#999999;}
+textarea {width:460px; padding:1.5%; margin-bottom:3%; height:200px; border: solid #CCC 1px; border-radius:5px; color:#999999; font-size:1.3em; font-weight: 400}
+input  {width:460px; padding:1.5%; margin-bottom:3%; border: solid #CCC 1px; border-radius:5px; color:#999999; font-size:1.3em; font-weight: 400}
 
-#send-form select {width:460px; height:50px; padding:2%; font-size:1.3em; font-weight:400; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; border: solid #CCC 1px; background-color:white!important;}
-#send-form textarea {width:440px; padding:2%; height:200px; border: solid #CCC 1px; border-radius:5px;}
-#send-form input  {width:440px; padding:2%; border: solid #CCC 1px; border-radius:5px; margin-bottom:2%;}
-#send-form label		{margin:0 0 10px 0; color:#444444; font-weight:400; font-size:1.0em;}	
+label		{margin:0 0px 0 0; color:#444444; font-weight:400; font-size:1.0em; float:right}	
+
+
+
+
+
+
 
 /* MESSAGE SUCCESS */
 #message-success {position:fixed; width:100%; text-align:center; padding:2% 0%;  z-index:99999; background-color:#1d8995; font-size:1.4em; color:white; opacity:0.9; display:none;}
@@ -424,7 +432,6 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 
 /* USER PROFIL */
 .user h1 {color: #1d8995;}
-
 .profile-info {font-size:1.0em; padding:0%!important;}
 
 
