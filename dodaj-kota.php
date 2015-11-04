@@ -36,15 +36,15 @@
                 
             			<div class="fourcol label">Imię:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="name" value="Kortełłe"/>
+                    		<input type="text" name="name" />
                     	</div>
                     
                     	<div class="fourcol label">Data urodzenia:</div>
                 		<div class="eightcol last">
-                			<select name="dateofbirth" >
+                			<select name="dateofbirth">
 							 	<option value="2015">2015</option>
 							 	<option value="2014">2014</option>
-                            	<option value="2013" selected>2013</option>
+                            	<option value="2013">2013</option>
                             	<option value="2012">2012</option>
                             	<option value="2011">2011</option>
                             	<option value="2010">2010</option>
@@ -59,7 +59,7 @@
                 			<select name="monthofbirth">
 								<option value="Styczeń">Styczeń</option>
 							 	<option value="Luty">Luty</option>
-                            	<option value="Marzec" selected>Marzec</option>
+                            	<option value="Marzec">Marzec</option>
                             	<option value="Kwiecień">Kwiecień</option>
                             	<option value="Maj">Maj</option>
                             	<option value="Czerwiec">Czerwiec</option>
@@ -75,21 +75,21 @@
                     	<div class="fourcol label">Płeć:</div>
                 		<div class="eightcol last">
                 			<select name="sex">
-							 	<option value="Kotka" selected>Kotka</option>
+							 	<option value="Kotka">Kotka</option>
 							 	<option value="Kot">Kot</option>
 							</select>
                 		</div>
                     
                    		<div class="fourcol label">Rasa:</div>
                 		<div class="eightcol last">
-                			<input type="text" name="race" value="Bengalski"/>
+                			<input type="text" name="race"/>
                 		</div>
                         
                   		<div class="fourcol label">Kolory:</div>
                 		<div class="eightcol last">
                 			<select name="colors">
 							 	<option value="1">1</option>
-							 	<option value="2" selected>2</option>
+							 	<option value="2">2</option>
                             	<option value="3">3</option>
 							 	<option value="4">4</option>
 							</select>
@@ -97,13 +97,13 @@
                     
                    		<div class="fourcol label">Kolor dominujący:</div>
                 		<div class="eightcol last">
-                			<input type="text" name="main-color" value="Szary"/>
+                			<input type="text" name="main-color"/>
                 		</div>
                     
                    		<div class="fourcol label">Wzór:</div>
                 		<div class="eightcol last">
                 			<select name="pattern">
-							 	<option value="Pręgowaty" selected>Pręgowaty</option>
+							 	<option value="Pręgowaty">Pręgowaty</option>
 							 	<option value="Ciapki">Ciapki</option>
                             	<option value="Jednolity">Jednolity</option>
 							</select>
@@ -140,8 +140,7 @@
                  	<div class="row">
                 		<div class="fourcol label">Opis:</div>
                 		<div class="eightcol last">
-                			<textarea type="text" name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </textarea>
+                			<textarea type="text" name="description"></textarea>
                 		</div>
                     </div>
                     <div class="row">

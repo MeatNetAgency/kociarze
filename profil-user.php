@@ -33,16 +33,24 @@
                     	<img src="img/kot-maly.png" alt="Nazwa użytkownika"/>
                     </div>
                      <div class="fourcol">
-                     	 <div><a href="#" title="Nazwa użytkownika"><h1>Evelina 82</h1></a></div>
+                     	 <div><a href="#" title="Nazwa użytkownika"><p><h1>Evelina 82</h1></p></a></div>
                          <div><h3>Skąd:<span class="profile-info"> Warszawa</span></h3></div>
                         <div><h3>Wiek:<span class="profile-info"> 0 lat</span></h3></div>
                         <div><h3>3 koty</h3></div>
-                        <a class="button button-grey " href="page.php"  title="Czytaj dalej" >Edytuj &nbsp; &nbsp; &#x279d;</a>
+                        <a class="button button-grey " href="page.php"  title="Edytuj" >Edytuj &nbsp; &nbsp; &#x279d;</a>
                      </div>
                      <div class="fivecol last">
                      </div>                    
 				</div>
            		<!-- USER:end -->
+                
+                <hr/>
+                
+                 <div class="row">       
+                 	<div class="twelvecol">    
+                		<article >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</article>
+                    </div>
+                 </div>
                 
                 <hr/>
                 
