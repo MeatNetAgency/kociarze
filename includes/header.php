@@ -7,9 +7,6 @@
         <!--JS JQUERY-->
         <script src="js/jquery-1.11.3.min.js"></script>
         
-        <!--JS JQUERY TABS-->
-        <script src="js/tabs.js"></script>
-        
         <!--JS FLEXSLIDER2-->
         <script src="js/flexslider/jquery.flexslider-min.js"></script>
         

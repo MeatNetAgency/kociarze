@@ -24,7 +24,7 @@ h3 											{font-size:1.2em;}
 h4 											{font-size:1.1em;}
 
 
-h2, h3, h4									{margin:0 0 10px 0; color:#444444; font-weight:400;}
+h2, h3, h4									{margin:0 0 5px 0; color:#444444; font-weight:400;}
 				
 
 strong										{font-weight:400;}
@@ -76,11 +76,17 @@ button										{border:none; cursor:pointer;}
 
 /* FORM */
 
-select {width:480px; height:50px; padding:1.5%; margin-bottom:3%; font-size:1.3em; font-weight:400; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; border: solid #CCC 1px; background-color:white!important; color:#999999;}
-textarea {width:460px; padding:1.5%; margin-bottom:3%; height:200px; border: solid #CCC 1px; border-radius:5px; color:#999999; font-size:1.3em; font-weight: 400}
-input  {width:460px; padding:1.5%; margin-bottom:3%; border: solid #CCC 1px; border-radius:5px; color:#999999; font-size:1.3em; font-weight: 400}
 
-label		{margin:0 0px 0 0; color:#444444; font-weight:400; font-size:1.0em; float:right}	
+
+
+	
+.form											{color: #999999;}
+.form	 input[type=text],
+.form	 input[type=password],
+.form	 input[type=email]			{width:80%; padding:4px 10px; margin-bottom:5px; border-radius: 5px; border:solid 1px #ddd; }	
+.form	 textarea							{width:80%; padding:4px 10px; height:65px; resize:vertical; border:solid 1px #ddd;  border-radius: 5px; }	
+.form	 select 								{width:83.5%; height:35px; margin-bottom:5px; border: solid #ddd 1px; background-color:white!important;}	
+.form	 .label								{text-align:right;font-weight: 700; padding-top:10px;}	
 
 
 
@@ -315,12 +321,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .forum .forum-padding				{padding:50px 0px 0px 25px;}
 .forum .right-border					{border-right:solid 1px #ccc; padding-right:25px;}
 
-.form	 input[type=text],
-.form	 input[type=password],
-.form	 input[type=email]				{width:80%; padding:4px 10px;}	
-.form	 textarea							{width:80%; padding:10px; resize:vertical; border:solid 1px #ddd;}	
-.form	 select 								{margin-top:10px;}	
-.form	 .label								{text-align:right;font-weight: 700; padding-top:10px;}										
+									
 
 
 
