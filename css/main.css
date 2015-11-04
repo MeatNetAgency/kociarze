@@ -76,10 +76,6 @@ button										{border:none; cursor:pointer;}
 
 /* FORM */
 
-
-
-
-	
 .form											{color: #999999;}
 .form	 input[type=text],
 .form	 input[type=password],
@@ -468,6 +464,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .teal-box				{padding:2%; background-color: #1d8995; font-size: 1.3em; font-weight:bold; color:white }
 .opinions-margin {margin-top:2%}
 .opinion-title	{font-size: 1.5em; font-weight:bold; color:#1d8995}
+.challenge-started {background-color: #f5f5f5; padding:10px; margin-top:-10px;}
 
 /* BLOGI */
 
