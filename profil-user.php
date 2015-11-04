@@ -176,10 +176,10 @@
                     
                     <hr/>
                     
-                    <!-- BLOG 2:begin -->
+                    <!-- WYZWANIE:begin -->
                    <div class="row">
             				<div class="twelvecol">
-            					<h2 class="fleft title">Wpisy na blogu</h2>
+            					<h2 class="fleft title">Wyzwanie</h2>
             					<div class="arrow-nav fright">
                 					<a href="#" class="margin"><span class="toback">&lt;</span></a><a href="#" class="margin active"><span class="number">1</span></a><a  href="#" class="margin"><span class="number">2</span></a><a  href="#" class="margin"><span class="number">3</span></a><a  href="#" class="margin"><span class="number">...</span></a><a  href="#" class="margin"><span class="number">324</span></a><a href="#"><span class="toforward ">&gt;</span></a>
                 				</div>
@@ -253,7 +253,79 @@
                 			</article>
            				 </div>
      				</div>
-                	<!-- BLOG 2:end -->
+                	<!-- WYZWANIE:end -->
+                    
+                    
+                    
+                    <!-- MOVIES/PHOTOS:begin -->        
+    		<!-- navigation:begin -->
+        		<div class="row">
+            		<div class="twelvecol ">
+            			<div class="fleft title photos active"><h2>Zdjęcia</h2></div>
+                		<div class="fleft title movies"><h2>Filmy</h2></div>
+            		</div>
+        		</div>
+        	<!-- navigation:end -->
+
+			<!-- movies/photos content:begin -->
+        		<div class="row">
+        			<div class="twelvecol">
+            			<div class="show-movies"> 
+                			<article>
+                        		<div class="photo-gallery">
+                            
+                            	<!-- small photos:begin -->
+                            		<div class="gallery-small-photo-sub">
+                                		<img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
+                                		<div class="photo-background-s"></div>	
+                                		<div class="photo-des-content-s ">
+                                    		<div class="photo-text-padding-s">
+                                        		<div class="cats-name-s-left"><a href="#" title="Tytuł artykułu">Lorem ipsum dolor sit amet.</a></div>
+                                       		<div class="photo-data-s-left">2015-03-13</div>
+                                   		</div>
+                                		</div>
+                           			</div>
+                             		<div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                         
+                                   <div style="clear:both"></div>
+                            	<!-- small photos:end -->
+                                
+                    			</div>  
+                			</article>
+                		</div>
+                		<div class="show-photos">  
+                			<article>
+                        		<div class="photo-gallery">
+                            
+                            	<!-- small photos:begin -->
+                            		<div class="gallery-small-photo-sub">
+                                		<img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
+                                		<div class="photo-background-s"></div>	
+                                		<div class="photo-des-content-s ">
+                                    		<div class="photo-text-padding-s">
+                                        		<div class="cats-name-s-left"><a href="#" title="Tytuł artykułu">Lorem ipsum dolor sit amet.</a></div>
+                                       		<div class="photo-data-s-left">2015-03-13</div>
+                                   		</div>
+                                		</div>
+                           			</div>
+                             		<div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             		<div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             		<div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                           		 	
+                                   <div style="clear:both"></div>
+                            	<!-- small photos:end -->
+                                
+                    			</div>  
+                			</article>
+                		</div>
+            		</div>
+    			</div>
+        	<!-- movies/photos content:end -->
+         	<!-- MOVIES/PHOTOS:end -->
+            
+            
+            
+            
         	</div>
         
     	</div>

@@ -34,6 +34,10 @@ $(document).ready(function()
                                 required: true,
 								minlength: 2
                             },
+							catname:{
+								required: true,
+								minlength: 2
+							},
                             surname: {
                                 required: true,
 								minlength: 2
@@ -84,6 +88,10 @@ $(document).ready(function()
                                 required: "&#8593; Podaj swoje imię",
 								minlength: "&#8593; Minimalna ilość znaków to 2"
                             },
+							catname:{
+								required: "&#8593; Podaj imię kota",
+								minlength: "&#8593; Minimalna ilość znaków to 2"
+							},
                             surname: {
                                 required: "&#8593; Podaj swoje nazwisko",
 								minlength: "&#8593; Minimalna ilość znaków to 2"
@@ -216,17 +224,6 @@ $(document).ready(function()
 	
 	
 	
-	
-	
-	
-	
-	
-		
-	// tabs uzytkownicy, filmy, zdjecia
-    //$( "#tabs" ).tabs();
-	
-	
-	
 	//new tabs
 	$(".photos").click(function(){
 		$(".show-photos").css("display", "block");
@@ -254,6 +251,10 @@ $(document).ready(function()
 	});
 	
 	
+	// show more challange
+	$("#show-more-challenge").click(function(){
+		
+	});
 	
 	
 	

@@ -27,8 +27,10 @@
             </div>
             
             <div class="ninecol last">
+            	<form class="validate">
+                
             	<h2>KONTO ADMINISTRATORA</h2>
-                <a href="#" title="Nazwa kota"><h2>EDYCJA: KOTEŁE</h2></a>
+                <h2>DODAJ NOWEGO KOTA</h2>
                 
              <!-- FORM:begin -->
                 <article class="form">
@@ -36,7 +38,7 @@
                 
             			<div class="fourcol label">Imię:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="name" />
+                    		<input type="text" name="catname" />
                     	</div>
                     
                     	<div class="fourcol label">Data urodzenia:</div>
@@ -146,13 +148,13 @@
                     <div class="row">
                     	<div class="fourcol"></div>
                 		<div class="eightcol last">
-                			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Zapisz dane &nbsp; &nbsp; &#x279d;</a>
+                			<button class="button button-teal fleft" type="submit" href="#" title="Wyślij">Wyślij &nbsp; &nbsp; &#x279d;</button> 
                 		</div>
                 	</div>
               	</article>
             <!-- FORM:end -->
                 
-                
+                </form>
         	</div>
         	
     	</div>

@@ -245,7 +245,8 @@
     </div>
     <div class="row">
     	<div class="twelvecol opinions-margin ">
-        	<a class="button button-teal fright" title="Galeria kotów">Galeria kotów  &nbsp; &nbsp; &#x279d; </a>
+        	<a href="#top-bar" class="button button-teal fright" title="Powrót do góry">Powrót do góry  &nbsp; &nbsp; &#x2191;</a>
+            <a id="show-more-challenge" class="button button-grey fright" href="#"   title="Pokaż więcej" style="margin-right:2%">Pokaż więcej  &nbsp; &nbsp; &#10549;</a>
         </div>
     </div>
  </div>

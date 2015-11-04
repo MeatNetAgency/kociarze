@@ -36,22 +36,22 @@
                 
             			<div class="fourcol label">Imię:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="name" />
+                    		<input type="text" name="name" value="Anna" />
                     	</div>
                         
                        <div class="fourcol label">Nazwisko:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="surname" />
+                    		<input type="text" name="surname"  value="Kowalska"/>
                     	</div>
                         
                        <div class="fourcol label">Nazwa użytkownika:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="username" />
+                    		<input type="text" name="username" value="AnnKow66"/>
                     	</div>
                         
                        <div class="fourcol label">E-mail:</div>
                 		<div class="eightcol last">
-                    		<input type="email" name="email" />
+                    		<input type="email" name="email" value="anna@wp.pl" />
                     	</div>
                         
                        <div class="fourcol label">Hasło:</div>
@@ -69,10 +69,10 @@
                     <hr/>
                         
                      <div class-"row">
-                        <div class="row"><div class="fourcol label">Ulica:</div><div class="eightcol last"><input type="text" name="street" /></div></div>
-                        <div class="row"><div class="fourcol label">Numer domu/lokalu:</div><div class="eightcol last"><input type="text" name="street_num" /></div></div>
-                        <div class="row"><div class="fourcol label">Kod pocztowy:</div><div class="eightcol last"><input type="text" name="postal" /></div></div>
-                        <div class="row"><div class="fourcol label">Miasto:</div><div class="eightcol last"><input type="text" name="city" /></div></div>
+                        <div class="row"><div class="fourcol label">Ulica:</div><div class="eightcol last"><input type="text" name="street" value="Klonowa"/></div></div>
+                        <div class="row"><div class="fourcol label">Numer domu/lokalu:</div><div class="eightcol last"><input type="text" name="street_num" value="6"/></div></div>
+                        <div class="row"><div class="fourcol label">Kod pocztowy:</div><div class="eightcol last"><input type="text" name="postal" value="03-222"/></div></div>
+                        <div class="row"><div class="fourcol label">Miasto:</div><div class="eightcol last"><input type="text" name="city" value="Warszawa"/></div></div>
                      </div>
                         
                      <hr/>
@@ -98,7 +98,7 @@
                     	<div class="fourcol label">Pokaż e-mail:</div>
                        	<div class="eightcol last">
                         	<select name="show-mail">
-                            	<option>Tak</option>
+                            	<option selected>Tak</option>
                                 <option>Nie</option>
                             </select>
                     	</div>
@@ -107,7 +107,7 @@
                     <div class="row">
                     	<div class="fourcol label">Skype:</div>
                 		<div class="eightcol last">
-                    		<input type="text" name="skype" />
+                    		<input type="text" name="skype" value="AnnaKow" />
                     	</div>
                    	</div>
                  	
@@ -115,16 +115,16 @@
                     	<div class="fourcol label">Newsletter:</div>
                        	<div class="eightcol last">
                         	<select name="newsletter">
-                            	<option>Tak</option>
+                            	<option selected>Tak</option>
                                 <option>Nie</option>
                             </select>
                     	</div>
                    	</div>
                     
                     <div class="row">
-                		<div class="fourcol label">Opis:</div>
+                		<div class="fourcol label" >Opis:</div>
                 		<div class="eightcol last">
-                			<textarea type="text" name="description"></textarea>
+                			<textarea type="text" name="description">Lorem ipsum...</textarea>
                 		</div>
                     </div>
                     

@@ -30,13 +30,12 @@
             
             <!-- FORM:begin -->
             <div class="ninecol last">
+            	<form class="validate">
             	<h2 class="subtitle">Formularz kontaktowy</h2>
-                <form id="send-form" action="wyslij-wiadomosc.php" method="post" class="validate">
+                <div class="form" >
                 
                 <div class="row">
-                	<div class="twocol">
-                    	<h2><label for="Temat">Temat</label></h2>
-                    </div>
+                	<div class="twocol label">Temat:</div>
                     <div class="sixcol" >
                     	  <select name="topic">
 							<option value="Zapytanie dotyczące konkursu">Zapytanie dotyczące konkursu</option>
@@ -50,9 +49,7 @@
                   </div>
                   
                   <div class="row">
-                	<div class="twocol">
-                    	  <h2><label for="Treść">Treść</label></h2>
-                    </div>
+                	<div class="twocol label">Treść:</div>
                     <div class="sixcol">
                     	   <textarea type="text" name="question"></textarea>
                     </div>
@@ -60,9 +57,7 @@
                 </div>
                   
                  <div class="row">
-                	<div class="twocol">
-                    	  <h2><label for="E-mail">E-mail</label></h2>
-                    </div>
+                	<div class="twocol label">E-mail:</div>
                     <div class="sixcol">
                     	   <input type="email" name="email"/>
                            <div class="clear"></div>
@@ -74,6 +69,7 @@
                  
             
                     
+                </div>
                 </form>
             </div>
             <!-- FORM:end -->
