@@ -41,7 +41,11 @@
                         <hr>
                         
                         <div class="row"><div class="fourcol label">Płeć:</div><div class="eightcol last"><select name="sex"><option>Kobieta</option><option>Mężczyzna</option></select></div></div>
-                        <div class="row"><div class="fourcol label">Data urodzenia:</div><div class="eightcol last"><select name="birth_date_day"><option>1</option></select><select name="birth_date_month"><option>1</option></select><select name="birth_date_year"><option>2015</option></select></div></div>
+                        <div class="row"><div class="fourcol label">Data urodzenia</div><div class="eightcol last"></div></div>
+                        <div class="row"><div class="fourcol label">Dzień:</div><div class="eightcol last"><select name="birth_date_day"><option>1</option></select></div></div>
+                        <div class="row"><div class="fourcol label">Miesiąc:</div><div class="eightcol last"><select name="birth_date_month"><option>1</option></select></div></div>
+                        <div class="row"><div class="fourcol label">Rok:</div><div class="eightcol last"><select name="birth_date_year"><option>2015</option></select></div></div>
+                   		<div class="clear"></div>
                         
                     </article>
                 </div>

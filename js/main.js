@@ -465,7 +465,13 @@ $(document).ready(function()
 	
 	
 	// SHOW MORE TEXT
-	
+
+$(".forum h4").shorten({
+    "showChars" : 50,
+	"moreText"  : "",
+    "lessText"  : "",
+});
+
 $(".notice").shorten({
     "showChars" : 350,
 	"moreText"  : "",
