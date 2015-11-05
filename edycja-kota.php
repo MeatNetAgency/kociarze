@@ -114,7 +114,7 @@
                     <hr/>
                
                 	<div class="row">
-                		<div class="fourcol label">Zdjęcie:</div>
+                		<div class="fourcol label">Zdjęcie profilowe:</div>
                 		<div class="eightcol last">
                 			<img src="img/kot-maly.png" alt="Nazwa usera"/> 
                 		</div>
@@ -125,6 +125,95 @@
                 			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Wybierz zdjęcie &nbsp; &nbsp; &#10010;</a> 
                 		</div>
                 	</div>
+                    
+                    <hr/>
+                    
+                    <div class="row">
+                		<div class="fourcol label">Zdjęcia kota:</div>
+                		<div class="eightcol last">
+                             
+                        <p class="friends">
+                        <div class="photo-gallery">
+                            
+                            <!-- small photos:begin -->
+                            <div class="gallery-small-photo-sub">
+                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
+                                <div class="photo-background-s"></div>	
+                                <div class="photo-des-content-s ">
+                                    <div class="photo-text-padding-s">
+                                        <div class="cats-name-s-left">
+                                        	<a href="javascript:void();" class="button button-white">Usuń to zdjęcie</a>
+                                        </div>
+                            
+                                   </div>
+                                </div>
+                            </div>
+                             <div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+
+                            <div style="clear:both"></div>
+                            <!-- small photos:end -->
+                            
+                            
+                          </div>  
+                        </p>
+                            
+                           
+                            
+                		</div>
+                    </div>
+                    <div class="row">
+                    	<div class="fourcol"></div>
+                		<div class="eightcol last">
+                			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Dodaj nowy film &nbsp; &nbsp; &#10010;</a> 
+                		</div>
+                	</div>
+             
+                	<hr/>
+                    
+                    <div class="row">
+                		<div class="fourcol label">Filmy kota:</div>
+                		<div class="eightcol last">
+                             
+                        <p class="friends">
+                        <div class="photo-gallery">
+                            
+                            <!-- small photos:begin -->
+                            <div class="gallery-small-photo-sub">
+                                <img src="img/koci-magazyn-image.png" alt="Nazwa kota" />	<!-- BACKGROUND -->
+                                <div class="photo-background-s"></div>	
+                                <div class="photo-des-content-s ">
+                                    <div class="photo-text-padding-s">
+                                        <div class="cats-name-s-left">
+                                        	<a href="javascript:void();" class="button button-white">Usuń ten film</a>
+                                        </div>
+                            
+                                   </div>
+                                </div>
+                            </div>
+                             <div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+                             <div class="gallery-small-photo-sub"><img src="img/koci-magazyn-image.png" alt="Nazwa kota" /></div>
+
+
+                            <div style="clear:both"></div>
+                            <!-- small photos:end -->
+                            
+                            
+                          </div>  
+                        </p>
+                            
+                           
+                            
+                		</div>
+                    </div>
+                    <div class="row">
+                    	<div class="fourcol"></div>
+                		<div class="eightcol last">
+                			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Dodaj nowy film &nbsp; &nbsp; &#10010;</a> 
+                		</div>
+                	</div>
+                    
+                   
              
                 	<hr/>
                 

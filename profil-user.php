@@ -37,7 +37,9 @@
                          <div><h3>Skąd:<span class="profile-info"> Warszawa</span></h3></div>
                         <div><h3>Wiek:<span class="profile-info"> 0 lat</span></h3></div>
                         <div><h3>3 koty</h3></div>
-                        <a class="button button-grey " href="page.php"  title="Edytuj" >Edytuj &nbsp; &nbsp; &#x279d;</a>
+                        <a class="button button-grey " href="page.php" id="edytuj-user" title="Edytuj" >Edytuj &nbsp; &nbsp; &#x279d;</a>
+                        <a class="button button-grey " href="page.php" id="dodaj-do-znajomych"  title="Dodaj do znajomuch" >Dodaj do znajomych &nbsp; &nbsp; &#10010;</a>
+                        <a class="button button-grey " href="page.php" id="usun-ze-znajomych" title="Usuń ze znajomuch" >Usuń ze znajomych &nbsp; &nbsp; &#10006;</a>
                      </div>
                      <div class="fivecol last">
                      </div>                    

@@ -127,6 +127,40 @@
                 			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Wybierz zdjęcie &nbsp; &nbsp; &#10010;</a> 
                 		</div>
                 	</div>
+                    
+                     <hr/>
+                    
+                    <div class="row">
+                		<div class="fourcol label">Zdjęcia kota:</div>
+                		<div class="eightcol last">
+                            <div class="gallery-small-photo-sub">
+                                <img src="img/noimage.png" alt="Nazwa kota" />	
+                            </div>
+                		</div>
+                    </div>
+                    <div class="row">
+                    	<div class="fourcol"></div>
+                		<div class="eightcol last">
+                			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Dodaj zdjęcia &nbsp; &nbsp; &#10010;</a> 
+                		</div>
+                	</div>
+             
+                	<hr/>
+                    
+                    <div class="row">
+                		<div class="fourcol label">Filmy kota:</div>
+                		<div class="eightcol last">
+                            <div class="gallery-small-photo-sub">
+                                <img src="img/noimage.png" alt="Nazwa kota" />	
+                            </div>
+                		</div>
+                    </div>
+                    <div class="row">
+                    	<div class="fourcol"></div>
+                		<div class="eightcol last">
+                			<a class="button button-teal fleft" type="submit" href="#" title="Wyślij">Dodaj filmy &nbsp; &nbsp; &#10010;</a> 
+                		</div>
+                	</div>
              
                 	<hr/>
                 
