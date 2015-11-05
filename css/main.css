@@ -480,6 +480,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 /* MESSAGES */
 .messages	{border-top: solid 1px #ccc; border-left: solid 1px #ccc; border-right: solid 1px #ccc;}
 .messages .panel-message {border-bottom:solid 1px #ccc; padding:8px;}
+.messages .panel-message a {font-weight:bold;}
 .messages img {width:20%; float:left; padding-right:2%;}
 .messages h3 a {font-weight:bold;}
 .mess-hour {color:#999999}

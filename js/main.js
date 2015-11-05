@@ -466,18 +466,23 @@ $(document).ready(function()
 	
 	// SHOW MORE TEXT
 	
+$(".notice").shorten({
+    "showChars" : 350,
+	"moreText"  : "",
+    "lessText"  : "",
+});
+	
 $(".opinion-content").shorten({
-    "showChars" : 200
+    "showChars" : 200,
+	"moreText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Rozwiń &nbsp; &nbsp; &#10549;</p>",
+    "lessText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Ukryj &nbsp; &nbsp; &#10548;</p>",
 });
  
 
-$(".opinion-content").shorten({
-    "showChars" : 500,
-    "moreText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Rozwiń &nbsp; &nbsp; &#10549;</p>",
-    "lessText"  : "<br/><p class='button button-grey' style='float:left; margin-top:5%;' >Ukryj &nbsp; &nbsp; &#10548;</p>",
-});
-	
-	
+
+
+
+
 	// BORDER IN MESSAGE PANEL
 	
 	
