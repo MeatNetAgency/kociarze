@@ -385,7 +385,7 @@
                         	<div class="forum-padding">
                         	<div class="right-border">
                                 <div class="date">Data: 22.05.2015</div>
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing eli Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elitt</h4>
                                 <div class="replies"><a href="#" title="Odpowiedzi" >5 odpowiedzi</a></div>
                                 
                                 <div class="date">Data: 22.05.2015</div>

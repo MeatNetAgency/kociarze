@@ -316,7 +316,7 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .forum .button-teal						{float:right;}
 .forum .forum-padding				{padding:50px 0px 0px 25px;}
 .forum .right-border					{border-right:solid 1px #ccc; padding-right:25px;}
-
+.forum h4 								{height:45px; overflow:hidden;}
 									
 
 
