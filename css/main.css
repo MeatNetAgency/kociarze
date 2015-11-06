@@ -512,7 +512,8 @@ article ul li:before 						{content: "■  "; color: #1d8995; font-size:1.2em; m
 .footer								{padding:25px 15px;}
 .footer a 							{color:white;}
 .footer a:hover 					{color: #1d8995; transition:0.3s;}
-.footer-arrows-color			{color: #1d8995; transition:0.3s;}
+/*.footer-arrows-color			{color: #1d8995; transition:0.3s;}*/
+.footer li:before 		{content:"&#x279d; &nbsp; &nbsp;"}
 .footer h4							{padding-bottom:2%; color:white; font-weight:400;}
 .footer p							{color:white;}
 .footer ul li 						{list-style-type:none; padding-top:2%;}

@@ -5,7 +5,7 @@
             	<div class="threecol">
                 	<h4>NAWIGACJA</h4>
                     	<ul>
-                        	 <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Strona główna" >strona główna</a></li>
+                        	 <li><a href="#" title="Strona główna" >strona główna</a></li>
                             <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Aktualności" >akutalności</a></li>
                             <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Koci magazyn" >koci magazyn</a></li>
                             <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Wyzwanie" >wyzwanie</a></li>

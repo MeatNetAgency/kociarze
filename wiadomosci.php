@@ -9,8 +9,9 @@
     <!-- SLIDER:end -->
     
     
-    
+            <div class="container">
        	<div class="row">
+
         	<div class="threecol">
             	<ul id="sub-nav">
                     	<li><a href="#" title="Wróć">Wróć</a></li>
@@ -18,7 +19,7 @@
                         <li><a href="#" title="Usunięte">Usunięte</a></li>
                 </ul>
             </div>
-            
+
             <div class="ninecol last">
             	
             <div class="row">
@@ -148,7 +149,7 @@
 		</div>
     
     
-    
+            </div>
     
     
     
