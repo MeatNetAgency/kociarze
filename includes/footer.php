@@ -6,19 +6,19 @@
                 	<h4>NAWIGACJA</h4>
                     	<ul>
                         	 <li><a href="#" title="Strona główna" >strona główna</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Aktualności" >akutalności</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Koci magazyn" >koci magazyn</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Wyzwanie" >wyzwanie</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Forum" >forum</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Blogi" >blogi</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Klub" >klub</a></li>
+                            <li><a href="#" title="Aktualności" >akutalności</a></li>
+                            <li><a href="#" title="Koci magazyn" >koci magazyn</a></li>
+                            <li><a href="#" title="Wyzwanie" >wyzwanie</a></li>
+                            <li><a href="#" title="Forum" >forum</a></li>
+                            <li><a href="#" title="Blogi" >blogi</a></li>
+                            <li><a href="#" title="Klub" >klub</a></li>
                         </ul>
                 </div>
                 <div class="threecol">
                 	<h4>KONKURSY</h4>
                     	<ul>
-                        	 <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="3 - tygodniowe wyzwanie" >3 - tygodniowe wyzwanie</a></li>
-                            <li><span class="footer-arrows-color">&#x279d; &nbsp; &nbsp;</span><a href="#" title="Regulamin" >regulamin</a></li>
+                        	 <li><a href="#" title="3 - tygodniowe wyzwanie" >3 - tygodniowe wyzwanie</a></li>
+                            <li><a href="#" title="Regulamin" >regulamin</a></li>
                         </ul>
                 </div>
                 <div class="sixcol last">
