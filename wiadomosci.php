@@ -40,7 +40,7 @@
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości" /></div>
                     <div class="content">
                         <h3><a href="#" title="Users name" class="fleft">Amber</a></h3>&nbsp;&nbsp;&nbsp;<span class="mess-hour">(9 godzin temu)</span>
-						 <div class="message"><a href="#" title="Treść">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi...</a></div>
+						 <div class="message"><a href="#" title="Treść" style="font-weight:300">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi...</a></div>
                     </div>
                     <br class="clear">
 				</div>
@@ -49,7 +49,7 @@
 					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości" /></div>
                     <div class="content">
                         <h3><a href="#" title="Users name" class="fleft">Amber</a></h3>&nbsp;&nbsp;&nbsp;<span class="mess-hour">(9 godzin temu)</span>
-						 <div class="message"><a href="#" title="Treść">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi...</a></div>
+						 <div class="message"><a href="#" title="Treść" style="font-weight:300">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi...</a></div>
                     </div>
                     <br class="clear">
 				</div>
@@ -76,11 +76,15 @@
 					<div class="chat-arrow-left"></div>
                 	<div class="message-content fleft">
                     	<div>
-       				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
+       				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber Amber Ambe Amberr</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
                         </div>
+                        
                     	 <div class="message-text" >
                 		Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu 					iednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..
                     	</div> 
+                        
+                        
+                        
                 	</div>
                     <div style="clear:both;"></div>
 				</div>                
