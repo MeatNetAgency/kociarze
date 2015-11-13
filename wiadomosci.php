@@ -73,21 +73,29 @@
              		<div class="avatar-message fleft">
                 		<img src="img/koci-magazyn-image.png" alt="User name"/>
                 	</div>
-					<div class="chat-arrow-left"></div>
-                	<div class="message-content fleft">
+					
+                    
+                	<div class="message-content-left fleft">
                     	<div>
        				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber Amber Ambe Amberr</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
                         </div>
                         
-                    	 <div class="message-text" >
-                		Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu 					iednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..
-                    	</div> 
                         
-                        
-                        
-                	</div>
+                    	 	<div>
+                            	<div style="float:left; width:7px;">
+                            		<div class="chat-arrow-left"></div>
+                            	</div>
+                            	<div style="margin-left:7px;" class="message-text">
+                				Najlepsze kocie zabawy pomocne 
+                            	w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu 					iednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..
+                           	 	</div>
+                    		</div> 
+
+                    
+                    
                     <div style="clear:both;"></div>
-				</div>                
+					</div>     
+               </div>           
                 <!-- message content:end -->
                 
                 <!-- message content:begin -->
@@ -96,15 +104,26 @@
                 		<img src="img/koci-magazyn-image.png" alt="User name"/>
                 	</div>
                     
-					 <div class="chat-arrow-right"></div>
+			
                      
-                	<div class="message-content fright">
+                	<div class="message-content-right fright">
                     	<div class="fright">
        				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
                         </div><div style="clear:both;"></div>
-                    	 <div class="message-text" >
+                        
+                        <div>
+                        	<div style="float:right; width:7px;">
+                            	<div class="chat-arrow-right"></div>
+                            </div>
+                    	 	<div style="margin-right:7px;" class="message-text" >
                 		Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu 					iednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..
-                    	</div> 
+                        Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu 					iednie wagi..Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej pomocne w utrzymaniu odpowiednie wagi..
+                        
+                    		</div> 
+                        </div>
+                        
+                        
+                        
                 	</div>
                    
                     <div style="clear:both;"></div>
@@ -116,20 +135,33 @@
              		<div class="avatar-message fleft">
                 		<img src="img/koci-magazyn-image.png" alt="User name"/>
                 	</div>
-					<div class="chat-arrow-left"></div>
-                	<div class="message-content fleft">
+					
+                    
+                	<div class="message-content-left fleft">
                     	<div>
-       				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
+       				 		<p><a href="#" title="User name"  style="font-weight:bold;">Amber Amber Ambe Amberr</a>&nbsp;&nbsp;&nbsp;<span class="mess-hour">dzisiaj 12:45</span></p>
                         </div>
-                    	 <div class="message-text" >
-                		<img src="img/typing-text.gif" alt="Użytkownik pisze wiadomość"/>
-                    	</div> 
-                	</div>
+                        
+                        
+                    	 	<div>
+                            	<div style="float:left; width:7px;">
+                            		<div class="chat-arrow-left"></div>
+                            	</div>
+                            	<div style="margin-left:7px;" class="message-text">
+                			
+                           	 	</div>
+                    		</div> 
+
+                    
+                    
                     <div style="clear:both;"></div>
-				</div>                
+					</div>     
+               </div>           
                 <!-- message content:end -->
                 
-			</div>
+                
+                </div>
+			
             
             
 
@@ -138,7 +170,8 @@
                 <a class="button button-teal fright" href="#" title="Więcej informacji">Wyślij &nbsp; &nbsp; &#x279d;</a>
                 <div style="clear:both"></div>
             </div>
-  
+  	
+    	
     </div>
     
     

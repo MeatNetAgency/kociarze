@@ -283,8 +283,8 @@ $(document).ready(function()
 	
 	
 	
-	//ADMIN
-	$(".open-panel").click(function()
+	//ADMIN POWIADOMIENIA
+	$("#wydarzenia").click(function()
 	{
         
 		// set location of panel
@@ -292,18 +292,57 @@ $(document).ready(function()
 		var rowWidth	= $("#top-bar .row").outerWidth();
 		var newMarginLeft = rowWidth - panelWidth;
 		
+		$(".zaproszenia").find(".panel-roll").css("display", "none");
+		$(".wiadomosci").find(".panel-roll").css("display", "none");
+		$(".wydarzenia").find(".panel-roll").css("margin-left", (newMarginLeft)).stop(true,true).slideToggle(300);
 		
-		$(".panel-roll").css("margin-left", (newMarginLeft)).stop(true,true).slideToggle(300);
+    });
+	
+	
+	
+	//ADMIN WIADOMOŚCI
+	$("#wiadomosci").click(function()
+	{
+        
+		// set location of panel
+		var panelWidth = $(".panel-roll").outerWidth();
+		var rowWidth	= $("#top-bar .row").outerWidth();
+		var newMarginLeft = rowWidth - panelWidth;
+		
+		$(".zaproszenia").find(".panel-roll").css("display", "none");
+		$(".wydarzenia").find(".panel-roll").css("display", "none");
+		$(".wiadomosci").find(".panel-roll").css("margin-left", (newMarginLeft)).stop(true,true).slideToggle(300);
+		
+    });
+	
+	//ADMIN ZAPROSZENIA
+	$("#zaproszenia").click(function()
+	{
+        
+		// set location of panel
+		var panelWidth = $(".panel-roll").outerWidth();
+		var rowWidth	= $("#top-bar .row").outerWidth();
+		var newMarginLeft = rowWidth - panelWidth;
+		
+		$(".wiadomosci").find(".panel-roll").css("display", "none");
+		$(".wydarzenia").find(".panel-roll").css("display", "none");
+		$(".zaproszenia").find(".panel-roll").css("margin-left", (newMarginLeft)).stop(true,true).slideToggle(300);
 		
     });
 	
 	// hide 
-	$("#close-panel").click(function() {
-		$(".panel-roll").slideToggle();
+	$(".wydarzenia").find(".close-panel").click(function() {
+		$(".wydarzenia").find(".panel-roll").slideUp(200);
+	
 	});
+	$(".wiadomosci").find(".close-panel").click(function() {
+		$(".wiadomosci").find(".panel-roll").slideUp(200);
 	
+	});
+	$(".zaproszenia").find(".close-panel").click(function() {
+		$(".zaproszenia").find(".panel-roll").slideUp(200);
 	
-	
+	});
 	
 	
 	

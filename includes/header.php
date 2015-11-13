@@ -37,6 +37,8 @@
         <!-- MAIN CSS -->
         <link rel="Stylesheet" type="text/css" href="css/main.css" />
 
+		<link rel="icon" href="img/fav-ico.jpg" type="image/jpg"/>
+        
 	</head>
         
 	<body>
@@ -53,13 +55,7 @@
             
         <!--BUY NOW:end-->
        
-       
-		 <!-- MESSAGE SUCCESS:begin -->
-        <div id="message-success">
-        Wiadomość została wysłana. Dziękujemy.
-        </div>
-        
-        <!-- MESSAGE SUCCESS:end -->
+
         
         
         
@@ -117,19 +113,45 @@
     	<div class="row">
             <div class="twelvecol top-icons">
             	<span id="test-response"></span>
-            	<a href="konto.php" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"/><span>administrator</span></a>
-				<a href="znajomi.php" title="Znajomi" class="tooltip"><img src="img/admin-img-1.png" alt="znajomi"/><span class="count">12</span></a>
-               	<a href="javascript:void();" title="Wiadmości" class="open-panel tooltip"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
-               	<a href="javascript:void();" class="open-panel tooltip" title="Wydarzenia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
+            	<a href="konto.php" title="Twoje konto"  class="administrator tooltip"><img src="img/person-black.png" alt="administrator"><span>administrator</span></a>
+				<a href="javascript:void();" title="Zaproszenia" id ="zaproszenia" lass="open-panel tooltip"><img src="img/admin-img-1.png" alt="zaproszenia" /><span class="count">12</span></a>
+               	<a href="javascript:void();" title="Wiadmości" id="wiadomosci" class="open-panel tooltip"><img src="img/admin-img-2.png" alt="poczta"/><span class="count">3</span></a>
+               	<a href="javascript:void();" id="wydarzenia" class="open-panel tooltip" title="Powiadomienia"><img src="img/admin-img-3.png" alt="wydarzenia"/><span class="count">7</span></a>
            		<a href="wyloguj.php" title="Wyloguj" class="tooltip"><img src="img/admin-img-4.png" class="last-icon tooltip" alt="wyloguj"/></a>
             </div>
+			
+            
+            <!-- friends:begin -->
+            <div class="zaproszenia">
+            <div class="panel-roll">
+                <div class="panel-options">
+                    Zaproszenia: <span><a href="#" class="close-panel" title="Zamknij panel">Zamknij</a></span>
+                    <br class="clear">
+                </div>
+                <div class="panel-message unread">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości" /></div>
+                    <div class="content">
+                        <a href="#" title="Kociarze.pl">Akitka55</a>&nbsp;&nbsp;wysłał/a Ci zaproszenie do znajomych.
+                        <br>
+                        <br>
+                        <a href="#" title="Akceptuj" style="font-weight:300!important">Akceptuj</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Odrzuć" style="font-weight:300!important">Odrzuć</a>
+                    </div>
+                    <br class="clear">
+				</div>
+                <div class="panel-footer">
+                	<a href="#" title="Zobacz wszystkie">Zobacz wszystkich znajomych</a>
+                </div>
+			</div>
+            </div>
+            <!-- friends:end -->
             
             
                 
-            <!-- messages:begin -->
+            <!-- events:begin -->
+            <div class="wydarzenia">
             <div class="panel-roll">
                 <div class="panel-options">
-                    Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" id="close-panel" title="Zamknij panel">Zamknij</a></span>
+                    Powiadomienia: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" title="Ustawienia">Ustawienia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" class="close-panel" title="Zamknij panel">Zamknij</a></span>
                     <br class="clear">
                 </div>
                 <div class="panel-message unread">
@@ -163,8 +185,49 @@
                 	<a href="#" title="Zobacz wszystkie">Zobacz wszystkie</a>
                 </div>
 			</div>
-            <!-- messages:end -->
+            </div>
+            <!-- events:end -->
             
+            <!-- messages:begin -->
+            <div class="wiadomosci">
+            <div class="panel-roll">
+                <div class="panel-options">
+                    Wiadomosci: <span><a href="#" title="Oznacz wszystkie jako przeczytnane">Oznacz wszystkie jako przeczytane</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#" class="close-panel" title="Zamknij panel">Zamknij</a></span>
+                    <br class="clear">
+                </div>
+                <div class="panel-message unread">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości" /></div>
+                    <div class="content">
+                        <a href="#" title="User name">Akitka</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;wczoraj 20:23
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Cześć, mam dla Ciebie ważną wiadomość...</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                <div class="panel-message unread">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
+                    <div class="content">
+                        <a href="#" title="User name">Akitka</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;wczoraj 20:23
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                 <div class="panel-message read">
+					<div class="photo"><img src="img/koci-magazyn-image.png" alt="Tytuł wiadomości"/></div>
+                    <div class="content">
+                        <a href="#" title="User name">Akitka</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;wczoraj 20:23
+                        <br>
+                        <h4><a href="#" title="Tytuł artykułu">Najlepsze kocie zabawy pomocne w utrzymaniu odpowiedniej wagi.</a></h4>
+                    </div>
+                    <br class="clear">
+				</div>
+                <div class="panel-footer">
+                	<a href="#" title="Zobacz wszystkie">Zobacz wszystkie</a>
+                </div>
+			</div>
+            </div>
+            <!-- messages:end -->
             
             
             
@@ -189,7 +252,7 @@
      <div class="container" id="mobile-menu-bar">
      	<div class="row">
         	<div class="twelvecol content">
-            	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl"/></a>
+            	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" width="300%" src="img/kociarze-nowe-logo.png" alt="Kociarze.pl"/></a>
                 <span class="fright"><img src="img/mobile-menu-icon.png" alt="Menu główne" id="open-mobile-menu"></span>
                 <br class="clear">
             </div>
@@ -254,7 +317,7 @@
             </div>
             <div class="threecol last">
             	<div id="kociarze-logo">
-                	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" src="img/logo-kociarze.png" alt="Kociarze.pl"/></a>
+                	<a href="index.php" title="Kociarze.pl"><img class="logo-kociarze" width="120%" src="img/kociarze-nowe-logo.png" alt="Kociarze.pl"/></a>
                 </div>   
             </div>           
         </div>
